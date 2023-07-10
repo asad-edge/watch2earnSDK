@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.tvos.deployment_target = '14.0'
 
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Source/**/*.swift', 'Source/**/*.xib', 'Source/**/*.storyboard'
   s.swift_versions = '5.0'
   s.platforms = {
               "tvos": "14.0"

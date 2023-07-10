@@ -21,7 +21,7 @@
         <!--Settings View Controller-->
         <scene sceneID="fhe-1Y-jtz">
             <objects>
-                <viewController storyboardIdentifier="SettingsViewController" id="jy3-Do-83g" customClass="SettingsViewController" customModule="watch2earn_applesdk" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" id="jy3-Do-83g" customClass="SettingsViewController" customModule="watch2earnSDK" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NQa-eS-CgQ"/>
                         <viewControllerLayoutGuide type="bottom" id="gIP-Bd-aTP"/>
@@ -270,8 +270,8 @@
     </scenes>
     <resources>
         <image name="3dgifmaker54413" width="205" height="205"/>
-        <image name="play" catalog="system" width="112" height="128"/>
         <image name="play" width="128" height="128"/>
+        <image name="play" catalog="system" width="112" height="128"/>
         <image name="square" catalog="system" width="128" height="115"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

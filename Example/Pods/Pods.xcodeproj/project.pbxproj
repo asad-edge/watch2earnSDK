@@ -10,6 +10,26 @@
 		074981757C9D9208AEC30988D92653AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		19B64FDAC0DCE5350FA2E963442C0A6E /* watch2earnSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9EABE850D08389F54EDFC5546EE0BD /* watch2earnSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C98662FB566921724A2B105D793DDA1 /* watch2earnSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD157D4E8746EAB551AD9C96D0132C /* watch2earnSDK-dummy.m */; };
+		283698FC2A5C3D4400AADB92 /* loose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265422A5C03640040EF21 /* loose_sound.mp3 */; };
+		283698FD2A5C3D4400AADB92 /* data-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265432A5C03640040EF21 /* data-reveal.mp3 */; };
+		283698FE2A5C3D4400AADB92 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265442A5C03640040EF21 /* success.mp3 */; };
+		283698FF2A5C3D4400AADB92 /* ProximaNova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265462A5C03640040EF21 /* ProximaNova-Thin.otf */; };
+		283699002A5C3D4400AADB92 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265472A5C03640040EF21 /* ProximaNova-Bold.otf */; };
+		283699012A5C3D4400AADB92 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265482A5C03640040EF21 /* ProximaNova-Extrabold.otf */; };
+		283699022A5C3D4400AADB92 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265492A5C03640040EF21 /* ProximaNova-Regular.otf */; };
+		283699032A5C3D4400AADB92 /* eatAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654B2A5C03640040EF21 /* eatAnimated.gif */; };
+		283699042A5C3D4400AADB92 /* side_ad_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654C2A5C03640040EF21 /* side_ad_banner.png */; };
+		283699052A5C3D4400AADB92 /* earnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654D2A5C03640040EF21 /* earnify.png */; };
+		283699062A5C3D4400AADB92 /* logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654E2A5C03640040EF21 /* logo_big.png */; };
+		283699072A5C3D4400AADB92 /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654F2A5C03640040EF21 /* eat.png */; };
+		283699082A5C3D4400AADB92 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E265502A5C03640040EF21 /* image.png */; };
+		283699092A5C3D4400AADB92 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E265262A5C03630040EF21 /* SettingsViewController.storyboard */; };
+		2836990A2A5C3D4400AADB92 /* ResolveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655A2A5C03640040EF21 /* ResolveViewController.xib */; };
+		2836990B2A5C3D4400AADB92 /* PlayerOverlayViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655D2A5C03640040EF21 /* PlayerOverlayViews.xib */; };
+		2836990C2A5C3D4400AADB92 /* WagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655E2A5C03640040EF21 /* WagerViewController.xib */; };
+		2836990D2A5C3D4400AADB92 /* PollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655F2A5C03640040EF21 /* PollViewController.xib */; };
+		2836990E2A5C3D4400AADB92 /* GamificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E265622A5C03640040EF21 /* GamificationViewController.xib */; };
+		2836990F2A5C3D4400AADB92 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E265302A5C03630040EF21 /* PopupViewController.xib */; };
 		28E265662A5C03640040EF21 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E265262A5C03630040EF21 /* SettingsViewController.storyboard */; };
 		28E265672A5C03640040EF21 /* AnimateFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265272A5C03630040EF21 /* AnimateFigures.swift */; };
 		28E265682A5C03640040EF21 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265282A5C03630040EF21 /* SettingsViewController.swift */; };
@@ -675,6 +695,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283698FC2A5C3D4400AADB92 /* loose_sound.mp3 in Resources */,
+				283698FD2A5C3D4400AADB92 /* data-reveal.mp3 in Resources */,
+				283698FE2A5C3D4400AADB92 /* success.mp3 in Resources */,
+				283698FF2A5C3D4400AADB92 /* ProximaNova-Thin.otf in Resources */,
+				283699002A5C3D4400AADB92 /* ProximaNova-Bold.otf in Resources */,
+				283699012A5C3D4400AADB92 /* ProximaNova-Extrabold.otf in Resources */,
+				283699022A5C3D4400AADB92 /* ProximaNova-Regular.otf in Resources */,
+				283699032A5C3D4400AADB92 /* eatAnimated.gif in Resources */,
+				283699042A5C3D4400AADB92 /* side_ad_banner.png in Resources */,
+				283699052A5C3D4400AADB92 /* earnify.png in Resources */,
+				283699062A5C3D4400AADB92 /* logo_big.png in Resources */,
+				283699072A5C3D4400AADB92 /* eat.png in Resources */,
+				283699082A5C3D4400AADB92 /* image.png in Resources */,
+				283699092A5C3D4400AADB92 /* SettingsViewController.storyboard in Resources */,
+				2836990A2A5C3D4400AADB92 /* ResolveViewController.xib in Resources */,
+				2836990B2A5C3D4400AADB92 /* PlayerOverlayViews.xib in Resources */,
+				2836990C2A5C3D4400AADB92 /* WagerViewController.xib in Resources */,
+				2836990D2A5C3D4400AADB92 /* PollViewController.xib in Resources */,
+				2836990E2A5C3D4400AADB92 /* GamificationViewController.xib in Resources */,
+				2836990F2A5C3D4400AADB92 /* PopupViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

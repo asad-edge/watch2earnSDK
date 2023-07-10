@@ -30,15 +30,15 @@ Pod::Spec.new do |s|
 
   s.tvos.deployment_target = '14.0'
 
-  s.source_files = 'Source/**/*.swift', 'Source/**/*.xib', 'Source/**/*.storyboard'
+  s.source_files = 'Source/**/*.swift'
   s.swift_versions = '5.0'
   s.platforms = {
               "tvos": "14.0"
 }
   
-  # s.resource_bundles = {
-  #   'watch2earnSDK' => ['watch2earnSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'watch2earnSDK' => ['Source/**/*.png', 'Source/**/*.mp3','Source/**/*.otf' , 'Source/**/*.xib', 'Source/**/*.storyboard']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

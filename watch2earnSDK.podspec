@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'watch2earnSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'watch2earnSDK for Apple TV apps to enable live streaming, earning tokens, and gamified features.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.tvos.deployment_target = '14.0'
 
-  # s.source_files = 'Source/**/*.swift'
-  s.resources = 'Source/**/*.xib'
+  s.source_files = 'Source/**/*.swift'
+  s.resources = ['Source/**/*.xib', 'Source/**/*.png', 'Source/**/*.mp3', 'Source/**/*.otf', 'Source/**/*.storyboard']
   s.swift_versions = '5.0'
   s.platforms = {
               "tvos": "14.0"

@@ -1,0 +1,16 @@
+PODS:
+  - watch2earnSDK (0.1.0)
+
+DEPENDENCIES:
+  - watch2earnSDK (from `../`)
+
+EXTERNAL SOURCES:
+  watch2earnSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  watch2earnSDK: d8e7d590f1b66da11102c62443fe1fc891d71025
+
+PODFILE CHECKSUM: c4b4d2244956992c364af992851839611cf7764b
+
+COCOAPODS: 1.12.1

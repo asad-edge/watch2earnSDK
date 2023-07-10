@@ -1,0 +1,6 @@
+framework module watch2earnSDK {
+  umbrella header "watch2earnSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

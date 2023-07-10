@@ -1,0 +1,6 @@
+framework module Pods_watch2earnSDK_Example {
+  umbrella header "Pods-watch2earnSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

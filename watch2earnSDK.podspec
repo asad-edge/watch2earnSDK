@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
 }
   
    s.resource_bundles = {
-     'watch2earnSDK' => ['Source/**/*.png', 'Source/**/*.mp3','Source/**/*.otf' , 'Source/**/*.xib', 'Source/**/*.storyboard']
+     '*' => Dir['Source/**/*.png', 'Source/**/*.mp3','Source/**/*.otf' , 'Source/**/*.xib', 'Source/**/*.storyboard']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -10,73 +10,53 @@
 		074981757C9D9208AEC30988D92653AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		19B64FDAC0DCE5350FA2E963442C0A6E /* watch2earnSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9EABE850D08389F54EDFC5546EE0BD /* watch2earnSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C98662FB566921724A2B105D793DDA1 /* watch2earnSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD157D4E8746EAB551AD9C96D0132C /* watch2earnSDK-dummy.m */; };
-		283698FC2A5C3D4400AADB92 /* loose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265422A5C03640040EF21 /* loose_sound.mp3 */; };
-		283698FD2A5C3D4400AADB92 /* data-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265432A5C03640040EF21 /* data-reveal.mp3 */; };
-		283698FE2A5C3D4400AADB92 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265442A5C03640040EF21 /* success.mp3 */; };
-		283698FF2A5C3D4400AADB92 /* ProximaNova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265462A5C03640040EF21 /* ProximaNova-Thin.otf */; };
-		283699002A5C3D4400AADB92 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265472A5C03640040EF21 /* ProximaNova-Bold.otf */; };
-		283699012A5C3D4400AADB92 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265482A5C03640040EF21 /* ProximaNova-Extrabold.otf */; };
-		283699022A5C3D4400AADB92 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265492A5C03640040EF21 /* ProximaNova-Regular.otf */; };
-		283699032A5C3D4400AADB92 /* eatAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654B2A5C03640040EF21 /* eatAnimated.gif */; };
-		283699042A5C3D4400AADB92 /* side_ad_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654C2A5C03640040EF21 /* side_ad_banner.png */; };
-		283699052A5C3D4400AADB92 /* earnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654D2A5C03640040EF21 /* earnify.png */; };
-		283699062A5C3D4400AADB92 /* logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654E2A5C03640040EF21 /* logo_big.png */; };
-		283699072A5C3D4400AADB92 /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654F2A5C03640040EF21 /* eat.png */; };
-		283699082A5C3D4400AADB92 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E265502A5C03640040EF21 /* image.png */; };
-		283699092A5C3D4400AADB92 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E265262A5C03630040EF21 /* SettingsViewController.storyboard */; };
-		2836990A2A5C3D4400AADB92 /* ResolveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655A2A5C03640040EF21 /* ResolveViewController.xib */; };
-		2836990B2A5C3D4400AADB92 /* PlayerOverlayViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655D2A5C03640040EF21 /* PlayerOverlayViews.xib */; };
-		2836990C2A5C3D4400AADB92 /* WagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655E2A5C03640040EF21 /* WagerViewController.xib */; };
-		2836990D2A5C3D4400AADB92 /* PollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655F2A5C03640040EF21 /* PollViewController.xib */; };
-		2836990E2A5C3D4400AADB92 /* GamificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E265622A5C03640040EF21 /* GamificationViewController.xib */; };
-		2836990F2A5C3D4400AADB92 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E265302A5C03630040EF21 /* PopupViewController.xib */; };
-		28E265662A5C03640040EF21 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E265262A5C03630040EF21 /* SettingsViewController.storyboard */; };
-		28E265672A5C03640040EF21 /* AnimateFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265272A5C03630040EF21 /* AnimateFigures.swift */; };
-		28E265682A5C03640040EF21 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265282A5C03630040EF21 /* SettingsViewController.swift */; };
-		28E265692A5C03640040EF21 /* GifHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2652A2A5C03630040EF21 /* GifHandler.swift */; };
-		28E2656A2A5C03640040EF21 /* TickersClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2652C2A5C03630040EF21 /* TickersClient.swift */; };
-		28E2656B2A5C03640040EF21 /* ChannelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2652E2A5C03630040EF21 /* ChannelHandler.swift */; };
-		28E2656C2A5C03640040EF21 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E265302A5C03630040EF21 /* PopupViewController.xib */; };
-		28E2656D2A5C03640040EF21 /* PopupPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265312A5C03630040EF21 /* PopupPlayerView.swift */; };
-		28E2656E2A5C03640040EF21 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265322A5C03630040EF21 /* PopupViewController.swift */; };
-		28E2656F2A5C03650040EF21 /* SkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265332A5C03630040EF21 /* SkipViewController.swift */; };
-		28E265702A5C03650040EF21 /* WalletHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265352A5C03630040EF21 /* WalletHandler.swift */; };
-		28E265712A5C03650040EF21 /* W2EManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265362A5C03640040EF21 /* W2EManager.swift */; };
-		28E265722A5C03650040EF21 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265382A5C03640040EF21 /* Reachability.swift */; };
-		28E265732A5C03650040EF21 /* CacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2653A2A5C03640040EF21 /* CacheStorage.swift */; };
-		28E265742A5C03650040EF21 /* EarnifySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2653B2A5C03640040EF21 /* EarnifySDK.swift */; };
-		28E265752A5C03650040EF21 /* RemoteSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2653D2A5C03640040EF21 /* RemoteSocketService.swift */; };
-		28E265762A5C03650040EF21 /* QRcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2653E2A5C03640040EF21 /* QRcodeGenerator.swift */; };
-		28E265772A5C03650040EF21 /* RemoteMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2653F2A5C03640040EF21 /* RemoteMessages.swift */; };
-		28E265782A5C03650040EF21 /* loose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265422A5C03640040EF21 /* loose_sound.mp3 */; };
-		28E265792A5C03650040EF21 /* data-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265432A5C03640040EF21 /* data-reveal.mp3 */; };
-		28E2657A2A5C03650040EF21 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28E265442A5C03640040EF21 /* success.mp3 */; };
-		28E2657B2A5C03650040EF21 /* ProximaNova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265462A5C03640040EF21 /* ProximaNova-Thin.otf */; };
-		28E2657C2A5C03650040EF21 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265472A5C03640040EF21 /* ProximaNova-Bold.otf */; };
-		28E2657D2A5C03650040EF21 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265482A5C03640040EF21 /* ProximaNova-Extrabold.otf */; };
-		28E2657E2A5C03650040EF21 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28E265492A5C03640040EF21 /* ProximaNova-Regular.otf */; };
-		28E2657F2A5C03650040EF21 /* eatAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654B2A5C03640040EF21 /* eatAnimated.gif */; };
-		28E265802A5C03650040EF21 /* side_ad_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654C2A5C03640040EF21 /* side_ad_banner.png */; };
-		28E265812A5C03650040EF21 /* earnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654D2A5C03640040EF21 /* earnify.png */; };
-		28E265822A5C03650040EF21 /* logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654E2A5C03640040EF21 /* logo_big.png */; };
-		28E265832A5C03650040EF21 /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E2654F2A5C03640040EF21 /* eat.png */; };
-		28E265842A5C03650040EF21 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E265502A5C03640040EF21 /* image.png */; };
-		28E265852A5C03650040EF21 /* GamificationSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265522A5C03640040EF21 /* GamificationSocket.swift */; };
-		28E265862A5C03650040EF21 /* StakingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265542A5C03640040EF21 /* StakingDataStore.swift */; };
-		28E265872A5C03650040EF21 /* StakingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265552A5C03640040EF21 /* StakingClient.swift */; };
-		28E265882A5C03650040EF21 /* W2EWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265572A5C03640040EF21 /* W2EWebSocket.swift */; };
-		28E265892A5C03650040EF21 /* W2EDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265582A5C03640040EF21 /* W2EDataStore.swift */; };
-		28E2658A2A5C03650040EF21 /* ResolveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655A2A5C03640040EF21 /* ResolveViewController.xib */; };
-		28E2658B2A5C03650040EF21 /* GamificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2655B2A5C03640040EF21 /* GamificationViewController.swift */; };
-		28E2658C2A5C03650040EF21 /* ResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2655C2A5C03640040EF21 /* ResolveViewController.swift */; };
-		28E2658D2A5C03650040EF21 /* PlayerOverlayViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655D2A5C03640040EF21 /* PlayerOverlayViews.xib */; };
-		28E2658E2A5C03650040EF21 /* WagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655E2A5C03640040EF21 /* WagerViewController.xib */; };
-		28E2658F2A5C03650040EF21 /* PollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E2655F2A5C03640040EF21 /* PollViewController.xib */; };
-		28E265902A5C03650040EF21 /* PollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265602A5C03640040EF21 /* PollViewController.swift */; };
-		28E265912A5C03650040EF21 /* PlayerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265612A5C03640040EF21 /* PlayerOverlayView.swift */; };
-		28E265922A5C03650040EF21 /* GamificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E265622A5C03640040EF21 /* GamificationViewController.xib */; };
-		28E265932A5C03650040EF21 /* WagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265632A5C03640040EF21 /* WagerViewController.swift */; };
-		28E265942A5C03650040EF21 /* MessagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E265652A5C03640040EF21 /* MessagesHandler.swift */; };
+		283699512A5C4B8500AADB92 /* loose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 283699122A5C4B8500AADB92 /* loose_sound.mp3 */; };
+		283699522A5C4B8500AADB92 /* data-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 283699132A5C4B8500AADB92 /* data-reveal.mp3 */; };
+		283699532A5C4B8500AADB92 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 283699142A5C4B8500AADB92 /* success.mp3 */; };
+		283699542A5C4B8500AADB92 /* ProximaNova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283699162A5C4B8500AADB92 /* ProximaNova-Thin.otf */; };
+		283699552A5C4B8500AADB92 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283699172A5C4B8500AADB92 /* ProximaNova-Bold.otf */; };
+		283699562A5C4B8500AADB92 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283699182A5C4B8500AADB92 /* ProximaNova-Extrabold.otf */; };
+		283699572A5C4B8500AADB92 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283699192A5C4B8500AADB92 /* ProximaNova-Regular.otf */; };
+		283699582A5C4B8500AADB92 /* eatAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2836991B2A5C4B8500AADB92 /* eatAnimated.gif */; };
+		283699592A5C4B8500AADB92 /* side_ad_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 2836991C2A5C4B8500AADB92 /* side_ad_banner.png */; };
+		2836995A2A5C4B8500AADB92 /* earnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 2836991D2A5C4B8500AADB92 /* earnify.png */; };
+		2836995B2A5C4B8500AADB92 /* logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 2836991E2A5C4B8500AADB92 /* logo_big.png */; };
+		2836995C2A5C4B8500AADB92 /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 2836991F2A5C4B8500AADB92 /* eat.png */; };
+		2836995D2A5C4B8500AADB92 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 283699202A5C4B8500AADB92 /* image.png */; };
+		2836995E2A5C4B8500AADB92 /* W2EWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699222A5C4B8500AADB92 /* W2EWebSocket.swift */; };
+		2836995F2A5C4B8500AADB92 /* W2EDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699232A5C4B8500AADB92 /* W2EDataStore.swift */; };
+		283699602A5C4B8500AADB92 /* ResolveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699252A5C4B8500AADB92 /* ResolveViewController.xib */; };
+		283699612A5C4B8500AADB92 /* GamificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699262A5C4B8500AADB92 /* GamificationViewController.swift */; };
+		283699622A5C4B8500AADB92 /* ResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699272A5C4B8500AADB92 /* ResolveViewController.swift */; };
+		283699632A5C4B8500AADB92 /* PlayerOverlayViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699282A5C4B8500AADB92 /* PlayerOverlayViews.xib */; };
+		283699642A5C4B8500AADB92 /* WagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699292A5C4B8500AADB92 /* WagerViewController.xib */; };
+		283699652A5C4B8500AADB92 /* PollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2836992A2A5C4B8500AADB92 /* PollViewController.xib */; };
+		283699662A5C4B8500AADB92 /* PollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836992B2A5C4B8500AADB92 /* PollViewController.swift */; };
+		283699672A5C4B8600AADB92 /* PlayerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836992C2A5C4B8500AADB92 /* PlayerOverlayView.swift */; };
+		283699682A5C4B8600AADB92 /* GamificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2836992D2A5C4B8500AADB92 /* GamificationViewController.xib */; };
+		283699692A5C4B8600AADB92 /* WagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836992E2A5C4B8500AADB92 /* WagerViewController.swift */; };
+		2836996A2A5C4B8600AADB92 /* GamificationSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699302A5C4B8500AADB92 /* GamificationSocket.swift */; };
+		2836996B2A5C4B8600AADB92 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699322A5C4B8500AADB92 /* Reachability.swift */; };
+		2836996C2A5C4B8600AADB92 /* ChannelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699342A5C4B8500AADB92 /* ChannelHandler.swift */; };
+		2836996D2A5C4B8600AADB92 /* CacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699362A5C4B8500AADB92 /* CacheStorage.swift */; };
+		2836996E2A5C4B8600AADB92 /* RemoteSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699382A5C4B8500AADB92 /* RemoteSocketService.swift */; };
+		2836996F2A5C4B8600AADB92 /* QRcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699392A5C4B8500AADB92 /* QRcodeGenerator.swift */; };
+		283699702A5C4B8600AADB92 /* RemoteMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836993A2A5C4B8500AADB92 /* RemoteMessages.swift */; };
+		283699712A5C4B8600AADB92 /* StakingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836993C2A5C4B8500AADB92 /* StakingDataStore.swift */; };
+		283699722A5C4B8600AADB92 /* StakingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836993D2A5C4B8500AADB92 /* StakingClient.swift */; };
+		283699732A5C4B8600AADB92 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2836993F2A5C4B8500AADB92 /* SettingsViewController.storyboard */; };
+		283699742A5C4B8600AADB92 /* AnimateFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699402A5C4B8500AADB92 /* AnimateFigures.swift */; };
+		283699752A5C4B8600AADB92 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699412A5C4B8500AADB92 /* SettingsViewController.swift */; };
+		283699762A5C4B8600AADB92 /* EarnifySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699422A5C4B8500AADB92 /* EarnifySDK.swift */; };
+		283699772A5C4B8600AADB92 /* MessagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699442A5C4B8500AADB92 /* MessagesHandler.swift */; };
+		283699782A5C4B8600AADB92 /* TickersClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699462A5C4B8500AADB92 /* TickersClient.swift */; };
+		283699792A5C4B8600AADB92 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699482A5C4B8500AADB92 /* PopupViewController.xib */; };
+		2836997A2A5C4B8600AADB92 /* PopupPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699492A5C4B8500AADB92 /* PopupPlayerView.swift */; };
+		2836997B2A5C4B8600AADB92 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994A2A5C4B8500AADB92 /* PopupViewController.swift */; };
+		2836997C2A5C4B8600AADB92 /* SkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994B2A5C4B8500AADB92 /* SkipViewController.swift */; };
+		2836997D2A5C4B8600AADB92 /* W2EManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994C2A5C4B8500AADB92 /* W2EManager.swift */; };
+		2836997E2A5C4B8600AADB92 /* GifHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994E2A5C4B8500AADB92 /* GifHandler.swift */; };
+		2836997F2A5C4B8600AADB92 /* WalletHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699502A5C4B8500AADB92 /* WalletHandler.swift */; };
 		2F2DCC4D9C89780BB166ED981D0D5614 /* Pods-watch2earnSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66030450F500F256E06949FF29C69EF9 /* Pods-watch2earnSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		835B1AA190F460DA50FC7386DD1C6184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E789948301EA85C43F4F5D91CF1F147D /* Pods-watch2earnSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4867E4D7714D32A9649AEEF54AE1F88E /* Pods-watch2earnSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -103,53 +83,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28E265262A5C03630040EF21 /* SettingsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
-		28E265272A5C03630040EF21 /* AnimateFigures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateFigures.swift; sourceTree = "<group>"; };
-		28E265282A5C03630040EF21 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		28E2652A2A5C03630040EF21 /* GifHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifHandler.swift; sourceTree = "<group>"; };
-		28E2652C2A5C03630040EF21 /* TickersClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickersClient.swift; sourceTree = "<group>"; };
-		28E2652E2A5C03630040EF21 /* ChannelHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelHandler.swift; sourceTree = "<group>"; };
-		28E265302A5C03630040EF21 /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
-		28E265312A5C03630040EF21 /* PopupPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPlayerView.swift; sourceTree = "<group>"; };
-		28E265322A5C03630040EF21 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
-		28E265332A5C03630040EF21 /* SkipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkipViewController.swift; sourceTree = "<group>"; };
-		28E265352A5C03630040EF21 /* WalletHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletHandler.swift; sourceTree = "<group>"; };
-		28E265362A5C03640040EF21 /* W2EManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EManager.swift; sourceTree = "<group>"; };
-		28E265382A5C03640040EF21 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		28E2653A2A5C03640040EF21 /* CacheStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheStorage.swift; sourceTree = "<group>"; };
-		28E2653B2A5C03640040EF21 /* EarnifySDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarnifySDK.swift; sourceTree = "<group>"; };
-		28E2653D2A5C03640040EF21 /* RemoteSocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteSocketService.swift; sourceTree = "<group>"; };
-		28E2653E2A5C03640040EF21 /* QRcodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeGenerator.swift; sourceTree = "<group>"; };
-		28E2653F2A5C03640040EF21 /* RemoteMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteMessages.swift; sourceTree = "<group>"; };
-		28E265422A5C03640040EF21 /* loose_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loose_sound.mp3; sourceTree = "<group>"; };
-		28E265432A5C03640040EF21 /* data-reveal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "data-reveal.mp3"; sourceTree = "<group>"; };
-		28E265442A5C03640040EF21 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
-		28E265462A5C03640040EF21 /* ProximaNova-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Thin.otf"; sourceTree = "<group>"; };
-		28E265472A5C03640040EF21 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
-		28E265482A5C03640040EF21 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
-		28E265492A5C03640040EF21 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
-		28E2654B2A5C03640040EF21 /* eatAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eatAnimated.gif; sourceTree = "<group>"; };
-		28E2654C2A5C03640040EF21 /* side_ad_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side_ad_banner.png; sourceTree = "<group>"; };
-		28E2654D2A5C03640040EF21 /* earnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earnify.png; sourceTree = "<group>"; };
-		28E2654E2A5C03640040EF21 /* logo_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_big.png; sourceTree = "<group>"; };
-		28E2654F2A5C03640040EF21 /* eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat.png; sourceTree = "<group>"; };
-		28E265502A5C03640040EF21 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
-		28E265522A5C03640040EF21 /* GamificationSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamificationSocket.swift; sourceTree = "<group>"; };
-		28E265542A5C03640040EF21 /* StakingDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StakingDataStore.swift; sourceTree = "<group>"; };
-		28E265552A5C03640040EF21 /* StakingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StakingClient.swift; sourceTree = "<group>"; };
-		28E265572A5C03640040EF21 /* W2EWebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EWebSocket.swift; sourceTree = "<group>"; };
-		28E265582A5C03640040EF21 /* W2EDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EDataStore.swift; sourceTree = "<group>"; };
-		28E2655A2A5C03640040EF21 /* ResolveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResolveViewController.xib; sourceTree = "<group>"; };
-		28E2655B2A5C03640040EF21 /* GamificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamificationViewController.swift; sourceTree = "<group>"; };
-		28E2655C2A5C03640040EF21 /* ResolveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResolveViewController.swift; sourceTree = "<group>"; };
-		28E2655D2A5C03640040EF21 /* PlayerOverlayViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerOverlayViews.xib; sourceTree = "<group>"; };
-		28E2655E2A5C03640040EF21 /* WagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WagerViewController.xib; sourceTree = "<group>"; };
-		28E2655F2A5C03640040EF21 /* PollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PollViewController.xib; sourceTree = "<group>"; };
-		28E265602A5C03640040EF21 /* PollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollViewController.swift; sourceTree = "<group>"; };
-		28E265612A5C03640040EF21 /* PlayerOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerOverlayView.swift; sourceTree = "<group>"; };
-		28E265622A5C03640040EF21 /* GamificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamificationViewController.xib; sourceTree = "<group>"; };
-		28E265632A5C03640040EF21 /* WagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WagerViewController.swift; sourceTree = "<group>"; };
-		28E265652A5C03640040EF21 /* MessagesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesHandler.swift; sourceTree = "<group>"; };
+		283699122A5C4B8500AADB92 /* loose_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loose_sound.mp3; sourceTree = "<group>"; };
+		283699132A5C4B8500AADB92 /* data-reveal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "data-reveal.mp3"; sourceTree = "<group>"; };
+		283699142A5C4B8500AADB92 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		283699162A5C4B8500AADB92 /* ProximaNova-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Thin.otf"; sourceTree = "<group>"; };
+		283699172A5C4B8500AADB92 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		283699182A5C4B8500AADB92 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
+		283699192A5C4B8500AADB92 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		2836991B2A5C4B8500AADB92 /* eatAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eatAnimated.gif; sourceTree = "<group>"; };
+		2836991C2A5C4B8500AADB92 /* side_ad_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side_ad_banner.png; sourceTree = "<group>"; };
+		2836991D2A5C4B8500AADB92 /* earnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earnify.png; sourceTree = "<group>"; };
+		2836991E2A5C4B8500AADB92 /* logo_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_big.png; sourceTree = "<group>"; };
+		2836991F2A5C4B8500AADB92 /* eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat.png; sourceTree = "<group>"; };
+		283699202A5C4B8500AADB92 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		283699222A5C4B8500AADB92 /* W2EWebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EWebSocket.swift; sourceTree = "<group>"; };
+		283699232A5C4B8500AADB92 /* W2EDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EDataStore.swift; sourceTree = "<group>"; };
+		283699252A5C4B8500AADB92 /* ResolveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResolveViewController.xib; sourceTree = "<group>"; };
+		283699262A5C4B8500AADB92 /* GamificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamificationViewController.swift; sourceTree = "<group>"; };
+		283699272A5C4B8500AADB92 /* ResolveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResolveViewController.swift; sourceTree = "<group>"; };
+		283699282A5C4B8500AADB92 /* PlayerOverlayViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerOverlayViews.xib; sourceTree = "<group>"; };
+		283699292A5C4B8500AADB92 /* WagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WagerViewController.xib; sourceTree = "<group>"; };
+		2836992A2A5C4B8500AADB92 /* PollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PollViewController.xib; sourceTree = "<group>"; };
+		2836992B2A5C4B8500AADB92 /* PollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollViewController.swift; sourceTree = "<group>"; };
+		2836992C2A5C4B8500AADB92 /* PlayerOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerOverlayView.swift; sourceTree = "<group>"; };
+		2836992D2A5C4B8500AADB92 /* GamificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamificationViewController.xib; sourceTree = "<group>"; };
+		2836992E2A5C4B8500AADB92 /* WagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WagerViewController.swift; sourceTree = "<group>"; };
+		283699302A5C4B8500AADB92 /* GamificationSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamificationSocket.swift; sourceTree = "<group>"; };
+		283699322A5C4B8500AADB92 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		283699342A5C4B8500AADB92 /* ChannelHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelHandler.swift; sourceTree = "<group>"; };
+		283699362A5C4B8500AADB92 /* CacheStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheStorage.swift; sourceTree = "<group>"; };
+		283699382A5C4B8500AADB92 /* RemoteSocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteSocketService.swift; sourceTree = "<group>"; };
+		283699392A5C4B8500AADB92 /* QRcodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeGenerator.swift; sourceTree = "<group>"; };
+		2836993A2A5C4B8500AADB92 /* RemoteMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteMessages.swift; sourceTree = "<group>"; };
+		2836993C2A5C4B8500AADB92 /* StakingDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StakingDataStore.swift; sourceTree = "<group>"; };
+		2836993D2A5C4B8500AADB92 /* StakingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StakingClient.swift; sourceTree = "<group>"; };
+		2836993F2A5C4B8500AADB92 /* SettingsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
+		283699402A5C4B8500AADB92 /* AnimateFigures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateFigures.swift; sourceTree = "<group>"; };
+		283699412A5C4B8500AADB92 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		283699422A5C4B8500AADB92 /* EarnifySDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarnifySDK.swift; sourceTree = "<group>"; };
+		283699442A5C4B8500AADB92 /* MessagesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesHandler.swift; sourceTree = "<group>"; };
+		283699462A5C4B8500AADB92 /* TickersClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickersClient.swift; sourceTree = "<group>"; };
+		283699482A5C4B8500AADB92 /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		283699492A5C4B8500AADB92 /* PopupPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPlayerView.swift; sourceTree = "<group>"; };
+		2836994A2A5C4B8500AADB92 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		2836994B2A5C4B8500AADB92 /* SkipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkipViewController.swift; sourceTree = "<group>"; };
+		2836994C2A5C4B8500AADB92 /* W2EManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EManager.swift; sourceTree = "<group>"; };
+		2836994E2A5C4B8500AADB92 /* GifHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifHandler.swift; sourceTree = "<group>"; };
+		283699502A5C4B8500AADB92 /* WalletHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletHandler.swift; sourceTree = "<group>"; };
 		2B93FF62BDCF8B27A00E6E4A6A1594FE /* Pods-watch2earnSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watch2earnSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		2D9EABE850D08389F54EDFC5546EE0BD /* watch2earnSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "watch2earnSDK-umbrella.h"; sourceTree = "<group>"; };
 		2EC076E065F899E485722A7C37C073FB /* Pods-watch2earnSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watch2earnSDK_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -212,202 +192,202 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28E265242A5C032B0040EF21 /* Source */ = {
+		283699102A5C4B8500AADB92 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28E265392A5C03640040EF21 /* CacheStorage */,
-				28E2652D2A5C03630040EF21 /* ChannelWalletHandler */,
-				28E2653B2A5C03640040EF21 /* EarnifySDK.swift */,
-				28E265512A5C03640040EF21 /* GamificationService */,
-				28E265292A5C03630040EF21 /* GifHandler */,
-				28E265642A5C03640040EF21 /* MessagesHandler */,
-				28E265372A5C03640040EF21 /* Reachability */,
-				28E2653C2A5C03640040EF21 /* RemoteService */,
-				28E265402A5C03640040EF21 /* Resources */,
-				28E265252A5C03630040EF21 /* Settings */,
-				28E265562A5C03640040EF21 /* SocketService */,
-				28E265532A5C03640040EF21 /* StakingService */,
-				28E2652B2A5C03630040EF21 /* TickerService */,
-				28E265592A5C03640040EF21 /* TickersOverlay */,
-				28E2652F2A5C03630040EF21 /* VideoPopup */,
-				28E265362A5C03640040EF21 /* W2EManager.swift */,
-				28E265342A5C03630040EF21 /* WalletService */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		28E265252A5C03630040EF21 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				28E265262A5C03630040EF21 /* SettingsViewController.storyboard */,
-				28E265272A5C03630040EF21 /* AnimateFigures.swift */,
-				28E265282A5C03630040EF21 /* SettingsViewController.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		28E265292A5C03630040EF21 /* GifHandler */ = {
-			isa = PBXGroup;
-			children = (
-				28E2652A2A5C03630040EF21 /* GifHandler.swift */,
-			);
-			path = GifHandler;
-			sourceTree = "<group>";
-		};
-		28E2652B2A5C03630040EF21 /* TickerService */ = {
-			isa = PBXGroup;
-			children = (
-				28E2652C2A5C03630040EF21 /* TickersClient.swift */,
-			);
-			path = TickerService;
-			sourceTree = "<group>";
-		};
-		28E2652D2A5C03630040EF21 /* ChannelWalletHandler */ = {
-			isa = PBXGroup;
-			children = (
-				28E2652E2A5C03630040EF21 /* ChannelHandler.swift */,
-			);
-			path = ChannelWalletHandler;
-			sourceTree = "<group>";
-		};
-		28E2652F2A5C03630040EF21 /* VideoPopup */ = {
-			isa = PBXGroup;
-			children = (
-				28E265302A5C03630040EF21 /* PopupViewController.xib */,
-				28E265312A5C03630040EF21 /* PopupPlayerView.swift */,
-				28E265322A5C03630040EF21 /* PopupViewController.swift */,
-				28E265332A5C03630040EF21 /* SkipViewController.swift */,
-			);
-			path = VideoPopup;
-			sourceTree = "<group>";
-		};
-		28E265342A5C03630040EF21 /* WalletService */ = {
-			isa = PBXGroup;
-			children = (
-				28E265352A5C03630040EF21 /* WalletHandler.swift */,
-			);
-			path = WalletService;
-			sourceTree = "<group>";
-		};
-		28E265372A5C03640040EF21 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				28E265382A5C03640040EF21 /* Reachability.swift */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		28E265392A5C03640040EF21 /* CacheStorage */ = {
-			isa = PBXGroup;
-			children = (
-				28E2653A2A5C03640040EF21 /* CacheStorage.swift */,
-			);
-			path = CacheStorage;
-			sourceTree = "<group>";
-		};
-		28E2653C2A5C03640040EF21 /* RemoteService */ = {
-			isa = PBXGroup;
-			children = (
-				28E2653D2A5C03640040EF21 /* RemoteSocketService.swift */,
-				28E2653E2A5C03640040EF21 /* QRcodeGenerator.swift */,
-				28E2653F2A5C03640040EF21 /* RemoteMessages.swift */,
-			);
-			path = RemoteService;
-			sourceTree = "<group>";
-		};
-		28E265402A5C03640040EF21 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				28E265412A5C03640040EF21 /* audioFiles */,
-				28E265452A5C03640040EF21 /* customFonts */,
-				28E2654A2A5C03640040EF21 /* mediaFiles */,
+				283699112A5C4B8500AADB92 /* audioFiles */,
+				283699152A5C4B8500AADB92 /* customFonts */,
+				2836991A2A5C4B8500AADB92 /* mediaFiles */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		28E265412A5C03640040EF21 /* audioFiles */ = {
+		283699112A5C4B8500AADB92 /* audioFiles */ = {
 			isa = PBXGroup;
 			children = (
-				28E265422A5C03640040EF21 /* loose_sound.mp3 */,
-				28E265432A5C03640040EF21 /* data-reveal.mp3 */,
-				28E265442A5C03640040EF21 /* success.mp3 */,
+				283699122A5C4B8500AADB92 /* loose_sound.mp3 */,
+				283699132A5C4B8500AADB92 /* data-reveal.mp3 */,
+				283699142A5C4B8500AADB92 /* success.mp3 */,
 			);
 			path = audioFiles;
 			sourceTree = "<group>";
 		};
-		28E265452A5C03640040EF21 /* customFonts */ = {
+		283699152A5C4B8500AADB92 /* customFonts */ = {
 			isa = PBXGroup;
 			children = (
-				28E265462A5C03640040EF21 /* ProximaNova-Thin.otf */,
-				28E265472A5C03640040EF21 /* ProximaNova-Bold.otf */,
-				28E265482A5C03640040EF21 /* ProximaNova-Extrabold.otf */,
-				28E265492A5C03640040EF21 /* ProximaNova-Regular.otf */,
+				283699162A5C4B8500AADB92 /* ProximaNova-Thin.otf */,
+				283699172A5C4B8500AADB92 /* ProximaNova-Bold.otf */,
+				283699182A5C4B8500AADB92 /* ProximaNova-Extrabold.otf */,
+				283699192A5C4B8500AADB92 /* ProximaNova-Regular.otf */,
 			);
 			path = customFonts;
 			sourceTree = "<group>";
 		};
-		28E2654A2A5C03640040EF21 /* mediaFiles */ = {
+		2836991A2A5C4B8500AADB92 /* mediaFiles */ = {
 			isa = PBXGroup;
 			children = (
-				28E2654B2A5C03640040EF21 /* eatAnimated.gif */,
-				28E2654C2A5C03640040EF21 /* side_ad_banner.png */,
-				28E2654D2A5C03640040EF21 /* earnify.png */,
-				28E2654E2A5C03640040EF21 /* logo_big.png */,
-				28E2654F2A5C03640040EF21 /* eat.png */,
-				28E265502A5C03640040EF21 /* image.png */,
+				2836991B2A5C4B8500AADB92 /* eatAnimated.gif */,
+				2836991C2A5C4B8500AADB92 /* side_ad_banner.png */,
+				2836991D2A5C4B8500AADB92 /* earnify.png */,
+				2836991E2A5C4B8500AADB92 /* logo_big.png */,
+				2836991F2A5C4B8500AADB92 /* eat.png */,
+				283699202A5C4B8500AADB92 /* image.png */,
 			);
 			path = mediaFiles;
 			sourceTree = "<group>";
 		};
-		28E265512A5C03640040EF21 /* GamificationService */ = {
+		283699212A5C4B8500AADB92 /* SocketService */ = {
 			isa = PBXGroup;
 			children = (
-				28E265522A5C03640040EF21 /* GamificationSocket.swift */,
-			);
-			path = GamificationService;
-			sourceTree = "<group>";
-		};
-		28E265532A5C03640040EF21 /* StakingService */ = {
-			isa = PBXGroup;
-			children = (
-				28E265542A5C03640040EF21 /* StakingDataStore.swift */,
-				28E265552A5C03640040EF21 /* StakingClient.swift */,
-			);
-			path = StakingService;
-			sourceTree = "<group>";
-		};
-		28E265562A5C03640040EF21 /* SocketService */ = {
-			isa = PBXGroup;
-			children = (
-				28E265572A5C03640040EF21 /* W2EWebSocket.swift */,
-				28E265582A5C03640040EF21 /* W2EDataStore.swift */,
+				283699222A5C4B8500AADB92 /* W2EWebSocket.swift */,
+				283699232A5C4B8500AADB92 /* W2EDataStore.swift */,
 			);
 			path = SocketService;
 			sourceTree = "<group>";
 		};
-		28E265592A5C03640040EF21 /* TickersOverlay */ = {
+		283699242A5C4B8500AADB92 /* TickersOverlay */ = {
 			isa = PBXGroup;
 			children = (
-				28E2655A2A5C03640040EF21 /* ResolveViewController.xib */,
-				28E2655B2A5C03640040EF21 /* GamificationViewController.swift */,
-				28E2655C2A5C03640040EF21 /* ResolveViewController.swift */,
-				28E2655D2A5C03640040EF21 /* PlayerOverlayViews.xib */,
-				28E2655E2A5C03640040EF21 /* WagerViewController.xib */,
-				28E2655F2A5C03640040EF21 /* PollViewController.xib */,
-				28E265602A5C03640040EF21 /* PollViewController.swift */,
-				28E265612A5C03640040EF21 /* PlayerOverlayView.swift */,
-				28E265622A5C03640040EF21 /* GamificationViewController.xib */,
-				28E265632A5C03640040EF21 /* WagerViewController.swift */,
+				283699252A5C4B8500AADB92 /* ResolveViewController.xib */,
+				283699262A5C4B8500AADB92 /* GamificationViewController.swift */,
+				283699272A5C4B8500AADB92 /* ResolveViewController.swift */,
+				283699282A5C4B8500AADB92 /* PlayerOverlayViews.xib */,
+				283699292A5C4B8500AADB92 /* WagerViewController.xib */,
+				2836992A2A5C4B8500AADB92 /* PollViewController.xib */,
+				2836992B2A5C4B8500AADB92 /* PollViewController.swift */,
+				2836992C2A5C4B8500AADB92 /* PlayerOverlayView.swift */,
+				2836992D2A5C4B8500AADB92 /* GamificationViewController.xib */,
+				2836992E2A5C4B8500AADB92 /* WagerViewController.swift */,
 			);
 			path = TickersOverlay;
 			sourceTree = "<group>";
 		};
-		28E265642A5C03640040EF21 /* MessagesHandler */ = {
+		2836992F2A5C4B8500AADB92 /* GamificationService */ = {
 			isa = PBXGroup;
 			children = (
-				28E265652A5C03640040EF21 /* MessagesHandler.swift */,
+				283699302A5C4B8500AADB92 /* GamificationSocket.swift */,
+			);
+			path = GamificationService;
+			sourceTree = "<group>";
+		};
+		283699312A5C4B8500AADB92 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				283699322A5C4B8500AADB92 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		283699332A5C4B8500AADB92 /* ChannelWalletHandler */ = {
+			isa = PBXGroup;
+			children = (
+				283699342A5C4B8500AADB92 /* ChannelHandler.swift */,
+			);
+			path = ChannelWalletHandler;
+			sourceTree = "<group>";
+		};
+		283699352A5C4B8500AADB92 /* CacheStorage */ = {
+			isa = PBXGroup;
+			children = (
+				283699362A5C4B8500AADB92 /* CacheStorage.swift */,
+			);
+			path = CacheStorage;
+			sourceTree = "<group>";
+		};
+		283699372A5C4B8500AADB92 /* RemoteService */ = {
+			isa = PBXGroup;
+			children = (
+				283699382A5C4B8500AADB92 /* RemoteSocketService.swift */,
+				283699392A5C4B8500AADB92 /* QRcodeGenerator.swift */,
+				2836993A2A5C4B8500AADB92 /* RemoteMessages.swift */,
+			);
+			path = RemoteService;
+			sourceTree = "<group>";
+		};
+		2836993B2A5C4B8500AADB92 /* StakingService */ = {
+			isa = PBXGroup;
+			children = (
+				2836993C2A5C4B8500AADB92 /* StakingDataStore.swift */,
+				2836993D2A5C4B8500AADB92 /* StakingClient.swift */,
+			);
+			path = StakingService;
+			sourceTree = "<group>";
+		};
+		2836993E2A5C4B8500AADB92 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2836993F2A5C4B8500AADB92 /* SettingsViewController.storyboard */,
+				283699402A5C4B8500AADB92 /* AnimateFigures.swift */,
+				283699412A5C4B8500AADB92 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		283699432A5C4B8500AADB92 /* MessagesHandler */ = {
+			isa = PBXGroup;
+			children = (
+				283699442A5C4B8500AADB92 /* MessagesHandler.swift */,
 			);
 			path = MessagesHandler;
+			sourceTree = "<group>";
+		};
+		283699452A5C4B8500AADB92 /* TickerService */ = {
+			isa = PBXGroup;
+			children = (
+				283699462A5C4B8500AADB92 /* TickersClient.swift */,
+			);
+			path = TickerService;
+			sourceTree = "<group>";
+		};
+		283699472A5C4B8500AADB92 /* VideoPopup */ = {
+			isa = PBXGroup;
+			children = (
+				283699482A5C4B8500AADB92 /* PopupViewController.xib */,
+				283699492A5C4B8500AADB92 /* PopupPlayerView.swift */,
+				2836994A2A5C4B8500AADB92 /* PopupViewController.swift */,
+				2836994B2A5C4B8500AADB92 /* SkipViewController.swift */,
+			);
+			path = VideoPopup;
+			sourceTree = "<group>";
+		};
+		2836994D2A5C4B8500AADB92 /* GifHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2836994E2A5C4B8500AADB92 /* GifHandler.swift */,
+			);
+			path = GifHandler;
+			sourceTree = "<group>";
+		};
+		2836994F2A5C4B8500AADB92 /* WalletService */ = {
+			isa = PBXGroup;
+			children = (
+				283699502A5C4B8500AADB92 /* WalletHandler.swift */,
+			);
+			path = WalletService;
+			sourceTree = "<group>";
+		};
+		28E265242A5C032B0040EF21 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				283699352A5C4B8500AADB92 /* CacheStorage */,
+				283699332A5C4B8500AADB92 /* ChannelWalletHandler */,
+				283699422A5C4B8500AADB92 /* EarnifySDK.swift */,
+				2836992F2A5C4B8500AADB92 /* GamificationService */,
+				2836994D2A5C4B8500AADB92 /* GifHandler */,
+				283699432A5C4B8500AADB92 /* MessagesHandler */,
+				283699312A5C4B8500AADB92 /* Reachability */,
+				283699372A5C4B8500AADB92 /* RemoteService */,
+				283699102A5C4B8500AADB92 /* Resources */,
+				2836993E2A5C4B8500AADB92 /* Settings */,
+				283699212A5C4B8500AADB92 /* SocketService */,
+				2836993B2A5C4B8500AADB92 /* StakingService */,
+				283699452A5C4B8500AADB92 /* TickerService */,
+				283699242A5C4B8500AADB92 /* TickersOverlay */,
+				283699472A5C4B8500AADB92 /* VideoPopup */,
+				2836994C2A5C4B8500AADB92 /* W2EManager.swift */,
+				2836994F2A5C4B8500AADB92 /* WalletService */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		2C423C07895AC1ED9A9EE0A4B897BEF8 /* Support Files */ = {
@@ -629,7 +609,7 @@
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					4FA80E9BBD90F30C3A513CDB36999737 = {
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1430;
 					};
 					B264181AA880DA499EA5B31F348BE586 = {
 						LastSwiftMigration = 1430;
@@ -661,26 +641,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E265812A5C03650040EF21 /* earnify.png in Resources */,
-				28E265662A5C03640040EF21 /* SettingsViewController.storyboard in Resources */,
-				28E265782A5C03650040EF21 /* loose_sound.mp3 in Resources */,
-				28E2658E2A5C03650040EF21 /* WagerViewController.xib in Resources */,
-				28E2658F2A5C03650040EF21 /* PollViewController.xib in Resources */,
-				28E2657E2A5C03650040EF21 /* ProximaNova-Regular.otf in Resources */,
-				28E265832A5C03650040EF21 /* eat.png in Resources */,
-				28E265802A5C03650040EF21 /* side_ad_banner.png in Resources */,
-				28E2657C2A5C03650040EF21 /* ProximaNova-Bold.otf in Resources */,
-				28E265922A5C03650040EF21 /* GamificationViewController.xib in Resources */,
-				28E265822A5C03650040EF21 /* logo_big.png in Resources */,
-				28E2657A2A5C03650040EF21 /* success.mp3 in Resources */,
-				28E2658A2A5C03650040EF21 /* ResolveViewController.xib in Resources */,
-				28E2656C2A5C03640040EF21 /* PopupViewController.xib in Resources */,
-				28E265792A5C03650040EF21 /* data-reveal.mp3 in Resources */,
-				28E2657D2A5C03650040EF21 /* ProximaNova-Extrabold.otf in Resources */,
-				28E2657F2A5C03650040EF21 /* eatAnimated.gif in Resources */,
-				28E2657B2A5C03650040EF21 /* ProximaNova-Thin.otf in Resources */,
-				28E2658D2A5C03650040EF21 /* PlayerOverlayViews.xib in Resources */,
-				28E265842A5C03650040EF21 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,26 +655,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283698FC2A5C3D4400AADB92 /* loose_sound.mp3 in Resources */,
-				283698FD2A5C3D4400AADB92 /* data-reveal.mp3 in Resources */,
-				283698FE2A5C3D4400AADB92 /* success.mp3 in Resources */,
-				283698FF2A5C3D4400AADB92 /* ProximaNova-Thin.otf in Resources */,
-				283699002A5C3D4400AADB92 /* ProximaNova-Bold.otf in Resources */,
-				283699012A5C3D4400AADB92 /* ProximaNova-Extrabold.otf in Resources */,
-				283699022A5C3D4400AADB92 /* ProximaNova-Regular.otf in Resources */,
-				283699032A5C3D4400AADB92 /* eatAnimated.gif in Resources */,
-				283699042A5C3D4400AADB92 /* side_ad_banner.png in Resources */,
-				283699052A5C3D4400AADB92 /* earnify.png in Resources */,
-				283699062A5C3D4400AADB92 /* logo_big.png in Resources */,
-				283699072A5C3D4400AADB92 /* eat.png in Resources */,
-				283699082A5C3D4400AADB92 /* image.png in Resources */,
-				283699092A5C3D4400AADB92 /* SettingsViewController.storyboard in Resources */,
-				2836990A2A5C3D4400AADB92 /* ResolveViewController.xib in Resources */,
-				2836990B2A5C3D4400AADB92 /* PlayerOverlayViews.xib in Resources */,
-				2836990C2A5C3D4400AADB92 /* WagerViewController.xib in Resources */,
-				2836990D2A5C3D4400AADB92 /* PollViewController.xib in Resources */,
-				2836990E2A5C3D4400AADB92 /* GamificationViewController.xib in Resources */,
-				2836990F2A5C3D4400AADB92 /* PopupViewController.xib in Resources */,
+				2836995C2A5C4B8500AADB92 /* eat.png in Resources */,
+				283699592A5C4B8500AADB92 /* side_ad_banner.png in Resources */,
+				283699582A5C4B8500AADB92 /* eatAnimated.gif in Resources */,
+				283699512A5C4B8500AADB92 /* loose_sound.mp3 in Resources */,
+				283699572A5C4B8500AADB92 /* ProximaNova-Regular.otf in Resources */,
+				2836995D2A5C4B8500AADB92 /* image.png in Resources */,
+				283699732A5C4B8600AADB92 /* SettingsViewController.storyboard in Resources */,
+				283699792A5C4B8600AADB92 /* PopupViewController.xib in Resources */,
+				283699532A5C4B8500AADB92 /* success.mp3 in Resources */,
+				2836995B2A5C4B8500AADB92 /* logo_big.png in Resources */,
+				283699652A5C4B8500AADB92 /* PollViewController.xib in Resources */,
+				283699522A5C4B8500AADB92 /* data-reveal.mp3 in Resources */,
+				283699542A5C4B8500AADB92 /* ProximaNova-Thin.otf in Resources */,
+				283699562A5C4B8500AADB92 /* ProximaNova-Extrabold.otf in Resources */,
+				283699632A5C4B8500AADB92 /* PlayerOverlayViews.xib in Resources */,
+				2836995A2A5C4B8500AADB92 /* earnify.png in Resources */,
+				283699642A5C4B8500AADB92 /* WagerViewController.xib in Resources */,
+				283699552A5C4B8500AADB92 /* ProximaNova-Bold.otf in Resources */,
+				283699602A5C4B8500AADB92 /* ResolveViewController.xib in Resources */,
+				283699682A5C4B8600AADB92 /* GamificationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,7 +685,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283699672A5C4B8600AADB92 /* PlayerOverlayView.swift in Sources */,
+				2836996E2A5C4B8600AADB92 /* RemoteSocketService.swift in Sources */,
+				283699692A5C4B8600AADB92 /* WagerViewController.swift in Sources */,
+				2836996D2A5C4B8600AADB92 /* CacheStorage.swift in Sources */,
+				2836995E2A5C4B8500AADB92 /* W2EWebSocket.swift in Sources */,
+				283699752A5C4B8600AADB92 /* SettingsViewController.swift in Sources */,
+				2836997A2A5C4B8600AADB92 /* PopupPlayerView.swift in Sources */,
+				283699782A5C4B8600AADB92 /* TickersClient.swift in Sources */,
+				2836996C2A5C4B8600AADB92 /* ChannelHandler.swift in Sources */,
+				283699662A5C4B8500AADB92 /* PollViewController.swift in Sources */,
+				2836997D2A5C4B8600AADB92 /* W2EManager.swift in Sources */,
+				283699622A5C4B8500AADB92 /* ResolveViewController.swift in Sources */,
+				2836997E2A5C4B8600AADB92 /* GifHandler.swift in Sources */,
+				2836997F2A5C4B8600AADB92 /* WalletHandler.swift in Sources */,
+				283699702A5C4B8600AADB92 /* RemoteMessages.swift in Sources */,
+				283699712A5C4B8600AADB92 /* StakingDataStore.swift in Sources */,
+				2836996A2A5C4B8600AADB92 /* GamificationSocket.swift in Sources */,
+				2836995F2A5C4B8500AADB92 /* W2EDataStore.swift in Sources */,
+				283699612A5C4B8500AADB92 /* GamificationViewController.swift in Sources */,
+				283699742A5C4B8600AADB92 /* AnimateFigures.swift in Sources */,
+				283699772A5C4B8600AADB92 /* MessagesHandler.swift in Sources */,
+				2836996F2A5C4B8600AADB92 /* QRcodeGenerator.swift in Sources */,
+				2836996B2A5C4B8600AADB92 /* Reachability.swift in Sources */,
+				283699722A5C4B8600AADB92 /* StakingClient.swift in Sources */,
 				1C98662FB566921724A2B105D793DDA1 /* watch2earnSDK-dummy.m in Sources */,
+				283699762A5C4B8600AADB92 /* EarnifySDK.swift in Sources */,
+				2836997C2A5C4B8600AADB92 /* SkipViewController.swift in Sources */,
+				2836997B2A5C4B8600AADB92 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,34 +720,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E2656D2A5C03640040EF21 /* PopupPlayerView.swift in Sources */,
-				28E2656B2A5C03640040EF21 /* ChannelHandler.swift in Sources */,
-				28E265872A5C03650040EF21 /* StakingClient.swift in Sources */,
-				28E265722A5C03650040EF21 /* Reachability.swift in Sources */,
-				28E265912A5C03650040EF21 /* PlayerOverlayView.swift in Sources */,
 				E7AFEC49D47A51BC46E406349B3BD20B /* Pods-watch2earnSDK_Example-dummy.m in Sources */,
-				28E2656F2A5C03650040EF21 /* SkipViewController.swift in Sources */,
-				28E265852A5C03650040EF21 /* GamificationSocket.swift in Sources */,
-				28E265762A5C03650040EF21 /* QRcodeGenerator.swift in Sources */,
-				28E265882A5C03650040EF21 /* W2EWebSocket.swift in Sources */,
-				28E265672A5C03640040EF21 /* AnimateFigures.swift in Sources */,
-				28E265712A5C03650040EF21 /* W2EManager.swift in Sources */,
-				28E265742A5C03650040EF21 /* EarnifySDK.swift in Sources */,
-				28E265682A5C03640040EF21 /* SettingsViewController.swift in Sources */,
-				28E265862A5C03650040EF21 /* StakingDataStore.swift in Sources */,
-				28E265692A5C03640040EF21 /* GifHandler.swift in Sources */,
-				28E265732A5C03650040EF21 /* CacheStorage.swift in Sources */,
-				28E265752A5C03650040EF21 /* RemoteSocketService.swift in Sources */,
-				28E265702A5C03650040EF21 /* WalletHandler.swift in Sources */,
-				28E265892A5C03650040EF21 /* W2EDataStore.swift in Sources */,
-				28E265902A5C03650040EF21 /* PollViewController.swift in Sources */,
-				28E265932A5C03650040EF21 /* WagerViewController.swift in Sources */,
-				28E265942A5C03650040EF21 /* MessagesHandler.swift in Sources */,
-				28E2656A2A5C03640040EF21 /* TickersClient.swift in Sources */,
-				28E265772A5C03650040EF21 /* RemoteMessages.swift in Sources */,
-				28E2658C2A5C03650040EF21 /* ResolveViewController.swift in Sources */,
-				28E2658B2A5C03650040EF21 /* GamificationViewController.swift in Sources */,
-				28E2656E2A5C03640040EF21 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +754,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF6E86A7D68BE30D936287D3D7CBA7B9 /* watch2earnSDK.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -814,6 +775,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -929,6 +891,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEAF0D3843F03F6DBD242D9F82FF8AF9 /* watch2earnSDK.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

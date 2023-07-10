@@ -1,5 +1,5 @@
 import XCTest
-import watch2earnSDK
+//import watch2earnSDK
 
 class Tests: XCTestCase {
     

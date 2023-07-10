@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'watch2earnSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of watch2earnSDK.'
+  s.summary          = 'watch2earnSDK for Apple TV apps to enable live streaming, earning tokens, and gamified features.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Introducing Watch2Earn Framework – a powerful Apple TV framework designed to enhance live streaming experiences and enable users to earn tokens while watching their favorite content. With Watch2Earn, developers can seamlessly integrate interactive features and gamification elements into live streams, creating an engaging and rewarding environment for viewers.'
                        DESC
 
-  s.homepage         = 'https://github.com/asad926/watch2earnSDK'
+  s.homepage         = 'https://github.com/asad-edge/watch2earnSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'asad926' => 'asad@edgevideo.com' }
-  s.source           = { :git => 'https://github.com/asad926/watch2earnSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'asad-edge' => 'asad@edgevideo.com' }
+  s.source           = { :git => 'https://github.com/asad-edge/watch2earnSDK.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://t.me/EDGEVideo'
 
-  s.ios.deployment_target = '10.0'
+  s.tvos.deployment_target = '14.0'
 
-  s.source_files = 'watch2earnSDK/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_versions = '5.0'
+  s.platforms = {
+              "tvos": "14.0"
+}
   
   # s.resource_bundles = {
   #   'watch2earnSDK' => ['watch2earnSDK/Assets/*.png']

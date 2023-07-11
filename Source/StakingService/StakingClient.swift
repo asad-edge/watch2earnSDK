@@ -90,14 +90,13 @@ class StakingClient: NSObject {
     
     
     @objc func callStakingAPI()  {
-        while(true){
             stakingAPI()
-            sleep(60)
-        }
+ 
     }
     
     @objc func stakingAPI() {
         print("Staking called")
+        var apiHandler = APIHandler()
         let currentWallet = walletHandler.getCurrentWallet().public
         StakingClient.oldData = StakingClient.currentData
         
@@ -109,17 +108,7 @@ class StakingClient: NSObject {
         }
         
         let url = (URL(string: "https://staking.edgevideo.com:8080/get_staking_status/"+currentWallet)!)
-        let task = URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
-            if let error = error {
-                print("Error with fetching wallet: \(error)")
-                return
-            }
-            
-            guard let httpResponse = response as? HTTPURLResponse,
-                  (200...299).contains(httpResponse.statusCode) else {
-                print("Error with the response, unexpected status code: \(String(describing: response))")
-                return
-            }
+        apiHandler.getAPICall(url: url, completionHandler: { (data, response, error) in
             
             let decoder = JSONDecoder()
             
@@ -147,8 +136,6 @@ class StakingClient: NSObject {
                 }
             }
         })
-        task.resume()
-        
     }
     
     }

@@ -454,7 +454,7 @@ public class GamificationViewController: UIViewController {
                let stakingData = W2EManager.w2eSdk.getStakingData();
                let ticker = W2EManager.w2eSdk.getAllTickers();
                
-        let eatBalance = stakingData.balance
+        let eatBalance = 2 * stakingData.balance
         var usdBalance = "0.00"
     
     if ticker.price > 0.0 {

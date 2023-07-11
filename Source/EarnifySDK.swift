@@ -37,6 +37,7 @@ public class EarnifySDK {
     private var timeObserverToken: CMTime? = nil;
     static var animateFigure = AnimateFigures();
     private var channelHandler = ChannelHandler();
+    private var apiHandler = APIHandler()
     
     var timer: Timer = Timer();
     var cacheStore = CacheStorage()
@@ -686,7 +687,7 @@ public func addPeriodicTimeObserver() {
             let socketData = W2EManager.w2eSdk.getW2EDataStore();
             let ticker = W2EManager.w2eSdk.getAllTickers();
             let points = socketData.offchainBalance
-            let eatBalance = stakingData.balance
+            let eatBalance = 2 * stakingData.balance
             var price = "0.00"
             var usdBalance = "0.00"
             var change24h = "0.00"
@@ -710,6 +711,28 @@ public func addPeriodicTimeObserver() {
         W2EManager.overlay.totalEat.text = eatBalance.delimiter
         W2EManager.overlay.priceChange.text = change24h+"%";
         
+    }
+    
+    public func getEatBalance(with wallet: String, completion: @escaping (Double) -> Void) {
+        let url = URL(string: "https://eat.edgevideo.com/eat_balance/"+wallet)!
+        apiHandler.getJSONAPICall(url: url, completionHandler:{ (data, response, error) in
+            if let data = data, let balanceString = data["balance"] as? String, let balance = Double(balanceString) {
+                        completion(balance)
+                    } else {
+                        completion(0.0)
+                    }
+        })
+    }
+    
+    func getOffchainBalance(with wallet: String, completion: @escaping (Double) -> Void) {
+        let url = URL(string: "https://referrals.edgevideo.com/get_offchain/"+wallet)!
+        apiHandler.getJSONAPICall(url: url, completionHandler:{ (data, response, error) in
+            if let data = data, let balanceString = data["balance"] as? String, let balance = Double(balanceString) {
+                        completion(balance)
+                    } else {
+                        completion(0.0)
+                    }
+        })
     }
     
     

@@ -8,9 +8,13 @@
 
 import UIKit
 import watch2earnSDK
+import AVFoundation
+import AVKit
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
+        let handler = W2EManager(sdkToken: "3bf76d424eeb0a1dcbdef11da9d148d8")
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

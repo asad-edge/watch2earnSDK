@@ -57,6 +57,7 @@
 		2836997D2A5C4B8600AADB92 /* W2EManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994C2A5C4B8500AADB92 /* W2EManager.swift */; };
 		2836997E2A5C4B8600AADB92 /* GifHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994E2A5C4B8500AADB92 /* GifHandler.swift */; };
 		2836997F2A5C4B8600AADB92 /* WalletHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699502A5C4B8500AADB92 /* WalletHandler.swift */; };
+		283699872A5D132600AADB92 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699862A5D132600AADB92 /* APIHandler.swift */; };
 		2F2DCC4D9C89780BB166ED981D0D5614 /* Pods-watch2earnSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66030450F500F256E06949FF29C69EF9 /* Pods-watch2earnSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		835B1AA190F460DA50FC7386DD1C6184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E789948301EA85C43F4F5D91CF1F147D /* Pods-watch2earnSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4867E4D7714D32A9649AEEF54AE1F88E /* Pods-watch2earnSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -130,6 +131,7 @@
 		2836994C2A5C4B8500AADB92 /* W2EManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EManager.swift; sourceTree = "<group>"; };
 		2836994E2A5C4B8500AADB92 /* GifHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifHandler.swift; sourceTree = "<group>"; };
 		283699502A5C4B8500AADB92 /* WalletHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletHandler.swift; sourceTree = "<group>"; };
+		283699862A5D132600AADB92 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		2B93FF62BDCF8B27A00E6E4A6A1594FE /* Pods-watch2earnSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watch2earnSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		2D9EABE850D08389F54EDFC5546EE0BD /* watch2earnSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "watch2earnSDK-umbrella.h"; sourceTree = "<group>"; };
 		2EC076E065F899E485722A7C37C073FB /* Pods-watch2earnSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watch2earnSDK_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -366,9 +368,18 @@
 			path = WalletService;
 			sourceTree = "<group>";
 		};
+		283699852A5D131600AADB92 /* APIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				283699862A5D132600AADB92 /* APIHandler.swift */,
+			);
+			path = APIHandler;
+			sourceTree = "<group>";
+		};
 		28E265242A5C032B0040EF21 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				283699852A5D131600AADB92 /* APIHandler */,
 				283699352A5C4B8500AADB92 /* CacheStorage */,
 				283699332A5C4B8500AADB92 /* ChannelWalletHandler */,
 				283699422A5C4B8500AADB92 /* EarnifySDK.swift */,
@@ -694,6 +705,7 @@
 				2836997A2A5C4B8600AADB92 /* PopupPlayerView.swift in Sources */,
 				283699782A5C4B8600AADB92 /* TickersClient.swift in Sources */,
 				2836996C2A5C4B8600AADB92 /* ChannelHandler.swift in Sources */,
+				283699872A5D132600AADB92 /* APIHandler.swift in Sources */,
 				283699662A5C4B8500AADB92 /* PollViewController.swift in Sources */,
 				2836997D2A5C4B8600AADB92 /* W2EManager.swift in Sources */,
 				283699622A5C4B8500AADB92 /* ResolveViewController.swift in Sources */,

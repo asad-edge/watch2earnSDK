@@ -85,28 +85,15 @@ class WalletHandler {
     }
     
     func fetchWalletByCode(code:String, completionHandler: @escaping (AnyObject?,URLResponse? , Error?) -> Void ) {
-        
+        let apiHandler = APIHandler()
         
         let url = URL(string:  "https://eat.edgevideo.com:8080/get_wallet/"+code)!
         
-        let task = URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
-            if let error = error {
-                    print("Error with fetching wallet: \(error)")
-                completionHandler(nil, nil ,error)
-                return
-            }
-            
-            guard let httpResponse = response as? HTTPURLResponse,
-                  (200...299).contains(httpResponse.statusCode) else {
-                    print("Error with the response, unexpected status code: \(String(describing: response))")
-                completionHandler(nil, response, nil)
-                return
-            }
-            
-            if let data = data,
-               let json = try? JSONSerialization.jsonObject(with: data, options: []){
-                print(json)
-                let jsonData = json as AnyObject
+        apiHandler.getJSONAPICall(url: url, completionHandler: { (data, response, error) in
+
+            if let data = data{
+                print(data)
+                let jsonData = data as AnyObject
                 let keys = jsonData.allKeys;
                 if(keys?.first as! String == "error"){
                     print(jsonData["error"] as? String? as Any)
@@ -123,7 +110,6 @@ class WalletHandler {
             }
             
         })
-        task.resume()
     }
     
     func forwardingWalletAPI(pubKey: String){

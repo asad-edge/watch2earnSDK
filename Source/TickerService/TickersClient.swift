@@ -60,22 +60,13 @@ class TickersClient: NSObject {
     }
     
     func tickersAPI() {
+        var apiHandler = APIHandler()
         TickersClient.oldPrice = TickersClient.currentPrice
         if  TickersClient.oldPrice != nil {
             TickersClient.oldPrice?.time = Date().timeIntervalSince1970
         }
         let url = URL(string: "https://eat.edgevideo.com/get_price")!
-        let task = URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
-            if let error = error {
-                print("Error with fetching wallet: \(error)")
-                return
-            }
-            
-            guard let httpResponse = response as? HTTPURLResponse,
-                  (200...299).contains(httpResponse.statusCode) else {
-                print("Error with the response, unexpected status code: \(String(describing: response))")
-                return
-            }
+        apiHandler.getAPICall(url: url, completionHandler: { (data, response, error) in
             
             if let data = data{
                 do{
@@ -98,38 +89,15 @@ class TickersClient: NSObject {
                 }
             }
         })
-        task.resume()
         
     }
     func getcallLogoApi(apiKey: String){
+        var apiHandler = APIHandler()
         let requestBody = RequestBody(sdkAPIKey: apiKey)
-        
-        let jsonEncoder = JSONEncoder()
-        guard let jsonData = try? jsonEncoder.encode(requestBody) else {
-            // Handle encoding error
-            return
-        }
-        
         let url = URL(string: "https://studio-api.edgevideo.com/loadSdkLogo")!
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.setValue("application/json", forHTTPHeaderField: "Accept")
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpBody = jsonData
-        let session = URLSession.shared
-        let task = session.dataTask(with: request) { (data, response, error) in
-            // Handle response data, response status code, and error
-            if let error = error {
-                print("Error with fetching logo: \(error)")
-                return
-            }
-            
-            guard let httpResponse = response as? HTTPURLResponse,
-                  (200...299).contains(httpResponse.statusCode) else {
-                print("Error with the response, unexpected status code: \(String(describing: response))")
-                return
-            }
-            
+
+        apiHandler.postAPICall(url: url, requestBody: requestBody, completionHandler: { (data, response, error) in
+
             if let data = data,
                let json = try? JSONSerialization.jsonObject(with: data, options: []){
                 print(json)
@@ -137,11 +105,11 @@ class TickersClient: NSObject {
                 let rows = jsonData["data"] as AnyObject
                 let data = rows[0] as AnyObject
                 let logo = data["logo_url"];
+                print("logo api called", logo)
                 W2EManager.w2eSdk.tvLogo = URL(string: logo as! String)!
                 W2EManager.overlay.logo.load(url: URL(string: logo as! String)!)
             }
-        }
-            task.resume()
+        })
         }
         
     }

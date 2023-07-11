@@ -20,6 +20,7 @@ import Foundation
 }
 
 public class MessagesHandler: NSObject {
+    var apiHandler = APIHandler()
 
     private static var messages: Messages = Messages(not_staking_no_balance: "", not_staking_low_balance: "", watch_2_earn_active: "", staking_active: "", wallet_not_forwarded: "", landing_page_message_1: "", catagory_page_message_1: "")
     
@@ -30,17 +31,7 @@ public class MessagesHandler: NSObject {
 
     func serverMessagesJson() {
         let url = URL(string: "https://livesearch.edgevideo.com/ticker-server/messages.json")!
-        let task = URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
-            if let error = error {
-                print("Error with fetching wallet: \(error)")
-                return
-            }
-            
-            guard let httpResponse = response as? HTTPURLResponse,
-                  (200...299).contains(httpResponse.statusCode) else {
-                print("Error with the response, unexpected status code: \(String(describing: response))")
-                return
-            }
+        apiHandler.getAPICall(url: url, completionHandler: { (data, response, error) in
             
             if let data = data{
                 do{
@@ -54,8 +45,6 @@ public class MessagesHandler: NSObject {
                 }
             }
         })
-        task.resume()
-        
             }
    
     }

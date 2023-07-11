@@ -42,19 +42,16 @@ class W2EWebSocket: NSObject, URLSessionWebSocketDelegate {
     
     func connect(apiKey: String) {
         guard !isConnected && !isConnecting else {
+            self.close()
                     return
                 }
                 
-                self.apiKey = apiKey
-                self.retryCount = 0
-                self.close()
+        self.apiKey = apiKey
+        self.retryCount = 0
         session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
         W2EWebSocket.webSocketTask = session.webSocketTask(with: URL(string: "wss://faices-api.edgevideo.com/")!)
         W2EWebSocket.webSocketTask?.resume()
-        startMonitoringReachability()
         print("web socket Connected..")
-        
-        listen()
 
     }
     
@@ -214,6 +211,8 @@ class W2EWebSocket: NSObject, URLSessionWebSocketDelegate {
                  W2EManager.w2eSdk.sendWalletData(type: "wallet", value: W2EManager.w2eSdk.getWallet().public, version: "2.3")
                          W2EManager.w2eSdk.sendApiAndAppData(apiKey: self.apiKey)
                          W2EManager.w2eSdk.sendChannelData(type: "channel", value: "0x6E130D41C66559B5DC63CC32E233D907ABE457BF")
+             startMonitoringReachability()
+             listen()
         }
         
         // Called when an error occurs during WebSocket connection

@@ -17,8 +17,8 @@ public class W2EManager {
     public static let overlay = w2eSdk.getTickerOverlay()
     private var channelHandler = ChannelHandler();
     private let cache = CacheStorage()
-    public static var hideW2eBar: Bool = true
-    public static var hideGamifyBar: Bool = true
+    public static var hideW2eBar: Bool = false
+    public static var hideGamifyBar: Bool = false
     public static var optW2e: Bool = false
     public static var sdkKey: String?
     public init(sdkToken: String) {

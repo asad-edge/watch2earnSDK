@@ -69,7 +69,6 @@ open class GamificationSocket : NSObject, URLSessionWebSocketDelegate {
         session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
         GamificationSocket.webSocketTask = session.webSocketTask(with: URL(string: "wss://gaimify.edgevideo.com")!)
         GamificationSocket.webSocketTask?.resume()
-        listen()
     }
     
     // Start monitoring network reachability
@@ -202,6 +201,7 @@ open class GamificationSocket : NSObject, URLSessionWebSocketDelegate {
              send(text: channelMsg)
              let walletMsg = String(format: #"{"type":"wallet","address":"%@"}"#, arguments: [W2EManager.w2eSdk.getWallet().public])
              send(text: walletMsg)
+             listen()
              
         }
         

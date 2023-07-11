@@ -54,53 +54,28 @@ public struct Channel: Codable {
 }
 
 class ChannelHandler: NSObject {
+    var apiHandler = APIHandler()
     
     func getChannelDetails(apiKey: String, completionHandler: @escaping ([Channel]?,URLResponse? , Error?) -> Void ) {
         
         let requestBody = channelRequestBody(apiKey: apiKey)
         
-        let jsonEncoder = JSONEncoder()
-        guard let jsonData = try? jsonEncoder.encode(requestBody) else {
-            // Handle encoding error
-            return
-        }
-        
         let url = URL(string: "https://studio-api.edgevideo.com/channel/GetChannelDetailsByApiKey")!
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.setValue("application/json", forHTTPHeaderField: "Accept")
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpBody = jsonData
-        let session = URLSession.shared
-        let task = session.dataTask(with: request) { (data, response, error) in
-            // Handle response data, response status code, and error
-            if let error = error {
-                print("Error with fetching channel details: \(error)")
-                completionHandler(nil, nil, error)
-                return
-            }
-            
-            guard let httpResponse = response as? HTTPURLResponse,
-                  (200...299).contains(httpResponse.statusCode) else {
-                print("Error with the response, unexpected status code: \(String(describing: response))")
-                completionHandler(nil, response, nil)
-                return
-            }
+        
+        apiHandler.postAPICall(url: url, requestBody: requestBody, completionHandler: {(data, response, error) in
             
             if let data = data{
                 do{
-                        let decoder = JSONDecoder()
-                        let parsedChannels = try decoder.decode([Channel].self, from: data)
-                        print("Channels Data: ", parsedChannels)
-                        completionHandler(parsedChannels, nil, nil)
-                    }catch{
-                     print("Details error: ",error)
-                     completionHandler(nil, nil, error)
-                    }
+                    let decoder = JSONDecoder()
+                    let parsedChannels = try decoder.decode([Channel].self, from: data)
+                    print("Channels Data: ", parsedChannels)
+                    completionHandler(parsedChannels, nil, nil)
+                }catch{
+                    print("Details error: ",error)
+                    completionHandler(nil, nil, error)
+                }
             }
-        }
-        task.resume()
-        
+            
+        })
     }
 }
-

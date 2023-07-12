@@ -17,7 +17,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GamificationViewController" customModule="watch2earn_applesdk" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GamificationViewController" customModule="watch2earnSDK" customModuleProvider="target">
             <connections>
                 <outlet property="gameLose" destination="siL-Hk-5US" id="srE-ZA-6q5"/>
                 <outlet property="gamePollView" destination="V1i-Hf-MgI" id="gGH-Zq-2Cv"/>
@@ -50,15 +50,15 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDD-sr-0Oe">
-                                            <rect key="frame" x="548" y="0.0" width="825" height="167"/>
+                                            <rect key="frame" x="548" y="-3" width="825" height="167"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bk6-bC-IyY" userLabel="watch2earn bar">
-                                                    <rect key="frame" x="0.0" y="0.0" width="825" height="32"/>
+                                                    <rect key="frame" x="0.0" y="-5" width="825" height="32"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gamified TV Powered By Edge-AI" textAlignment="center" lineBreakMode="clip" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUd-NF-OhI" userLabel="wATCH2EARN">
-                                                            <rect key="frame" x="0.0" y="0.0" width="825" height="32"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gaimified TV" textAlignment="center" lineBreakMode="clip" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUd-NF-OhI" userLabel="wATCH2EARN">
+                                                            <rect key="frame" x="0.0" y="-3" width="825" height="32"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="26"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

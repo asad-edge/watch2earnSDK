@@ -73,7 +73,7 @@ public class GamificationViewController: UIViewController {
     
     public override func viewWillDisappear(_ animated: Bool) {
             super.viewWillDisappear(animated)
-            
+            print("Gamification view disapear")
             // Invalidate the timer when the view is about to disappear
             stopWagerTimer()
             stopPollTimer()

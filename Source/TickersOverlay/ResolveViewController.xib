@@ -12,12 +12,9 @@
         <array key="ProximaNova-Bold.otf">
             <string>ProximaNova-Bold</string>
         </array>
-        <array key="ProximaNova-Regular.otf">
-            <string>ProximaNova-Regular</string>
-        </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResolveViewController" customModule="watch2earn_applesdk" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResolveViewController" customModule="watch2earnSDK" customModuleProvider="target">
             <connections>
                 <outlet property="activeBorder" destination="XNe-zI-F3E" id="5rc-bQ-uYX"/>
                 <outlet property="correct_ans" destination="o96-0q-qMQ" id="oPl-CM-gS1"/>
@@ -47,6 +44,12 @@
                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gaimified TV by Edge-AI" textAlignment="center" lineBreakMode="clip" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVS-8c-lLS" userLabel="gamifaiction">
+                                    <rect key="frame" x="46" y="452" width="223" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="16"/>
+                                    <color key="textColor" red="0.28000003099999998" green="0.85476797819999994" blue="0.93333333730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" red="0.13602932209999999" green="0.15741199350000001" blue="0.24404198229999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -85,12 +88,6 @@
                             <rect key="frame" x="117" y="348" width="72" height="61"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gamified TV by EDGE ai" lineBreakMode="clip" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVS-8c-lLS" userLabel="gamifaiction">
-                            <rect key="frame" x="64" y="455" width="169" height="20"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
-                            <color key="textColor" red="0.28000003099999998" green="0.85476797819999994" blue="0.93333333730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>

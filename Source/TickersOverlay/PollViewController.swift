@@ -111,7 +111,7 @@ class PollViewController: UIView {
            opt_4.text = poll.choices[3]
            opt_4.isInteractiveLabel = true
            opt_4.adjustFontToFitWidth(withLineBreakMode: .byWordWrapping, numberOfLines: 3)
-           gamified_tv.isInteractiveLabel = true
+//           gamified_tv.isInteractiveLabel = true
            
         }
     

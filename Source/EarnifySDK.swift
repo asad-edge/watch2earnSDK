@@ -645,6 +645,8 @@ public func addPeriodicTimeObserver() {
         self.timer.invalidate();
         EarnifySDK.animateFigure.stopBalanceAnimation()
         self.isBoosted = false;
+        GamificationSocket.newPolls.removeAll()
+        self.isGameReceived = false
     }
     
     @objc func updatingOverlay() {

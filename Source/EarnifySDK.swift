@@ -105,6 +105,7 @@ public class EarnifySDK {
                         W2EManager.w2eSdk.sendRateData(type: "rate", value: 600)
 //                      W2EManager.w2eSdk.sendChannelData(type: "channel", value: channelAddress)
                     let isGamified = firstResult.isGamified
+                    let isW2E = firstResult.isW2E
                     gamifiedChannel = isGamified
                     if isGamified {
                         print("is_gamified true: \(isGamified)")
@@ -129,7 +130,7 @@ public class EarnifySDK {
                         //                        gamificationViewController.view.isHidden = false
                         self.changeGamifyFrame(gamify: gamificationViewController.view, toOriginX: gamificationViewController.view.frame.origin.x, toOriginY: 0, duration: 2)
                         playerStart()
-                    }else{
+                    }else if isW2E {
                         print("is_gamified false: \(isGamified)")
                         //ticker overlay view
                         avPlayerControl?.view.addSubview(W2EManager.overlay.view)
@@ -149,6 +150,11 @@ public class EarnifySDK {
                                 self.playerStart()
                             }
                         }
+                    }else{
+                        print("Current channel is not Gaimified/Watch2Earn Active")
+                        disconnectSocket()
+                        disconnectGamifySocket()
+                        return
                     }
                     let playerTouchRecognizer = UITapGestureRecognizer(target: self, action: #selector(PlayerMenuPressed(gesture:)))
                     playerTouchRecognizer.numberOfTapsRequired = 1
@@ -164,6 +170,9 @@ public class EarnifySDK {
                     
             } else {
                 print("Channel name not found in the array")
+                disconnectSocket()
+                disconnectGamifySocket()
+                return
             }
         }
         W2EManager.w2eSdk.getRemoteMessage{ result in

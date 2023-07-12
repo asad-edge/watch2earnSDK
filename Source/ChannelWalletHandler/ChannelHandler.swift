@@ -16,6 +16,7 @@ public struct Channel: Codable {
     let channelID: String
     let channelName: String
     let isGamified: Bool
+    let isW2E: Bool
     let isLive: Bool
     let promptText: String
     let streamHLS: String
@@ -25,6 +26,7 @@ public struct Channel: Codable {
         case channelID = "channel_id"
         case channelName = "channel_name"
         case isGamified = "is_gamified"
+        case isW2E = "is_w2e"
         case isLive = "live"
         case promptText = "prompt_text"
         case streamHLS = "stream_hls"
@@ -36,6 +38,7 @@ public struct Channel: Codable {
         channelID = try container.decode(String.self, forKey: .channelID)
         channelName = try container.decode(String.self, forKey: .channelName)
         isGamified = try container.decode(Bool.self, forKey: .isGamified)
+        isW2E = try container.decode(Bool.self, forKey: .isW2E)
         isLive = try container.decode(Bool.self, forKey: .isLive)
         promptText = try container.decode(String.self, forKey: .promptText)
         streamHLS = try container.decode(String.self, forKey: .streamHLS)
@@ -47,6 +50,7 @@ public struct Channel: Codable {
         try container.encode(channelID, forKey: .channelID)
         try container.encode(channelName, forKey: .channelName)
         try container.encode(isGamified, forKey: .isGamified)
+        try container.encode(isW2E, forKey: .isW2E)
         try container.encode(isLive, forKey: .isLive)
         try container.encode(promptText, forKey: .promptText)
         try container.encode(streamHLS, forKey: .streamHLS)

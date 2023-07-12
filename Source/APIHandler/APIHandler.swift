@@ -34,9 +34,8 @@ class APIHandler: NSObject {
                     print(jsonData["error"] as? String? as Any)
                     
                 }else{
-                    
-                    completionHandler(jsonData, nil, nil)
                 }
+                completionHandler(jsonData, nil, nil)
             }
             
         })

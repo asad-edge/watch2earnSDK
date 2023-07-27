@@ -60,7 +60,6 @@ public class W2EManager {
                 if let data = data,
                     let json = try? JSONSerialization.jsonObject(with: data, options: []){
                         print("Installation data posted successfully",json)
-                    if 
                         self.cache.saveString(_key: "AppInstallationID", _value: device_id)
                 }
             })

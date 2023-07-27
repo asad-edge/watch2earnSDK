@@ -22,6 +22,10 @@ class WalletHandler {
     
     func setCurrentWallet(_publicKey: String, _privateKey: String){
         WalletHandler.currentWallet = Address(public: _publicKey, private: _privateKey)
+        if _privateKey != "" {
+            self.walletCache.saveString(_key: "TEMP_PUBLIC_KEY", _value:_publicKey )
+            self.walletCache.saveString(_key: "TEMP_PRIVATE_KEY", _value: _privateKey)
+        }
         self.walletCache.saveString(_key: "PUBLIC_KEY",_value: _publicKey)
         self.walletCache.saveString(_key: "PRIVATE_KEY",_value: _privateKey)
         print("SDK Current Wallet", self.getCurrentWallet())

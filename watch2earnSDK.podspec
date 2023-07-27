@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'watch2earnSDK'
-  s.version          = '0.2.2-alpha'
+  s.version          = '0.2.4'
   s.summary          = 'watch2earnSDK for Apple TV apps to enable live streaming, earning tokens, and gamified features.'
 
 # This description is used to generate tags and improve search results.

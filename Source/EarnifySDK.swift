@@ -126,7 +126,7 @@ public class EarnifySDK {
                         playerRightRecognizer.allowedPressTypes = [NSNumber(value: UIPress.PressType.rightArrow.rawValue)]
                         avPlayerControl?.view.addGestureRecognizer(playerRightRecognizer)
                         W2EManager.w2eSdk.connectGamifySocket(channelId: firstResult.channelID)
-                        
+                        W2EManager.w2eSdk.sendChannelIDData(type: "channel_id", value: firstResult.channelID);
                         //                        gamificationViewController.view.isHidden = false
                         self.changeGamifyFrame(gamify: gamificationViewController.view, toOriginX: gamificationViewController.view.frame.origin.x, toOriginY: 0, duration: 2)
                         playerStart()
@@ -148,6 +148,7 @@ public class EarnifySDK {
                                 W2EManager.overlay.view.isHidden = false
                                 self.changeW2eFrame(w2ebar: W2EManager.overlay.view, toOriginX: W2EManager.overlay.view.frame.origin.x, toOriginY: 0, duration: 2)
                                 self.playerStart()
+                                W2EManager.w2eSdk.sendChannelIDData(type: "channel_id", value: firstResult.channelID);
                             }
                         }
                     }else{
@@ -842,6 +843,13 @@ public func addPeriodicTimeObserver() {
     public func sendChannelData(type: String, value: String)
     {
         let msg = String(format: #"{"type":"%@","value":"%@"}"#, arguments: [type,value])
+        NSLog(msg);
+        webSocket.send(text: msg);
+    }
+    
+    public func sendChannelIDData(type: String, value: String)
+    {
+        let msg = String(format: #"{"type":"%@","channel_id":"%@"}"#, arguments: [type,value])
         NSLog(msg);
         webSocket.send(text: msg);
     }

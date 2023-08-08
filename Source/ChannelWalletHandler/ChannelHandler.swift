@@ -18,7 +18,6 @@ public struct Channel: Codable {
     let isGamified: Bool
     let isW2E: Bool
     let isLive: Bool
-    let promptText: String
     let streamHLS: String
     
     private enum CodingKeys: String, CodingKey {
@@ -40,7 +39,6 @@ public struct Channel: Codable {
         isGamified = try container.decode(Bool.self, forKey: .isGamified)
         isW2E = try container.decode(Bool.self, forKey: .isW2E)
         isLive = try container.decode(Bool.self, forKey: .isLive)
-        promptText = try container.decode(String.self, forKey: .promptText)
         streamHLS = try container.decode(String.self, forKey: .streamHLS)
     }
     
@@ -52,7 +50,6 @@ public struct Channel: Codable {
         try container.encode(isGamified, forKey: .isGamified)
         try container.encode(isW2E, forKey: .isW2E)
         try container.encode(isLive, forKey: .isLive)
-        try container.encode(promptText, forKey: .promptText)
         try container.encode(streamHLS, forKey: .streamHLS)
     }
 }

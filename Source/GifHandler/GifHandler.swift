@@ -29,6 +29,25 @@ extension UIImageView {
         }
     }
 
+    @available(iOS 9.0, *)
+    public func loadGif(data: Data) {
+        DispatchQueue.global().async {
+            let image = UIImage.gif(data: data)
+            DispatchQueue.main.async {
+                self.image = image
+            }
+        }
+    }
+    
+    public func loadGif(url: String) {
+        DispatchQueue.global().async {
+            let image = UIImage.gif(url: url)
+            DispatchQueue.main.async {
+                self.image = image
+            }
+        }
+    }
+
 }
 
 extension UIImage {

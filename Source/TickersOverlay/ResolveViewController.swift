@@ -78,7 +78,13 @@ class ResolveViewController: UIView {
             }
         }
         
-        loading.loadGif(name: "dots_loading")
+        let bundle = Bundle(for: type(of: self))
+        if let gifURL = bundle.url(forResource: "dots_loading", withExtension: "gif") {
+//            loading.loadGif(name: "dots_loading")
+            loading.loadGif(url: gifURL.absoluteString)
+        }else{
+            print("loading gif not found")
+        }
     }
     
 

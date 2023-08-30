@@ -10,19 +10,16 @@
 		074981757C9D9208AEC30988D92653AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		19B64FDAC0DCE5350FA2E963442C0A6E /* watch2earnSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9EABE850D08389F54EDFC5546EE0BD /* watch2earnSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C98662FB566921724A2B105D793DDA1 /* watch2earnSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD157D4E8746EAB551AD9C96D0132C /* watch2earnSDK-dummy.m */; };
-		283699512A5C4B8500AADB92 /* loose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 283699122A5C4B8500AADB92 /* loose_sound.mp3 */; };
-		283699522A5C4B8500AADB92 /* data-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 283699132A5C4B8500AADB92 /* data-reveal.mp3 */; };
-		283699532A5C4B8500AADB92 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 283699142A5C4B8500AADB92 /* success.mp3 */; };
-		283699542A5C4B8500AADB92 /* ProximaNova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283699162A5C4B8500AADB92 /* ProximaNova-Thin.otf */; };
-		283699552A5C4B8500AADB92 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283699172A5C4B8500AADB92 /* ProximaNova-Bold.otf */; };
-		283699562A5C4B8500AADB92 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283699182A5C4B8500AADB92 /* ProximaNova-Extrabold.otf */; };
-		283699572A5C4B8500AADB92 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283699192A5C4B8500AADB92 /* ProximaNova-Regular.otf */; };
-		283699582A5C4B8500AADB92 /* eatAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2836991B2A5C4B8500AADB92 /* eatAnimated.gif */; };
-		283699592A5C4B8500AADB92 /* side_ad_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 2836991C2A5C4B8500AADB92 /* side_ad_banner.png */; };
-		2836995A2A5C4B8500AADB92 /* earnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 2836991D2A5C4B8500AADB92 /* earnify.png */; };
-		2836995B2A5C4B8500AADB92 /* logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 2836991E2A5C4B8500AADB92 /* logo_big.png */; };
-		2836995C2A5C4B8500AADB92 /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 2836991F2A5C4B8500AADB92 /* eat.png */; };
-		2836995D2A5C4B8500AADB92 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 283699202A5C4B8500AADB92 /* image.png */; };
+		28318FED2A9F03E90040BAAF /* loose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE12A9F03E90040BAAF /* loose_sound.mp3 */; };
+		28318FEE2A9F03E90040BAAF /* data-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE22A9F03E90040BAAF /* data-reveal.mp3 */; };
+		28318FEF2A9F03E90040BAAF /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE32A9F03E90040BAAF /* success.mp3 */; };
+		28318FF02A9F03E90040BAAF /* ProximaNova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE52A9F03E90040BAAF /* ProximaNova-Thin.otf */; };
+		28318FF12A9F03E90040BAAF /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE62A9F03E90040BAAF /* ProximaNova-Bold.otf */; };
+		28318FF22A9F03E90040BAAF /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE72A9F03E90040BAAF /* ProximaNova-Extrabold.otf */; };
+		28318FF32A9F03E90040BAAF /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE82A9F03E90040BAAF /* ProximaNova-Regular.otf */; };
+		28318FF42A9F03E90040BAAF /* dots_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 28318FEA2A9F03E90040BAAF /* dots_loading.gif */; };
+		28318FF52A9F03E90040BAAF /* eatAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 28318FEB2A9F03E90040BAAF /* eatAnimated.gif */; };
+		28318FF62A9F03E90040BAAF /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 28318FEC2A9F03E90040BAAF /* image.png */; };
 		2836995E2A5C4B8500AADB92 /* W2EWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699222A5C4B8500AADB92 /* W2EWebSocket.swift */; };
 		2836995F2A5C4B8500AADB92 /* W2EDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699232A5C4B8500AADB92 /* W2EDataStore.swift */; };
 		283699602A5C4B8500AADB92 /* ResolveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699252A5C4B8500AADB92 /* ResolveViewController.xib */; };
@@ -84,19 +81,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		283699122A5C4B8500AADB92 /* loose_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loose_sound.mp3; sourceTree = "<group>"; };
-		283699132A5C4B8500AADB92 /* data-reveal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "data-reveal.mp3"; sourceTree = "<group>"; };
-		283699142A5C4B8500AADB92 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
-		283699162A5C4B8500AADB92 /* ProximaNova-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Thin.otf"; sourceTree = "<group>"; };
-		283699172A5C4B8500AADB92 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
-		283699182A5C4B8500AADB92 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
-		283699192A5C4B8500AADB92 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
-		2836991B2A5C4B8500AADB92 /* eatAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eatAnimated.gif; sourceTree = "<group>"; };
-		2836991C2A5C4B8500AADB92 /* side_ad_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side_ad_banner.png; sourceTree = "<group>"; };
-		2836991D2A5C4B8500AADB92 /* earnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earnify.png; sourceTree = "<group>"; };
-		2836991E2A5C4B8500AADB92 /* logo_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_big.png; sourceTree = "<group>"; };
-		2836991F2A5C4B8500AADB92 /* eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat.png; sourceTree = "<group>"; };
-		283699202A5C4B8500AADB92 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		28318FE12A9F03E90040BAAF /* loose_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loose_sound.mp3; sourceTree = "<group>"; };
+		28318FE22A9F03E90040BAAF /* data-reveal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "data-reveal.mp3"; sourceTree = "<group>"; };
+		28318FE32A9F03E90040BAAF /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		28318FE52A9F03E90040BAAF /* ProximaNova-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Thin.otf"; sourceTree = "<group>"; };
+		28318FE62A9F03E90040BAAF /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		28318FE72A9F03E90040BAAF /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
+		28318FE82A9F03E90040BAAF /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		28318FEA2A9F03E90040BAAF /* dots_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dots_loading.gif; sourceTree = "<group>"; };
+		28318FEB2A9F03E90040BAAF /* eatAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eatAnimated.gif; sourceTree = "<group>"; };
+		28318FEC2A9F03E90040BAAF /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		283699222A5C4B8500AADB92 /* W2EWebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EWebSocket.swift; sourceTree = "<group>"; };
 		283699232A5C4B8500AADB92 /* W2EDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EDataStore.swift; sourceTree = "<group>"; };
 		283699252A5C4B8500AADB92 /* ResolveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResolveViewController.xib; sourceTree = "<group>"; };
@@ -194,46 +188,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		283699102A5C4B8500AADB92 /* Resources */ = {
+		28318FDF2A9F03E90040BAAF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				283699112A5C4B8500AADB92 /* audioFiles */,
-				283699152A5C4B8500AADB92 /* customFonts */,
-				2836991A2A5C4B8500AADB92 /* mediaFiles */,
+				28318FE02A9F03E90040BAAF /* audioFiles */,
+				28318FE42A9F03E90040BAAF /* customFonts */,
+				28318FE92A9F03E90040BAAF /* mediaFiles */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		283699112A5C4B8500AADB92 /* audioFiles */ = {
+		28318FE02A9F03E90040BAAF /* audioFiles */ = {
 			isa = PBXGroup;
 			children = (
-				283699122A5C4B8500AADB92 /* loose_sound.mp3 */,
-				283699132A5C4B8500AADB92 /* data-reveal.mp3 */,
-				283699142A5C4B8500AADB92 /* success.mp3 */,
+				28318FE12A9F03E90040BAAF /* loose_sound.mp3 */,
+				28318FE22A9F03E90040BAAF /* data-reveal.mp3 */,
+				28318FE32A9F03E90040BAAF /* success.mp3 */,
 			);
 			path = audioFiles;
 			sourceTree = "<group>";
 		};
-		283699152A5C4B8500AADB92 /* customFonts */ = {
+		28318FE42A9F03E90040BAAF /* customFonts */ = {
 			isa = PBXGroup;
 			children = (
-				283699162A5C4B8500AADB92 /* ProximaNova-Thin.otf */,
-				283699172A5C4B8500AADB92 /* ProximaNova-Bold.otf */,
-				283699182A5C4B8500AADB92 /* ProximaNova-Extrabold.otf */,
-				283699192A5C4B8500AADB92 /* ProximaNova-Regular.otf */,
+				28318FE52A9F03E90040BAAF /* ProximaNova-Thin.otf */,
+				28318FE62A9F03E90040BAAF /* ProximaNova-Bold.otf */,
+				28318FE72A9F03E90040BAAF /* ProximaNova-Extrabold.otf */,
+				28318FE82A9F03E90040BAAF /* ProximaNova-Regular.otf */,
 			);
 			path = customFonts;
 			sourceTree = "<group>";
 		};
-		2836991A2A5C4B8500AADB92 /* mediaFiles */ = {
+		28318FE92A9F03E90040BAAF /* mediaFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2836991B2A5C4B8500AADB92 /* eatAnimated.gif */,
-				2836991C2A5C4B8500AADB92 /* side_ad_banner.png */,
-				2836991D2A5C4B8500AADB92 /* earnify.png */,
-				2836991E2A5C4B8500AADB92 /* logo_big.png */,
-				2836991F2A5C4B8500AADB92 /* eat.png */,
-				283699202A5C4B8500AADB92 /* image.png */,
+				28318FEA2A9F03E90040BAAF /* dots_loading.gif */,
+				28318FEB2A9F03E90040BAAF /* eatAnimated.gif */,
+				28318FEC2A9F03E90040BAAF /* image.png */,
 			);
 			path = mediaFiles;
 			sourceTree = "<group>";
@@ -379,6 +370,7 @@
 		28E265242A5C032B0040EF21 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				28318FDF2A9F03E90040BAAF /* Resources */,
 				283699852A5D131600AADB92 /* APIHandler */,
 				283699352A5C4B8500AADB92 /* CacheStorage */,
 				283699332A5C4B8500AADB92 /* ChannelWalletHandler */,
@@ -388,7 +380,6 @@
 				283699432A5C4B8500AADB92 /* MessagesHandler */,
 				283699312A5C4B8500AADB92 /* Reachability */,
 				283699372A5C4B8500AADB92 /* RemoteService */,
-				283699102A5C4B8500AADB92 /* Resources */,
 				2836993E2A5C4B8500AADB92 /* Settings */,
 				283699212A5C4B8500AADB92 /* SocketService */,
 				2836993B2A5C4B8500AADB92 /* StakingService */,
@@ -666,26 +657,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2836995C2A5C4B8500AADB92 /* eat.png in Resources */,
-				283699592A5C4B8500AADB92 /* side_ad_banner.png in Resources */,
-				283699582A5C4B8500AADB92 /* eatAnimated.gif in Resources */,
-				283699512A5C4B8500AADB92 /* loose_sound.mp3 in Resources */,
-				283699572A5C4B8500AADB92 /* ProximaNova-Regular.otf in Resources */,
-				2836995D2A5C4B8500AADB92 /* image.png in Resources */,
+				28318FF52A9F03E90040BAAF /* eatAnimated.gif in Resources */,
 				283699732A5C4B8600AADB92 /* SettingsViewController.storyboard in Resources */,
+				28318FF32A9F03E90040BAAF /* ProximaNova-Regular.otf in Resources */,
+				28318FF42A9F03E90040BAAF /* dots_loading.gif in Resources */,
+				28318FEE2A9F03E90040BAAF /* data-reveal.mp3 in Resources */,
+				28318FEF2A9F03E90040BAAF /* success.mp3 in Resources */,
 				283699792A5C4B8600AADB92 /* PopupViewController.xib in Resources */,
-				283699532A5C4B8500AADB92 /* success.mp3 in Resources */,
-				2836995B2A5C4B8500AADB92 /* logo_big.png in Resources */,
+				28318FF22A9F03E90040BAAF /* ProximaNova-Extrabold.otf in Resources */,
 				283699652A5C4B8500AADB92 /* PollViewController.xib in Resources */,
-				283699522A5C4B8500AADB92 /* data-reveal.mp3 in Resources */,
-				283699542A5C4B8500AADB92 /* ProximaNova-Thin.otf in Resources */,
-				283699562A5C4B8500AADB92 /* ProximaNova-Extrabold.otf in Resources */,
+				28318FF62A9F03E90040BAAF /* image.png in Resources */,
 				283699632A5C4B8500AADB92 /* PlayerOverlayViews.xib in Resources */,
-				2836995A2A5C4B8500AADB92 /* earnify.png in Resources */,
 				283699642A5C4B8500AADB92 /* WagerViewController.xib in Resources */,
-				283699552A5C4B8500AADB92 /* ProximaNova-Bold.otf in Resources */,
 				283699602A5C4B8500AADB92 /* ResolveViewController.xib in Resources */,
+				28318FF02A9F03E90040BAAF /* ProximaNova-Thin.otf in Resources */,
+				28318FF12A9F03E90040BAAF /* ProximaNova-Bold.otf in Resources */,
 				283699682A5C4B8600AADB92 /* GamificationViewController.xib in Resources */,
+				28318FED2A9F03E90040BAAF /* loose_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -248,7 +248,8 @@ public class GamificationViewController: UIViewController {
         }
     
     func playSound(sound: String){
-        if let soundURL = Bundle.main.url(forResource: sound, withExtension: "mp3") {
+        let frameworkBundle = Bundle(for: GamificationViewController.self)
+        if let soundURL = frameworkBundle.url(forResource: sound, withExtension: "mp3") {
                 do {
                     print("attemp to Load sound")
                     audioPlayer = try AVAudioPlayer(contentsOf: soundURL)

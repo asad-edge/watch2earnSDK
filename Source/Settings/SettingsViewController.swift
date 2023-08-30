@@ -74,7 +74,14 @@ public class SettingsViewController: UIViewController {
                         self.w2eStatus.textColor = UIColor.green
 
                 }
-                eatGif.loadGif(name: "eatAnimated")
+        let bundle = Bundle(for: type(of: self))
+        if let gifURL = bundle.url(forResource: "eatAnimated", withExtension: "gif") {
+//          eatGif.loadGif(name: "eatAnimated")
+            eatGif.loadGif(url: gifURL.absoluteString)
+        }else{
+            print("loading gif not found")
+        }
+
                 if W2EManager.w2eSdk.isWalletCached(){
                     if W2EManager.w2eSdk.getWallet().private.isEmpty{
         //                self.heading_1.text = "Your app has been connected with wallet address:";

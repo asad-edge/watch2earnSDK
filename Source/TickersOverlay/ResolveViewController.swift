@@ -71,8 +71,19 @@ class ResolveViewController: UIView {
                 results.text = "Wrong"
                 results.textColor = .systemRed
                 results.isHidden = false
-                print("correct ans: ",poll.choices[poll.correct!.first!] )
-                right_ans.text = poll.choices[poll.correct!.first!]
+                
+                if let correctIndices = poll.correct {
+                    // Check if the correctIndices array is not empty and the first index is within bounds
+                    if !correctIndices.isEmpty, correctIndices[0] < poll.choices.count, correctIndices[0] >= 0 {
+                        let correctChoice = poll.choices[correctIndices[0]]
+                        print("correct ans: ",correctChoice )
+                        right_ans.text = correctChoice
+                    } else {
+                        print("No correct choice or index out of range")
+                    }
+                } else {
+                    print("No correct choice specified")
+                }
                 right_ans.adjustFontSizeToFitWidth()
                 right_ans.isHidden = false
             }

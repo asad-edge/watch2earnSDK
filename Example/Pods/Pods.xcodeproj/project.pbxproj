@@ -7,173 +7,197 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		074981757C9D9208AEC30988D92653AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		19B64FDAC0DCE5350FA2E963442C0A6E /* watch2earnSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9EABE850D08389F54EDFC5546EE0BD /* watch2earnSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C98662FB566921724A2B105D793DDA1 /* watch2earnSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD157D4E8746EAB551AD9C96D0132C /* watch2earnSDK-dummy.m */; };
-		28318FED2A9F03E90040BAAF /* loose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE12A9F03E90040BAAF /* loose_sound.mp3 */; };
-		28318FEE2A9F03E90040BAAF /* data-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE22A9F03E90040BAAF /* data-reveal.mp3 */; };
-		28318FEF2A9F03E90040BAAF /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE32A9F03E90040BAAF /* success.mp3 */; };
-		28318FF02A9F03E90040BAAF /* ProximaNova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE52A9F03E90040BAAF /* ProximaNova-Thin.otf */; };
-		28318FF12A9F03E90040BAAF /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE62A9F03E90040BAAF /* ProximaNova-Bold.otf */; };
-		28318FF22A9F03E90040BAAF /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE72A9F03E90040BAAF /* ProximaNova-Extrabold.otf */; };
-		28318FF32A9F03E90040BAAF /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28318FE82A9F03E90040BAAF /* ProximaNova-Regular.otf */; };
-		28318FF42A9F03E90040BAAF /* dots_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 28318FEA2A9F03E90040BAAF /* dots_loading.gif */; };
-		28318FF52A9F03E90040BAAF /* eatAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 28318FEB2A9F03E90040BAAF /* eatAnimated.gif */; };
-		28318FF62A9F03E90040BAAF /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 28318FEC2A9F03E90040BAAF /* image.png */; };
-		2836995E2A5C4B8500AADB92 /* W2EWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699222A5C4B8500AADB92 /* W2EWebSocket.swift */; };
-		2836995F2A5C4B8500AADB92 /* W2EDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699232A5C4B8500AADB92 /* W2EDataStore.swift */; };
-		283699602A5C4B8500AADB92 /* ResolveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699252A5C4B8500AADB92 /* ResolveViewController.xib */; };
-		283699612A5C4B8500AADB92 /* GamificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699262A5C4B8500AADB92 /* GamificationViewController.swift */; };
-		283699622A5C4B8500AADB92 /* ResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699272A5C4B8500AADB92 /* ResolveViewController.swift */; };
-		283699632A5C4B8500AADB92 /* PlayerOverlayViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699282A5C4B8500AADB92 /* PlayerOverlayViews.xib */; };
-		283699642A5C4B8500AADB92 /* WagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699292A5C4B8500AADB92 /* WagerViewController.xib */; };
-		283699652A5C4B8500AADB92 /* PollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2836992A2A5C4B8500AADB92 /* PollViewController.xib */; };
-		283699662A5C4B8500AADB92 /* PollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836992B2A5C4B8500AADB92 /* PollViewController.swift */; };
-		283699672A5C4B8600AADB92 /* PlayerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836992C2A5C4B8500AADB92 /* PlayerOverlayView.swift */; };
-		283699682A5C4B8600AADB92 /* GamificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2836992D2A5C4B8500AADB92 /* GamificationViewController.xib */; };
-		283699692A5C4B8600AADB92 /* WagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836992E2A5C4B8500AADB92 /* WagerViewController.swift */; };
-		2836996A2A5C4B8600AADB92 /* GamificationSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699302A5C4B8500AADB92 /* GamificationSocket.swift */; };
-		2836996B2A5C4B8600AADB92 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699322A5C4B8500AADB92 /* Reachability.swift */; };
-		2836996C2A5C4B8600AADB92 /* ChannelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699342A5C4B8500AADB92 /* ChannelHandler.swift */; };
-		2836996D2A5C4B8600AADB92 /* CacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699362A5C4B8500AADB92 /* CacheStorage.swift */; };
-		2836996E2A5C4B8600AADB92 /* RemoteSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699382A5C4B8500AADB92 /* RemoteSocketService.swift */; };
-		2836996F2A5C4B8600AADB92 /* QRcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699392A5C4B8500AADB92 /* QRcodeGenerator.swift */; };
-		283699702A5C4B8600AADB92 /* RemoteMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836993A2A5C4B8500AADB92 /* RemoteMessages.swift */; };
-		283699712A5C4B8600AADB92 /* StakingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836993C2A5C4B8500AADB92 /* StakingDataStore.swift */; };
-		283699722A5C4B8600AADB92 /* StakingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836993D2A5C4B8500AADB92 /* StakingClient.swift */; };
-		283699732A5C4B8600AADB92 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2836993F2A5C4B8500AADB92 /* SettingsViewController.storyboard */; };
-		283699742A5C4B8600AADB92 /* AnimateFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699402A5C4B8500AADB92 /* AnimateFigures.swift */; };
-		283699752A5C4B8600AADB92 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699412A5C4B8500AADB92 /* SettingsViewController.swift */; };
-		283699762A5C4B8600AADB92 /* EarnifySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699422A5C4B8500AADB92 /* EarnifySDK.swift */; };
-		283699772A5C4B8600AADB92 /* MessagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699442A5C4B8500AADB92 /* MessagesHandler.swift */; };
-		283699782A5C4B8600AADB92 /* TickersClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699462A5C4B8500AADB92 /* TickersClient.swift */; };
-		283699792A5C4B8600AADB92 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283699482A5C4B8500AADB92 /* PopupViewController.xib */; };
-		2836997A2A5C4B8600AADB92 /* PopupPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699492A5C4B8500AADB92 /* PopupPlayerView.swift */; };
-		2836997B2A5C4B8600AADB92 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994A2A5C4B8500AADB92 /* PopupViewController.swift */; };
-		2836997C2A5C4B8600AADB92 /* SkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994B2A5C4B8500AADB92 /* SkipViewController.swift */; };
-		2836997D2A5C4B8600AADB92 /* W2EManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994C2A5C4B8500AADB92 /* W2EManager.swift */; };
-		2836997E2A5C4B8600AADB92 /* GifHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2836994E2A5C4B8500AADB92 /* GifHandler.swift */; };
-		2836997F2A5C4B8600AADB92 /* WalletHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699502A5C4B8500AADB92 /* WalletHandler.swift */; };
-		283699872A5D132600AADB92 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283699862A5D132600AADB92 /* APIHandler.swift */; };
+		041B6B2CBCE5DDA62F0ECBD59E8C22EC /* dots_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 740FCE856B44EB28E0ACAF246D0B4888 /* dots_loading.gif */; };
+		08D81B8BEBE5A293FA61971D00E58419 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = D95C2BD03FC66C2A46657E5C45BDAA19 /* image.png */; };
+		0FD4B63767B89E274A47B500F13636F2 /* StakingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E120AED951304E2E37742B79848E96 /* StakingDataStore.swift */; };
+		1803FACE2F6221613E0DB484DED70122 /* GamificationSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C03ECBAA90806A3BD41DA4154A3CC21 /* GamificationSocket.swift */; };
+		1845C29CA319F96C94A4A4F2F295B9F6 /* GamificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A2CECFED50CB2C6D0413A471C0934 /* GamificationViewController.swift */; };
+		208CAAB00A2FEE436F0E8467227591D8 /* PopupPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E3983E6D5DF79B183FD0728BE45F3 /* PopupPlayerView.swift */; };
+		25A691C9F323994E7AE92D5D8C6E38FD /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0F20D3D2956DB5573C877F1E118FF4D /* ProximaNova-Regular.otf */; };
+		287423462AB9A85A0086E1EF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2874233A2AB9A85A0086E1EF /* LICENSE */; };
+		287423472AB9A85A0086E1EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2874233B2AB9A85A0086E1EF /* README.md */; };
+		287423482AB9A85A0086E1EF /* FlagStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874233F2AB9A85A0086E1EF /* FlagStyle.swift */; };
+		287423492AB9A85A0086E1EF /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287423402AB9A85A0086E1EF /* NSImage.swift */; };
+		2874234A2AB9A85A0086E1EF /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287423412AB9A85A0086E1EF /* UIImage.swift */; };
+		2874234B2AB9A85A0086E1EF /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287423422AB9A85A0086E1EF /* FlagKit.swift */; };
+		2874234C2AB9A85A0086E1EF /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287423432AB9A85A0086E1EF /* Flag.swift */; };
+		2874234D2AB9A85A0086E1EF /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287423452AB9A85A0086E1EF /* FlagKit.xcassets */; };
+		287423502AB9B06D0086E1EF /* LeaderboardApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874234F2AB9B06D0086E1EF /* LeaderboardApiData.swift */; };
+		287423512AB9B3630086E1EF /* LeaderboardApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874234F2AB9B06D0086E1EF /* LeaderboardApiData.swift */; };
+		287423522AB9B3BE0086E1EF /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C135168A637D5B86E1A5B42447D137C /* APIHandler.swift */; };
+		28929B3FAFFEB6927215FCD87A4212C2 /* PlayerOverlayViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED45A562F71F7EEF44769D97CA78BF2 /* PlayerOverlayViews.xib */; };
 		2F2DCC4D9C89780BB166ED981D0D5614 /* Pods-watch2earnSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66030450F500F256E06949FF29C69EF9 /* Pods-watch2earnSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		835B1AA190F460DA50FC7386DD1C6184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		30E6E1AACD714F2F5264D9D0B76CF6C0 /* W2EWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3FA20684BB02060F702DEAB146928 /* W2EWebSocket.swift */; };
+		3618FFAC7FD1B4F21258D03BEF6019AF /* GifHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4564599FC71A292A0254680340A740E /* GifHandler.swift */; };
+		3825B30F74657E9B69E7434926F98A1E /* WalletHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC4C50BDD359D6BDB7C5BE4D4DAF28 /* WalletHandler.swift */; };
+		39F07FCDA0B5B455FE8555A0F31A7D04 /* leaderboard_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEAEBA237B77532A6A5E34DFC334FE8 /* leaderboard_bg.png */; };
+		3C57EEA1E3922A7B40293516BD6925A5 /* PlayerBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D658772FAD4148D6EEF76B3CF420270F /* PlayerBarViewController.xib */; };
+		4BB9807E177D33FA48A783D26A798B6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */; };
+		50EF333722AAEBAFF103A853537B7572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */; };
+		52333F2E42D4BA171E4AF4120CE3128C /* ResolveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8976D8A3739C404F81B218B451999E0F /* ResolveViewController.xib */; };
+		552FD4D55E8010E7CACDACA83A15DD13 /* MessagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A192F125298F37DC73C1F352EA543BF /* MessagesHandler.swift */; };
+		5BB0B25D1080B7B740C3C079808976EA /* StakingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E9BE3E62D608B056F3E8992212E41 /* StakingClient.swift */; };
+		5C3CF1A5693504817EE0E0716C35F373 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C135168A637D5B86E1A5B42447D137C /* APIHandler.swift */; };
+		5EA40A478BA5464E2A9F141DB9536EA1 /* GamificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20AAB2989BBAC8CD43F0AE3891F30F43 /* GamificationViewController.xib */; };
+		61FF331E8C3641033ACB6BC2CDE76036 /* ResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A13E0B75BE3E5547C7610202F4D59A /* ResolveViewController.swift */; };
+		62E3BC4F5B59AB1ACC022B81B022D669 /* PollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDC6B0C9C1C58017EE7CFB3BAB96AD0 /* PollViewController.xib */; };
+		643CD2486A153DA74C19ACD67356F61F /* RemoteMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CC8E2407EC02ADB45930617B73AE82 /* RemoteMessages.swift */; };
+		64983E4DB81CF0321695297FEF58F733 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DE52EE0A1FB2924578272ADD9C9333 /* Reachability.swift */; };
+		6569C5FA2D79DE2DF090DD8EC5DB7966 /* EarnifySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC5ABA426EF558D141318B266D956D4 /* EarnifySDK.swift */; };
+		683C3FB593D0C6940964BABB2D65F886 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69488FEAC09926DF7E9F9FDD4C62A61 /* SettingsViewController.storyboard */; };
+		73DF5CFC2967C02FFE8E2ADD3A31C0CB /* PlayerBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B68F295CB16AF4B25DF759777BE5A7 /* PlayerBarViewController.swift */; };
+		796118A8FBC4BEFE6272EB949A209E99 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A209650C75CDD023B24A384A6B466 /* LeaderboardViewController.swift */; };
+		796E0661D31CDE08FC26FB6FA907FB4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */; };
+		8007067481CF32EE26056643F131CC8C /* RemoteSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71FD915E5777274E72ADC27FBED92C2 /* RemoteSocketService.swift */; };
+		81364A2FFD510DAB9D9ADF451436227D /* ChannelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBD559132FE1D8BB904922368C532E /* ChannelHandler.swift */; };
+		865668886713FAC334F1D7FB0D90367A /* AnimateFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68923F1F88D97C3E201142FC2F6F34 /* AnimateFigures.swift */; };
+		885799DA6B4B15D40408DF5602A16B0B /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4A3C9D770DBDCCFFAD050B6853A3F5 /* ProximaNova-Extrabold.otf */; };
+		8A2F98F31E30E5ADE4016E0E3FCFF7FA /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8843BB1D9859919AB0CF624F6C2231C1 /* PopupViewController.swift */; };
+		91E0B96849D8E144A3A1A5E7C7F71F55 /* PollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD79C3D9933BFA358B133CAB462B72B /* PollViewController.swift */; };
+		92023965F8D70A89291719567B2B22EF /* edge_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B539D2304A35920E36BCAD54DB0EC22 /* edge_logo.png */; };
+		9E2AC69989A400D601F0B8B3EBDD6C46 /* WagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8EA4B63B117807FA4451B6E55FF8 /* WagerViewController.swift */; };
+		9EFC3A73145FB8E811ABE895EEC8D758 /* eatAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 952E1621FC9A19CFCEBB75CB8387BA3C /* eatAnimated.gif */; };
+		A23AB0949E7C03DE0A839965ED19973D /* watch2earnSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C046CDE30CD519213B671BBAEE74BA8 /* watch2earnSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39C7BED22F08DAF9327A4194F9AB65E /* watch2earnSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 305DAD62FDE8032014F292E67D53CFEE /* watch2earnSDK-dummy.m */; };
+		AAB0E904B3AD701E77B6DAF9E85E15F5 /* data-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5FE1A9AA57341C96024BCB290E90ACE /* data-reveal.mp3 */; };
+		AB72022635D2C1AC82D9E90558208AEF /* PlayerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFE1313A8AECDFA2A2BA207987E266 /* PlayerOverlayView.swift */; };
+		B21B5A06A8C9EC2C1E05B484497C14D8 /* QRcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFFCF171C6B6F096DEF302AC97035E /* QRcodeGenerator.swift */; };
+		BE6F21523ADE0A8E66C1CD0D56431B11 /* SkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC3335B13C00345A19838FFD51A37EE /* SkipViewController.swift */; };
+		BFD65355CEEF46C98CA6FF8F2FCAC784 /* TickersClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FD7C0DD741AAB701E1BCE95B3FE4A /* TickersClient.swift */; };
+		CAA3DB53C7DC5718191BE853AEA2A6C7 /* LeaderboardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2906845AB9FF122E738ADBC59F947E84 /* LeaderboardViewController.storyboard */; };
+		D05CD6580337BACDB0A8FE0FCE96BE8E /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3CCAB0923E91980636C197E901211E2 /* success.mp3 */; };
+		DDAADE47C5BD5B8091C12859C50A21CC /* W2EDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E86E34A91ADA73BE86DEC773F346D3 /* W2EDataStore.swift */; };
+		DFDD2C6B3A4C65882FBFBE41843DE1B7 /* WagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 898BDDC2D9EB625C9BCE09878425E6C8 /* WagerViewController.xib */; };
 		E789948301EA85C43F4F5D91CF1F147D /* Pods-watch2earnSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4867E4D7714D32A9649AEEF54AE1F88E /* Pods-watch2earnSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7AFEC49D47A51BC46E406349B3BD20B /* Pods-watch2earnSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A57B8284069780A3F4173DCE3E3FFE /* Pods-watch2earnSDK_Example-dummy.m */; };
+		E8C72A74E30CB5D8C86D5670B0708C63 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AA3EC85CEE6AEF8204F077E4B9FA1 /* SettingsViewController.swift */; };
+		EA4033FCE86F0CCC1E570DCEFDFF4F96 /* ProximaNova-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1953144276E7962C3B623EF4C19A504 /* ProximaNova-Thin.otf */; };
 		EE43585FBF05929F1022BC67F59610B8 /* Pods-watch2earnSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B93FF62BDCF8B27A00E6E4A6A1594FE /* Pods-watch2earnSDK_Tests-dummy.m */; };
-		F749D4343314F9E3DAADF442BBC3E632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F1B9DFD23C6F7CF1C64EF7739FEE71FB /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4169CF6C89C530AD4E533D4BFBF6CA5 /* PopupViewController.xib */; };
+		F268E9FDCF6708887BD443ACC0F52829 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F815EFCD53130EEC74DFD6827649C3D /* ProximaNova-Bold.otf */; };
+		F605BD30DBDBB81DCE865A2A6C7AAF2F /* CacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB89E9D7D46D937512B517DFDA9450A /* CacheStorage.swift */; };
+		F70D50000E3E898B380489B1FAE7B4E7 /* loose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBA6E3AE14248E101FC412D455C792BD /* loose_sound.mp3 */; };
+		F7A6471CB6A052898E2139D3249ADDB9 /* W2EManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3A3B1989FE142B233C69510E2D415 /* W2EManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E56BCCD26BF879FF75FE6BA9E6C5EA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B264181AA880DA499EA5B31F348BE586;
-			remoteInfo = "Pods-watch2earnSDK_Example";
-		};
-		F7776ACDA2C3CC86BD20B2BF8041DFB0 /* PBXContainerItemProxy */ = {
+		372A3B4CB8C81B9FE66585C013294F15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4FA80E9BBD90F30C3A513CDB36999737;
 			remoteInfo = watch2earnSDK;
 		};
+		777687E4847438048FB5D6000852FB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B264181AA880DA499EA5B31F348BE586;
+			remoteInfo = "Pods-watch2earnSDK_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28318FE12A9F03E90040BAAF /* loose_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loose_sound.mp3; sourceTree = "<group>"; };
-		28318FE22A9F03E90040BAAF /* data-reveal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "data-reveal.mp3"; sourceTree = "<group>"; };
-		28318FE32A9F03E90040BAAF /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
-		28318FE52A9F03E90040BAAF /* ProximaNova-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Thin.otf"; sourceTree = "<group>"; };
-		28318FE62A9F03E90040BAAF /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
-		28318FE72A9F03E90040BAAF /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
-		28318FE82A9F03E90040BAAF /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
-		28318FEA2A9F03E90040BAAF /* dots_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dots_loading.gif; sourceTree = "<group>"; };
-		28318FEB2A9F03E90040BAAF /* eatAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eatAnimated.gif; sourceTree = "<group>"; };
-		28318FEC2A9F03E90040BAAF /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
-		283699222A5C4B8500AADB92 /* W2EWebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EWebSocket.swift; sourceTree = "<group>"; };
-		283699232A5C4B8500AADB92 /* W2EDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EDataStore.swift; sourceTree = "<group>"; };
-		283699252A5C4B8500AADB92 /* ResolveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResolveViewController.xib; sourceTree = "<group>"; };
-		283699262A5C4B8500AADB92 /* GamificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamificationViewController.swift; sourceTree = "<group>"; };
-		283699272A5C4B8500AADB92 /* ResolveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResolveViewController.swift; sourceTree = "<group>"; };
-		283699282A5C4B8500AADB92 /* PlayerOverlayViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerOverlayViews.xib; sourceTree = "<group>"; };
-		283699292A5C4B8500AADB92 /* WagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WagerViewController.xib; sourceTree = "<group>"; };
-		2836992A2A5C4B8500AADB92 /* PollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PollViewController.xib; sourceTree = "<group>"; };
-		2836992B2A5C4B8500AADB92 /* PollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollViewController.swift; sourceTree = "<group>"; };
-		2836992C2A5C4B8500AADB92 /* PlayerOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerOverlayView.swift; sourceTree = "<group>"; };
-		2836992D2A5C4B8500AADB92 /* GamificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamificationViewController.xib; sourceTree = "<group>"; };
-		2836992E2A5C4B8500AADB92 /* WagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WagerViewController.swift; sourceTree = "<group>"; };
-		283699302A5C4B8500AADB92 /* GamificationSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamificationSocket.swift; sourceTree = "<group>"; };
-		283699322A5C4B8500AADB92 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		283699342A5C4B8500AADB92 /* ChannelHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelHandler.swift; sourceTree = "<group>"; };
-		283699362A5C4B8500AADB92 /* CacheStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheStorage.swift; sourceTree = "<group>"; };
-		283699382A5C4B8500AADB92 /* RemoteSocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteSocketService.swift; sourceTree = "<group>"; };
-		283699392A5C4B8500AADB92 /* QRcodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeGenerator.swift; sourceTree = "<group>"; };
-		2836993A2A5C4B8500AADB92 /* RemoteMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteMessages.swift; sourceTree = "<group>"; };
-		2836993C2A5C4B8500AADB92 /* StakingDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StakingDataStore.swift; sourceTree = "<group>"; };
-		2836993D2A5C4B8500AADB92 /* StakingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StakingClient.swift; sourceTree = "<group>"; };
-		2836993F2A5C4B8500AADB92 /* SettingsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
-		283699402A5C4B8500AADB92 /* AnimateFigures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateFigures.swift; sourceTree = "<group>"; };
-		283699412A5C4B8500AADB92 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		283699422A5C4B8500AADB92 /* EarnifySDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarnifySDK.swift; sourceTree = "<group>"; };
-		283699442A5C4B8500AADB92 /* MessagesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesHandler.swift; sourceTree = "<group>"; };
-		283699462A5C4B8500AADB92 /* TickersClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickersClient.swift; sourceTree = "<group>"; };
-		283699482A5C4B8500AADB92 /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
-		283699492A5C4B8500AADB92 /* PopupPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPlayerView.swift; sourceTree = "<group>"; };
-		2836994A2A5C4B8500AADB92 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
-		2836994B2A5C4B8500AADB92 /* SkipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkipViewController.swift; sourceTree = "<group>"; };
-		2836994C2A5C4B8500AADB92 /* W2EManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = W2EManager.swift; sourceTree = "<group>"; };
-		2836994E2A5C4B8500AADB92 /* GifHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifHandler.swift; sourceTree = "<group>"; };
-		283699502A5C4B8500AADB92 /* WalletHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletHandler.swift; sourceTree = "<group>"; };
-		283699862A5D132600AADB92 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		03A13E0B75BE3E5547C7610202F4D59A /* ResolveViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResolveViewController.swift; sourceTree = "<group>"; };
+		06CC8E2407EC02ADB45930617B73AE82 /* RemoteMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteMessages.swift; sourceTree = "<group>"; };
+		0E2E3983E6D5DF79B183FD0728BE45F3 /* PopupPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopupPlayerView.swift; sourceTree = "<group>"; };
+		1F815EFCD53130EEC74DFD6827649C3D /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		20AAB2989BBAC8CD43F0AE3891F30F43 /* GamificationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GamificationViewController.xib; sourceTree = "<group>"; };
+		22D3FA20684BB02060F702DEAB146928 /* W2EWebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = W2EWebSocket.swift; sourceTree = "<group>"; };
+		22DE52EE0A1FB2924578272ADD9C9333 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		279E9BE3E62D608B056F3E8992212E41 /* StakingClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StakingClient.swift; sourceTree = "<group>"; };
+		2874233A2AB9A85A0086E1EF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2874233B2AB9A85A0086E1EF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2874233F2AB9A85A0086E1EF /* FlagStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagStyle.swift; sourceTree = "<group>"; };
+		287423402AB9A85A0086E1EF /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		287423412AB9A85A0086E1EF /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		287423422AB9A85A0086E1EF /* FlagKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagKit.swift; sourceTree = "<group>"; };
+		287423432AB9A85A0086E1EF /* Flag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
+		287423452AB9A85A0086E1EF /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = "<group>"; };
+		2874234F2AB9B06D0086E1EF /* LeaderboardApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardApiData.swift; sourceTree = "<group>"; };
+		2906845AB9FF122E738ADBC59F947E84 /* LeaderboardViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LeaderboardViewController.storyboard; sourceTree = "<group>"; };
 		2B93FF62BDCF8B27A00E6E4A6A1594FE /* Pods-watch2earnSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watch2earnSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		2D9EABE850D08389F54EDFC5546EE0BD /* watch2earnSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "watch2earnSDK-umbrella.h"; sourceTree = "<group>"; };
+		2C135168A637D5B86E1A5B42447D137C /* APIHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		2EC076E065F899E485722A7C37C073FB /* Pods-watch2earnSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watch2earnSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		2ED45A562F71F7EEF44769D97CA78BF2 /* PlayerOverlayViews.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PlayerOverlayViews.xib; sourceTree = "<group>"; };
+		305DAD62FDE8032014F292E67D53CFEE /* watch2earnSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "watch2earnSDK-dummy.m"; sourceTree = "<group>"; };
+		31C06D0AA31F4DED42BB589B76F1B6E4 /* watch2earnSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = watch2earnSDK.debug.xcconfig; sourceTree = "<group>"; };
+		31FB8EA4B63B117807FA4451B6E55FF8 /* WagerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WagerViewController.swift; sourceTree = "<group>"; };
 		33D2DE510F63F2611A0D83E393FAD122 /* Pods-watch2earnSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-watch2earnSDK_Example.modulemap"; sourceTree = "<group>"; };
-		3AC161255D5C160C11CAEC4D8AE4287F /* watch2earnSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "watch2earnSDK-Info.plist"; sourceTree = "<group>"; };
-		4580389E00721FAD0E74E5C5571CF4CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		38E120AED951304E2E37742B79848E96 /* StakingDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StakingDataStore.swift; sourceTree = "<group>"; };
+		3D42B3ADBB8DBCAB0B98B0FC1C0AC2E8 /* watch2earnSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = watch2earnSDK.release.xcconfig; sourceTree = "<group>"; };
+		3EBFE1313A8AECDFA2A2BA207987E266 /* PlayerOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayerOverlayView.swift; sourceTree = "<group>"; };
+		41B6C59EEE05ED4A68AF013FF81B6262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4867E4D7714D32A9649AEEF54AE1F88E /* Pods-watch2earnSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watch2earnSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4CBD157D4E8746EAB551AD9C96D0132C /* watch2earnSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "watch2earnSDK-dummy.m"; sourceTree = "<group>"; };
-		4CDBF969BC4BF48976E41AF11A0DC93E /* watch2earnSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "watch2earnSDK-prefix.pch"; sourceTree = "<group>"; };
+		4DDC6B0C9C1C58017EE7CFB3BAB96AD0 /* PollViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PollViewController.xib; sourceTree = "<group>"; };
+		52E86E34A91ADA73BE86DEC773F346D3 /* W2EDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = W2EDataStore.swift; sourceTree = "<group>"; };
 		557159F9FD26C3F4C40E8256ED1B78CA /* Pods-watch2earnSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watch2earnSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		60978388B81EA6C4626D0F49CA5FC514 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5B539D2304A35920E36BCAD54DB0EC22 /* edge_logo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = edge_logo.png; sourceTree = "<group>"; };
+		627AA3EC85CEE6AEF8204F077E4B9FA1 /* SettingsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		66030450F500F256E06949FF29C69EF9 /* Pods-watch2earnSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watch2earnSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C03ECBAA90806A3BD41DA4154A3CC21 /* GamificationSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GamificationSocket.swift; sourceTree = "<group>"; };
 		73A57B8284069780A3F4173DCE3E3FFE /* Pods-watch2earnSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watch2earnSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		73FB91900C229904E7CB473F07075780 /* watch2earnSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = watch2earnSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FB91900C229904E7CB473F07075780 /* watch2earnSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = watch2earnSDK; path = watch2earnSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740FCE856B44EB28E0ACAF246D0B4888 /* dots_loading.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = dots_loading.gif; sourceTree = "<group>"; };
+		86EBD559132FE1D8BB904922368C532E /* ChannelHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelHandler.swift; sourceTree = "<group>"; };
+		8843BB1D9859919AB0CF624F6C2231C1 /* PopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		8976D8A3739C404F81B218B451999E0F /* ResolveViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ResolveViewController.xib; sourceTree = "<group>"; };
+		898BDDC2D9EB625C9BCE09878425E6C8 /* WagerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = WagerViewController.xib; sourceTree = "<group>"; };
+		8A4A3C9D770DBDCCFFAD050B6853A3F5 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
+		8AC3335B13C00345A19838FFD51A37EE /* SkipViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkipViewController.swift; sourceTree = "<group>"; };
+		913C4DBD4C622BE832F2A34CF938659B /* watch2earnSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = watch2earnSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952E1621FC9A19CFCEBB75CB8387BA3C /* eatAnimated.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = eatAnimated.gif; sourceTree = "<group>"; };
+		9783DC6DF84F91D0DDF2B4B0DE7D9D9F /* watch2earnSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = watch2earnSDK.modulemap; sourceTree = "<group>"; };
+		997A2CECFED50CB2C6D0413A471C0934 /* GamificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GamificationViewController.swift; sourceTree = "<group>"; };
+		9A192F125298F37DC73C1F352EA543BF /* MessagesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessagesHandler.swift; sourceTree = "<group>"; };
+		9B7FD7C0DD741AAB701E1BCE95B3FE4A /* TickersClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TickersClient.swift; sourceTree = "<group>"; };
+		9C046CDE30CD519213B671BBAEE74BA8 /* watch2earnSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "watch2earnSDK-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A35E4F3E6A7B0878869A1B09AC71ED27 /* watch2earnSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = watch2earnSDK.modulemap; sourceTree = "<group>"; };
+		9DC5ABA426EF558D141318B266D956D4 /* EarnifySDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EarnifySDK.swift; path = Source/EarnifySDK.swift; sourceTree = "<group>"; };
+		A0F20D3D2956DB5573C877F1E118FF4D /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		A4564599FC71A292A0254680340A740E /* GifHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GifHandler.swift; sourceTree = "<group>"; };
 		A88B51725370ADDE7841008B3D6B2ADB /* Pods-watch2earnSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watch2earnSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		ABCCB0BDE56F11E1352CADC65447FE7A /* Pods-watch2earnSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watch2earnSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B4F3A3B1989FE142B233C69510E2D415 /* W2EManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = W2EManager.swift; path = Source/W2EManager.swift; sourceTree = "<group>"; };
+		B5FE1A9AA57341C96024BCB290E90ACE /* data-reveal.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = "data-reveal.mp3"; sourceTree = "<group>"; };
 		B690CF0D50460B3AAF3F5C5DC612C624 /* Pods-watch2earnSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-watch2earnSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B71FD915E5777274E72ADC27FBED92C2 /* RemoteSocketService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteSocketService.swift; sourceTree = "<group>"; };
+		BD1A209650C75CDD023B24A384A6B466 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		BFEAEBA237B77532A6A5E34DFC334FE8 /* leaderboard_bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = leaderboard_bg.png; sourceTree = "<group>"; };
 		C0D1D906198FEDC633C330BED84743DB /* Pods-watch2earnSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watch2earnSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C853AF5E4157A7428360BEE883DD2FB5 /* Pods-watch2earnSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watch2earnSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CABA5A378B0B23F395C645449D30D48E /* Pods-watch2earnSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watch2earnSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA6E3AE14248E101FC412D455C792BD /* loose_sound.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = loose_sound.mp3; sourceTree = "<group>"; };
+		CCBFFCF171C6B6F096DEF302AC97035E /* QRcodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QRcodeGenerator.swift; sourceTree = "<group>"; };
+		D658772FAD4148D6EEF76B3CF420270F /* PlayerBarViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PlayerBarViewController.xib; sourceTree = "<group>"; };
+		D69488FEAC09926DF7E9F9FDD4C62A61 /* SettingsViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
+		D95C2BD03FC66C2A46657E5C45BDAA19 /* image.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		DCD79C3D9933BFA358B133CAB462B72B /* PollViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PollViewController.swift; sourceTree = "<group>"; };
 		DD45DA0BAA52B7ACE29A0EF402DC54A6 /* Pods-watch2earnSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watch2earnSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DEAF0D3843F03F6DBD242D9F82FF8AF9 /* watch2earnSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = watch2earnSDK.release.xcconfig; sourceTree = "<group>"; };
-		E18AD93B25509DAE5EC3CC867D7E0A83 /* Pods_watch2earnSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watch2earnSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF68923F1F88D97C3E201142FC2F6F34 /* AnimateFigures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimateFigures.swift; sourceTree = "<group>"; };
+		E18AD93B25509DAE5EC3CC867D7E0A83 /* Pods-watch2earnSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-watch2earnSDK_Example"; path = Pods_watch2earnSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4169CF6C89C530AD4E533D4BFBF6CA5 /* PopupViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
 		E4EA8391159A98FB81CE116A3AC7427A /* Pods-watch2earnSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-watch2earnSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF6E86A7D68BE30D936287D3D7CBA7B9 /* watch2earnSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = watch2earnSDK.debug.xcconfig; sourceTree = "<group>"; };
-		FB086BFBEAF94470AB1715F41AB38DFF /* Pods_watch2earnSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watch2earnSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB89E9D7D46D937512B517DFDA9450A /* CacheStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CacheStorage.swift; sourceTree = "<group>"; };
+		F1953144276E7962C3B623EF4C19A504 /* ProximaNova-Thin.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "ProximaNova-Thin.otf"; sourceTree = "<group>"; };
+		F3659DE9D1989A6B0A1303CEBDF5DDB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F3CCAB0923E91980636C197E901211E2 /* success.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		F5B68F295CB16AF4B25DF759777BE5A7 /* PlayerBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayerBarViewController.swift; sourceTree = "<group>"; };
+		F79A4B3AE6FFFEF20D78498858737E4D /* watch2earnSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "watch2earnSDK-prefix.pch"; sourceTree = "<group>"; };
+		FB086BFBEAF94470AB1715F41AB38DFF /* Pods-watch2earnSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-watch2earnSDK_Tests"; path = Pods_watch2earnSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB15DDA9AABA6408B5C7E68A729A5757 /* Pods-watch2earnSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-watch2earnSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		FB7CECAB4B8229E9E22B38E72BFE309B /* watch2earnSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = watch2earnSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FCEC4C50BDD359D6BDB7C5BE4D4DAF28 /* WalletHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WalletHandler.swift; sourceTree = "<group>"; };
+		FE67FBED69218315A8D5A68B844AE95C /* watch2earnSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "watch2earnSDK-Info.plist"; sourceTree = "<group>"; };
 		FFDB031493FEC160091468613D05D5A0 /* Pods-watch2earnSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watch2earnSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0313943EBB06F247A0A1E697E1495524 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				074981757C9D9208AEC30988D92653AD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		447F11A78C8C2DDD41DFFE3F46DD19BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835B1AA190F460DA50FC7386DD1C6184 /* Foundation.framework in Frameworks */,
+				50EF333722AAEBAFF103A853537B7572 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,277 +205,320 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F749D4343314F9E3DAADF442BBC3E632 /* Foundation.framework in Frameworks */,
+				796E0661D31CDE08FC26FB6FA907FB4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3BCCD4CB8B7B3C8B39373AF0823B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB9807E177D33FA48A783D26A798B6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28318FDF2A9F03E90040BAAF /* Resources */ = {
+		074CA07EB0F5C0593241A3CB5DA32707 /* LeaderBoard */ = {
 			isa = PBXGroup;
 			children = (
-				28318FE02A9F03E90040BAAF /* audioFiles */,
-				28318FE42A9F03E90040BAAF /* customFonts */,
-				28318FE92A9F03E90040BAAF /* mediaFiles */,
+				2906845AB9FF122E738ADBC59F947E84 /* LeaderboardViewController.storyboard */,
+				BD1A209650C75CDD023B24A384A6B466 /* LeaderboardViewController.swift */,
+				F5B68F295CB16AF4B25DF759777BE5A7 /* PlayerBarViewController.swift */,
+				D658772FAD4148D6EEF76B3CF420270F /* PlayerBarViewController.xib */,
+				2874234F2AB9B06D0086E1EF /* LeaderboardApiData.swift */,
 			);
-			path = Resources;
+			name = LeaderBoard;
+			path = Source/LeaderBoard;
 			sourceTree = "<group>";
 		};
-		28318FE02A9F03E90040BAAF /* audioFiles */ = {
+		0A7639EF71E4BFF9680703D386914D64 /* MessagesHandler */ = {
 			isa = PBXGroup;
 			children = (
-				28318FE12A9F03E90040BAAF /* loose_sound.mp3 */,
-				28318FE22A9F03E90040BAAF /* data-reveal.mp3 */,
-				28318FE32A9F03E90040BAAF /* success.mp3 */,
+				9A192F125298F37DC73C1F352EA543BF /* MessagesHandler.swift */,
 			);
-			path = audioFiles;
+			name = MessagesHandler;
+			path = Source/MessagesHandler;
 			sourceTree = "<group>";
 		};
-		28318FE42A9F03E90040BAAF /* customFonts */ = {
+		1F9FCB3618DC551B524D67B669081319 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28318FE52A9F03E90040BAAF /* ProximaNova-Thin.otf */,
-				28318FE62A9F03E90040BAAF /* ProximaNova-Bold.otf */,
-				28318FE72A9F03E90040BAAF /* ProximaNova-Extrabold.otf */,
-				28318FE82A9F03E90040BAAF /* ProximaNova-Regular.otf */,
+				DCADEF5968BA4BD0936606315FB57A49 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21FDF23B73F7C6FA1889ED62622B1893 /* customFonts */ = {
+			isa = PBXGroup;
+			children = (
+				1F815EFCD53130EEC74DFD6827649C3D /* ProximaNova-Bold.otf */,
+				8A4A3C9D770DBDCCFFAD050B6853A3F5 /* ProximaNova-Extrabold.otf */,
+				A0F20D3D2956DB5573C877F1E118FF4D /* ProximaNova-Regular.otf */,
+				F1953144276E7962C3B623EF4C19A504 /* ProximaNova-Thin.otf */,
 			);
 			path = customFonts;
 			sourceTree = "<group>";
 		};
-		28318FE92A9F03E90040BAAF /* mediaFiles */ = {
+		22DA0D3FEE0E1FEA76B2FEE3D8B13937 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				28318FEA2A9F03E90040BAAF /* dots_loading.gif */,
-				28318FEB2A9F03E90040BAAF /* eatAnimated.gif */,
-				28318FEC2A9F03E90040BAAF /* image.png */,
+				22DE52EE0A1FB2924578272ADD9C9333 /* Reachability.swift */,
 			);
-			path = mediaFiles;
+			name = Reachability;
+			path = Source/Reachability;
 			sourceTree = "<group>";
 		};
-		283699212A5C4B8500AADB92 /* SocketService */ = {
+		287423392AB9A85A0086E1EF /* FlagKit */ = {
 			isa = PBXGroup;
 			children = (
-				283699222A5C4B8500AADB92 /* W2EWebSocket.swift */,
-				283699232A5C4B8500AADB92 /* W2EDataStore.swift */,
+				2874233A2AB9A85A0086E1EF /* LICENSE */,
+				2874233B2AB9A85A0086E1EF /* README.md */,
+				2874233C2AB9A85A0086E1EF /* Sources */,
+				287423442AB9A85A0086E1EF /* Assets */,
 			);
-			path = SocketService;
+			name = FlagKit;
+			path = Source/FlagKit;
 			sourceTree = "<group>";
 		};
-		283699242A5C4B8500AADB92 /* TickersOverlay */ = {
+		2874233C2AB9A85A0086E1EF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				283699252A5C4B8500AADB92 /* ResolveViewController.xib */,
-				283699262A5C4B8500AADB92 /* GamificationViewController.swift */,
-				283699272A5C4B8500AADB92 /* ResolveViewController.swift */,
-				283699282A5C4B8500AADB92 /* PlayerOverlayViews.xib */,
-				283699292A5C4B8500AADB92 /* WagerViewController.xib */,
-				2836992A2A5C4B8500AADB92 /* PollViewController.xib */,
-				2836992B2A5C4B8500AADB92 /* PollViewController.swift */,
-				2836992C2A5C4B8500AADB92 /* PlayerOverlayView.swift */,
-				2836992D2A5C4B8500AADB92 /* GamificationViewController.xib */,
-				2836992E2A5C4B8500AADB92 /* WagerViewController.swift */,
+				2874233D2AB9A85A0086E1EF /* Swift */,
 			);
-			path = TickersOverlay;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		2836992F2A5C4B8500AADB92 /* GamificationService */ = {
+		2874233D2AB9A85A0086E1EF /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				283699302A5C4B8500AADB92 /* GamificationSocket.swift */,
+				2874233E2AB9A85A0086E1EF /* FlagKit */,
 			);
-			path = GamificationService;
+			path = Swift;
 			sourceTree = "<group>";
 		};
-		283699312A5C4B8500AADB92 /* Reachability */ = {
+		2874233E2AB9A85A0086E1EF /* FlagKit */ = {
 			isa = PBXGroup;
 			children = (
-				283699322A5C4B8500AADB92 /* Reachability.swift */,
+				2874233F2AB9A85A0086E1EF /* FlagStyle.swift */,
+				287423402AB9A85A0086E1EF /* NSImage.swift */,
+				287423412AB9A85A0086E1EF /* UIImage.swift */,
+				287423422AB9A85A0086E1EF /* FlagKit.swift */,
+				287423432AB9A85A0086E1EF /* Flag.swift */,
 			);
-			path = Reachability;
+			path = FlagKit;
 			sourceTree = "<group>";
 		};
-		283699332A5C4B8500AADB92 /* ChannelWalletHandler */ = {
+		287423442AB9A85A0086E1EF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				283699342A5C4B8500AADB92 /* ChannelHandler.swift */,
+				287423452AB9A85A0086E1EF /* FlagKit.xcassets */,
 			);
-			path = ChannelWalletHandler;
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		283699352A5C4B8500AADB92 /* CacheStorage */ = {
+		292F9D734172FD6D597D29585EC4D6B6 /* CacheStorage */ = {
 			isa = PBXGroup;
 			children = (
-				283699362A5C4B8500AADB92 /* CacheStorage.swift */,
+				EAB89E9D7D46D937512B517DFDA9450A /* CacheStorage.swift */,
 			);
-			path = CacheStorage;
+			name = CacheStorage;
+			path = Source/CacheStorage;
 			sourceTree = "<group>";
 		};
-		283699372A5C4B8500AADB92 /* RemoteService */ = {
+		2F0D31ED96F6AA05F6D25A9009747F33 /* SocketService */ = {
 			isa = PBXGroup;
 			children = (
-				283699382A5C4B8500AADB92 /* RemoteSocketService.swift */,
-				283699392A5C4B8500AADB92 /* QRcodeGenerator.swift */,
-				2836993A2A5C4B8500AADB92 /* RemoteMessages.swift */,
+				52E86E34A91ADA73BE86DEC773F346D3 /* W2EDataStore.swift */,
+				22D3FA20684BB02060F702DEAB146928 /* W2EWebSocket.swift */,
 			);
-			path = RemoteService;
+			name = SocketService;
+			path = Source/SocketService;
 			sourceTree = "<group>";
 		};
-		2836993B2A5C4B8500AADB92 /* StakingService */ = {
+		3AF609DFE7C698AADA328CF9B9C97C34 /* TickersOverlay */ = {
 			isa = PBXGroup;
 			children = (
-				2836993C2A5C4B8500AADB92 /* StakingDataStore.swift */,
-				2836993D2A5C4B8500AADB92 /* StakingClient.swift */,
+				997A2CECFED50CB2C6D0413A471C0934 /* GamificationViewController.swift */,
+				20AAB2989BBAC8CD43F0AE3891F30F43 /* GamificationViewController.xib */,
+				3EBFE1313A8AECDFA2A2BA207987E266 /* PlayerOverlayView.swift */,
+				2ED45A562F71F7EEF44769D97CA78BF2 /* PlayerOverlayViews.xib */,
+				DCD79C3D9933BFA358B133CAB462B72B /* PollViewController.swift */,
+				4DDC6B0C9C1C58017EE7CFB3BAB96AD0 /* PollViewController.xib */,
+				03A13E0B75BE3E5547C7610202F4D59A /* ResolveViewController.swift */,
+				8976D8A3739C404F81B218B451999E0F /* ResolveViewController.xib */,
+				31FB8EA4B63B117807FA4451B6E55FF8 /* WagerViewController.swift */,
+				898BDDC2D9EB625C9BCE09878425E6C8 /* WagerViewController.xib */,
 			);
-			path = StakingService;
+			name = TickersOverlay;
+			path = Source/TickersOverlay;
 			sourceTree = "<group>";
 		};
-		2836993E2A5C4B8500AADB92 /* Settings */ = {
+		3BBCE50F2B9A443A2C5298148B885BD6 /* WalletService */ = {
 			isa = PBXGroup;
 			children = (
-				2836993F2A5C4B8500AADB92 /* SettingsViewController.storyboard */,
-				283699402A5C4B8500AADB92 /* AnimateFigures.swift */,
-				283699412A5C4B8500AADB92 /* SettingsViewController.swift */,
+				FCEC4C50BDD359D6BDB7C5BE4D4DAF28 /* WalletHandler.swift */,
 			);
-			path = Settings;
+			name = WalletService;
+			path = Source/WalletService;
 			sourceTree = "<group>";
 		};
-		283699432A5C4B8500AADB92 /* MessagesHandler */ = {
+		62A5525E9BF94D237E51839A1A958229 /* VideoPopup */ = {
 			isa = PBXGroup;
 			children = (
-				283699442A5C4B8500AADB92 /* MessagesHandler.swift */,
+				0E2E3983E6D5DF79B183FD0728BE45F3 /* PopupPlayerView.swift */,
+				8843BB1D9859919AB0CF624F6C2231C1 /* PopupViewController.swift */,
+				E4169CF6C89C530AD4E533D4BFBF6CA5 /* PopupViewController.xib */,
+				8AC3335B13C00345A19838FFD51A37EE /* SkipViewController.swift */,
 			);
-			path = MessagesHandler;
+			name = VideoPopup;
+			path = Source/VideoPopup;
 			sourceTree = "<group>";
 		};
-		283699452A5C4B8500AADB92 /* TickerService */ = {
+		6C41EABB96FD55FA60DF176F06EE3FAE /* GifHandler */ = {
 			isa = PBXGroup;
 			children = (
-				283699462A5C4B8500AADB92 /* TickersClient.swift */,
+				A4564599FC71A292A0254680340A740E /* GifHandler.swift */,
 			);
-			path = TickerService;
-			sourceTree = "<group>";
-		};
-		283699472A5C4B8500AADB92 /* VideoPopup */ = {
-			isa = PBXGroup;
-			children = (
-				283699482A5C4B8500AADB92 /* PopupViewController.xib */,
-				283699492A5C4B8500AADB92 /* PopupPlayerView.swift */,
-				2836994A2A5C4B8500AADB92 /* PopupViewController.swift */,
-				2836994B2A5C4B8500AADB92 /* SkipViewController.swift */,
-			);
-			path = VideoPopup;
-			sourceTree = "<group>";
-		};
-		2836994D2A5C4B8500AADB92 /* GifHandler */ = {
-			isa = PBXGroup;
-			children = (
-				2836994E2A5C4B8500AADB92 /* GifHandler.swift */,
-			);
-			path = GifHandler;
-			sourceTree = "<group>";
-		};
-		2836994F2A5C4B8500AADB92 /* WalletService */ = {
-			isa = PBXGroup;
-			children = (
-				283699502A5C4B8500AADB92 /* WalletHandler.swift */,
-			);
-			path = WalletService;
-			sourceTree = "<group>";
-		};
-		283699852A5D131600AADB92 /* APIHandler */ = {
-			isa = PBXGroup;
-			children = (
-				283699862A5D132600AADB92 /* APIHandler.swift */,
-			);
-			path = APIHandler;
-			sourceTree = "<group>";
-		};
-		28E265242A5C032B0040EF21 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				28318FDF2A9F03E90040BAAF /* Resources */,
-				283699852A5D131600AADB92 /* APIHandler */,
-				283699352A5C4B8500AADB92 /* CacheStorage */,
-				283699332A5C4B8500AADB92 /* ChannelWalletHandler */,
-				283699422A5C4B8500AADB92 /* EarnifySDK.swift */,
-				2836992F2A5C4B8500AADB92 /* GamificationService */,
-				2836994D2A5C4B8500AADB92 /* GifHandler */,
-				283699432A5C4B8500AADB92 /* MessagesHandler */,
-				283699312A5C4B8500AADB92 /* Reachability */,
-				283699372A5C4B8500AADB92 /* RemoteService */,
-				2836993E2A5C4B8500AADB92 /* Settings */,
-				283699212A5C4B8500AADB92 /* SocketService */,
-				2836993B2A5C4B8500AADB92 /* StakingService */,
-				283699452A5C4B8500AADB92 /* TickerService */,
-				283699242A5C4B8500AADB92 /* TickersOverlay */,
-				283699472A5C4B8500AADB92 /* VideoPopup */,
-				2836994C2A5C4B8500AADB92 /* W2EManager.swift */,
-				2836994F2A5C4B8500AADB92 /* WalletService */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		2C423C07895AC1ED9A9EE0A4B897BEF8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A35E4F3E6A7B0878869A1B09AC71ED27 /* watch2earnSDK.modulemap */,
-				4CBD157D4E8746EAB551AD9C96D0132C /* watch2earnSDK-dummy.m */,
-				3AC161255D5C160C11CAEC4D8AE4287F /* watch2earnSDK-Info.plist */,
-				4CDBF969BC4BF48976E41AF11A0DC93E /* watch2earnSDK-prefix.pch */,
-				2D9EABE850D08389F54EDFC5546EE0BD /* watch2earnSDK-umbrella.h */,
-				EF6E86A7D68BE30D936287D3D7CBA7B9 /* watch2earnSDK.debug.xcconfig */,
-				DEAF0D3843F03F6DBD242D9F82FF8AF9 /* watch2earnSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/watch2earnSDK";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = GifHandler;
+			path = Source/GifHandler;
 			sourceTree = "<group>";
 		};
 		74E01E98E234CEB29FC3E4E6E900EABA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E18AD93B25509DAE5EC3CC867D7E0A83 /* Pods_watch2earnSDK_Example.framework */,
-				FB086BFBEAF94470AB1715F41AB38DFF /* Pods_watch2earnSDK_Tests.framework */,
-				73FB91900C229904E7CB473F07075780 /* watch2earnSDK.framework */,
+				E18AD93B25509DAE5EC3CC867D7E0A83 /* Pods-watch2earnSDK_Example */,
+				FB086BFBEAF94470AB1715F41AB38DFF /* Pods-watch2earnSDK_Tests */,
+				73FB91900C229904E7CB473F07075780 /* watch2earnSDK */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C50D77C51AF7D466432B8D3FF76B133D /* Pod */ = {
+		7671D84D0AC922FE0B65587E9A48618B /* TickerService */ = {
 			isa = PBXGroup;
 			children = (
-				4580389E00721FAD0E74E5C5571CF4CD /* LICENSE */,
-				60978388B81EA6C4626D0F49CA5FC514 /* README.md */,
-				FB7CECAB4B8229E9E22B38E72BFE309B /* watch2earnSDK.podspec */,
+				9B7FD7C0DD741AAB701E1BCE95B3FE4A /* TickersClient.swift */,
+			);
+			name = TickerService;
+			path = Source/TickerService;
+			sourceTree = "<group>";
+		};
+		78EAC1920ADE0B6941939EAAF25B035F /* watch2earnSDK */ = {
+			isa = PBXGroup;
+			children = (
+				287423392AB9A85A0086E1EF /* FlagKit */,
+				9DC5ABA426EF558D141318B266D956D4 /* EarnifySDK.swift */,
+				B4F3A3B1989FE142B233C69510E2D415 /* W2EManager.swift */,
+				DA8766B0363405BA2CF797393C94503E /* APIHandler */,
+				292F9D734172FD6D597D29585EC4D6B6 /* CacheStorage */,
+				96C8817332DB490A4484F4C5C03D732F /* ChannelWalletHandler */,
+				E5F70DCADE1421186EA03AC5B9F33756 /* GamificationService */,
+				6C41EABB96FD55FA60DF176F06EE3FAE /* GifHandler */,
+				074CA07EB0F5C0593241A3CB5DA32707 /* LeaderBoard */,
+				0A7639EF71E4BFF9680703D386914D64 /* MessagesHandler */,
+				8E389641079402EA9A0F23EE7FCAF7C7 /* Pod */,
+				22DA0D3FEE0E1FEA76B2FEE3D8B13937 /* Reachability */,
+				B9B19550D6F592E1E17154158BED1A69 /* RemoteService */,
+				87B1546B6DFAFB7987A3D4BB51AAA191 /* Resources */,
+				F49C705C5D439F4413B0E924D8C7C494 /* Settings */,
+				2F0D31ED96F6AA05F6D25A9009747F33 /* SocketService */,
+				A24552C85375972F5A00D3BD724CEFE6 /* StakingService */,
+				7EA543316A1CD875B17F256C9AF0BBDD /* Support Files */,
+				7671D84D0AC922FE0B65587E9A48618B /* TickerService */,
+				3AF609DFE7C698AADA328CF9B9C97C34 /* TickersOverlay */,
+				62A5525E9BF94D237E51839A1A958229 /* VideoPopup */,
+				3BBCE50F2B9A443A2C5298148B885BD6 /* WalletService */,
+			);
+			name = watch2earnSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7EA543316A1CD875B17F256C9AF0BBDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9783DC6DF84F91D0DDF2B4B0DE7D9D9F /* watch2earnSDK.modulemap */,
+				305DAD62FDE8032014F292E67D53CFEE /* watch2earnSDK-dummy.m */,
+				FE67FBED69218315A8D5A68B844AE95C /* watch2earnSDK-Info.plist */,
+				F79A4B3AE6FFFEF20D78498858737E4D /* watch2earnSDK-prefix.pch */,
+				9C046CDE30CD519213B671BBAEE74BA8 /* watch2earnSDK-umbrella.h */,
+				31C06D0AA31F4DED42BB589B76F1B6E4 /* watch2earnSDK.debug.xcconfig */,
+				3D42B3ADBB8DBCAB0B98B0FC1C0AC2E8 /* watch2earnSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/watch2earnSDK";
+			sourceTree = "<group>";
+		};
+		87B1546B6DFAFB7987A3D4BB51AAA191 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB2EF3D0338036B205A9D377B12863 /* audioFiles */,
+				21FDF23B73F7C6FA1889ED62622B1893 /* customFonts */,
+				E4D172F839245A03F8819EAB8C3F7465 /* mediaFiles */,
+			);
+			name = Resources;
+			path = Source/Resources;
+			sourceTree = "<group>";
+		};
+		8E389641079402EA9A0F23EE7FCAF7C7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F3659DE9D1989A6B0A1303CEBDF5DDB0 /* LICENSE */,
+				41B6C59EEE05ED4A68AF013FF81B6262 /* README.md */,
+				913C4DBD4C622BE832F2A34CF938659B /* watch2earnSDK.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		96C8817332DB490A4484F4C5C03D732F /* ChannelWalletHandler */ = {
+			isa = PBXGroup;
+			children = (
+				86EBD559132FE1D8BB904922368C532E /* ChannelHandler.swift */,
+			);
+			name = ChannelWalletHandler;
+			path = Source/ChannelWalletHandler;
+			sourceTree = "<group>";
+		};
+		A24552C85375972F5A00D3BD724CEFE6 /* StakingService */ = {
+			isa = PBXGroup;
+			children = (
+				279E9BE3E62D608B056F3E8992212E41 /* StakingClient.swift */,
+				38E120AED951304E2E37742B79848E96 /* StakingDataStore.swift */,
+			);
+			name = StakingService;
+			path = Source/StakingService;
+			sourceTree = "<group>";
+		};
+		B3DB2EF3D0338036B205A9D377B12863 /* audioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE1A9AA57341C96024BCB290E90ACE /* data-reveal.mp3 */,
+				CBA6E3AE14248E101FC412D455C792BD /* loose_sound.mp3 */,
+				F3CCAB0923E91980636C197E901211E2 /* success.mp3 */,
+			);
+			path = audioFiles;
+			sourceTree = "<group>";
+		};
+		B9B19550D6F592E1E17154158BED1A69 /* RemoteService */ = {
+			isa = PBXGroup;
+			children = (
+				CCBFFCF171C6B6F096DEF302AC97035E /* QRcodeGenerator.swift */,
+				06CC8E2407EC02ADB45930617B73AE82 /* RemoteMessages.swift */,
+				B71FD915E5777274E72ADC27FBED92C2 /* RemoteSocketService.swift */,
+			);
+			name = RemoteService;
+			path = Source/RemoteService;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E51C2AB0B022FD07DBD5BE5525812DA9 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D97980DC0F99298464E8B4CADCCB6A2E /* Development Pods */,
+				1F9FCB3618DC551B524D67B669081319 /* Frameworks */,
 				74E01E98E234CEB29FC3E4E6E900EABA /* Products */,
 				D7B276C7E3F0B0F5AB3EB89DFA919324 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D7B276C7E3F0B0F5AB3EB89DFA919324 /* Targets Support Files */ = {
@@ -461,6 +528,31 @@
 				DD5B0647573B839DA28BD02F025778EE /* Pods-watch2earnSDK_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D97980DC0F99298464E8B4CADCCB6A2E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78EAC1920ADE0B6941939EAAF25B035F /* watch2earnSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DA8766B0363405BA2CF797393C94503E /* APIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2C135168A637D5B86E1A5B42447D137C /* APIHandler.swift */,
+			);
+			name = APIHandler;
+			path = Source/APIHandler;
+			sourceTree = "<group>";
+		};
+		DCADEF5968BA4BD0936606315FB57A49 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */,
+			);
+			name = tvOS;
 			sourceTree = "<group>";
 		};
 		DD5B0647573B839DA28BD02F025778EE /* Pods-watch2earnSDK_Tests */ = {
@@ -479,12 +571,25 @@
 			path = "Target Support Files/Pods-watch2earnSDK_Tests";
 			sourceTree = "<group>";
 		};
-		E51C2AB0B022FD07DBD5BE5525812DA9 /* Development Pods */ = {
+		E4D172F839245A03F8819EAB8C3F7465 /* mediaFiles */ = {
 			isa = PBXGroup;
 			children = (
-				F534F8546BB036D424B3E3E614578BCF /* watch2earnSDK */,
+				740FCE856B44EB28E0ACAF246D0B4888 /* dots_loading.gif */,
+				952E1621FC9A19CFCEBB75CB8387BA3C /* eatAnimated.gif */,
+				5B539D2304A35920E36BCAD54DB0EC22 /* edge_logo.png */,
+				D95C2BD03FC66C2A46657E5C45BDAA19 /* image.png */,
+				BFEAEBA237B77532A6A5E34DFC334FE8 /* leaderboard_bg.png */,
 			);
-			name = "Development Pods";
+			path = mediaFiles;
+			sourceTree = "<group>";
+		};
+		E5F70DCADE1421186EA03AC5B9F33756 /* GamificationService */ = {
+			isa = PBXGroup;
+			children = (
+				6C03ECBAA90806A3BD41DA4154A3CC21 /* GamificationSocket.swift */,
+			);
+			name = GamificationService;
+			path = Source/GamificationService;
 			sourceTree = "<group>";
 		};
 		ECB7E0B44F6A9741F0E547DF61E98C0D /* Pods-watch2earnSDK_Example */ = {
@@ -504,33 +609,33 @@
 			path = "Target Support Files/Pods-watch2earnSDK_Example";
 			sourceTree = "<group>";
 		};
-		F534F8546BB036D424B3E3E614578BCF /* watch2earnSDK */ = {
+		F49C705C5D439F4413B0E924D8C7C494 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				28E265242A5C032B0040EF21 /* Source */,
-				C50D77C51AF7D466432B8D3FF76B133D /* Pod */,
-				2C423C07895AC1ED9A9EE0A4B897BEF8 /* Support Files */,
+				DF68923F1F88D97C3E201142FC2F6F34 /* AnimateFigures.swift */,
+				D69488FEAC09926DF7E9F9FDD4C62A61 /* SettingsViewController.storyboard */,
+				627AA3EC85CEE6AEF8204F077E4B9FA1 /* SettingsViewController.swift */,
 			);
-			name = watch2earnSDK;
-			path = ../..;
+			name = Settings;
+			path = Source/Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		099D30883F852B6455B18590DFC4D9BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23AB0949E7C03DE0A839965ED19973D /* watch2earnSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F8DB0F54D20FB98F399E727119793A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2F2DCC4D9C89780BB166ED981D0D5614 /* Pods-watch2earnSDK_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C53F5F04B1EDF3E7FE679F07235A99A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19B64FDAC0DCE5350FA2E963442C0A6E /* watch2earnSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,12 +652,12 @@
 /* Begin PBXNativeTarget section */
 		4FA80E9BBD90F30C3A513CDB36999737 /* watch2earnSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE375F8D7D81DA21CA09639EA3912A65 /* Build configuration list for PBXNativeTarget "watch2earnSDK" */;
+			buildConfigurationList = E2FE98C7EB8C5FDF8A4919425A70089C /* Build configuration list for PBXNativeTarget "watch2earnSDK" */;
 			buildPhases = (
-				5C53F5F04B1EDF3E7FE679F07235A99A /* Headers */,
-				0AA5AACEC98B221E7B796412E779250B /* Sources */,
-				0313943EBB06F247A0A1E697E1495524 /* Frameworks */,
-				E600517E4294790D94C0AC5820D261D5 /* Resources */,
+				099D30883F852B6455B18590DFC4D9BA /* Headers */,
+				1D405C9DE5555168B7FA9FA1813DB1A8 /* Sources */,
+				FE3BCCD4CB8B7B3C8B39373AF0823B90 /* Frameworks */,
+				423AF54B9B67DB581B07F654481BEC73 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -560,7 +665,7 @@
 			);
 			name = watch2earnSDK;
 			productName = watch2earnSDK;
-			productReference = 73FB91900C229904E7CB473F07075780 /* watch2earnSDK.framework */;
+			productReference = 73FB91900C229904E7CB473F07075780 /* watch2earnSDK */;
 			productType = "com.apple.product-type.framework";
 		};
 		7FCA14022DCB97F719BA2D584B6C9DBC /* Pods-watch2earnSDK_Tests */ = {
@@ -575,11 +680,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				2A56657A89639DDA933E0882EB0D1469 /* PBXTargetDependency */,
+				5F5C44173A9D4647CAF3C64A3C2B1C8C /* PBXTargetDependency */,
 			);
 			name = "Pods-watch2earnSDK_Tests";
 			productName = Pods_watch2earnSDK_Tests;
-			productReference = FB086BFBEAF94470AB1715F41AB38DFF /* Pods_watch2earnSDK_Tests.framework */;
+			productReference = FB086BFBEAF94470AB1715F41AB38DFF /* Pods-watch2earnSDK_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		B264181AA880DA499EA5B31F348BE586 /* Pods-watch2earnSDK_Example */ = {
@@ -594,11 +699,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				A8ED212A8783510439E0AEC5D96A36B6 /* PBXTargetDependency */,
+				0550E4EE6CA6AD1185059F65CBBFB209 /* PBXTargetDependency */,
 			);
 			name = "Pods-watch2earnSDK_Example";
 			productName = Pods_watch2earnSDK_Example;
-			productReference = E18AD93B25509DAE5EC3CC867D7E0A83 /* Pods_watch2earnSDK_Example.framework */;
+			productReference = E18AD93B25509DAE5EC3CC867D7E0A83 /* Pods-watch2earnSDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -609,14 +714,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
-				TargetAttributes = {
-					4FA80E9BBD90F30C3A513CDB36999737 = {
-						LastSwiftMigration = 1430;
-					};
-					B264181AA880DA499EA5B31F348BE586 = {
-						LastSwiftMigration = 1430;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -646,6 +743,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		423AF54B9B67DB581B07F654481BEC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0E904B3AD701E77B6DAF9E85E15F5 /* data-reveal.mp3 in Resources */,
+				041B6B2CBCE5DDA62F0ECBD59E8C22EC /* dots_loading.gif in Resources */,
+				9EFC3A73145FB8E811ABE895EEC8D758 /* eatAnimated.gif in Resources */,
+				92023965F8D70A89291719567B2B22EF /* edge_logo.png in Resources */,
+				5EA40A478BA5464E2A9F141DB9536EA1 /* GamificationViewController.xib in Resources */,
+				08D81B8BEBE5A293FA61971D00E58419 /* image.png in Resources */,
+				39F07FCDA0B5B455FE8555A0F31A7D04 /* leaderboard_bg.png in Resources */,
+				CAA3DB53C7DC5718191BE853AEA2A6C7 /* LeaderboardViewController.storyboard in Resources */,
+				287423472AB9A85A0086E1EF /* README.md in Resources */,
+				F70D50000E3E898B380489B1FAE7B4E7 /* loose_sound.mp3 in Resources */,
+				3C57EEA1E3922A7B40293516BD6925A5 /* PlayerBarViewController.xib in Resources */,
+				28929B3FAFFEB6927215FCD87A4212C2 /* PlayerOverlayViews.xib in Resources */,
+				62E3BC4F5B59AB1ACC022B81B022D669 /* PollViewController.xib in Resources */,
+				F1B9DFD23C6F7CF1C64EF7739FEE71FB /* PopupViewController.xib in Resources */,
+				2874234D2AB9A85A0086E1EF /* FlagKit.xcassets in Resources */,
+				F268E9FDCF6708887BD443ACC0F52829 /* ProximaNova-Bold.otf in Resources */,
+				885799DA6B4B15D40408DF5602A16B0B /* ProximaNova-Extrabold.otf in Resources */,
+				25A691C9F323994E7AE92D5D8C6E38FD /* ProximaNova-Regular.otf in Resources */,
+				287423462AB9A85A0086E1EF /* LICENSE in Resources */,
+				EA4033FCE86F0CCC1E570DCEFDFF4F96 /* ProximaNova-Thin.otf in Resources */,
+				52333F2E42D4BA171E4AF4120CE3128C /* ResolveViewController.xib in Resources */,
+				683C3FB593D0C6940964BABB2D65F886 /* SettingsViewController.storyboard in Resources */,
+				D05CD6580337BACDB0A8FE0FCE96BE8E /* success.mp3 in Resources */,
+				DFDD2C6B3A4C65882FBFBE41843DE1B7 /* WagerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81DD951538A2B9FD712457356406FDF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -653,66 +781,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E600517E4294790D94C0AC5820D261D5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28318FF52A9F03E90040BAAF /* eatAnimated.gif in Resources */,
-				283699732A5C4B8600AADB92 /* SettingsViewController.storyboard in Resources */,
-				28318FF32A9F03E90040BAAF /* ProximaNova-Regular.otf in Resources */,
-				28318FF42A9F03E90040BAAF /* dots_loading.gif in Resources */,
-				28318FEE2A9F03E90040BAAF /* data-reveal.mp3 in Resources */,
-				28318FEF2A9F03E90040BAAF /* success.mp3 in Resources */,
-				283699792A5C4B8600AADB92 /* PopupViewController.xib in Resources */,
-				28318FF22A9F03E90040BAAF /* ProximaNova-Extrabold.otf in Resources */,
-				283699652A5C4B8500AADB92 /* PollViewController.xib in Resources */,
-				28318FF62A9F03E90040BAAF /* image.png in Resources */,
-				283699632A5C4B8500AADB92 /* PlayerOverlayViews.xib in Resources */,
-				283699642A5C4B8500AADB92 /* WagerViewController.xib in Resources */,
-				283699602A5C4B8500AADB92 /* ResolveViewController.xib in Resources */,
-				28318FF02A9F03E90040BAAF /* ProximaNova-Thin.otf in Resources */,
-				28318FF12A9F03E90040BAAF /* ProximaNova-Bold.otf in Resources */,
-				283699682A5C4B8600AADB92 /* GamificationViewController.xib in Resources */,
-				28318FED2A9F03E90040BAAF /* loose_sound.mp3 in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0AA5AACEC98B221E7B796412E779250B /* Sources */ = {
+		1D405C9DE5555168B7FA9FA1813DB1A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283699672A5C4B8600AADB92 /* PlayerOverlayView.swift in Sources */,
-				2836996E2A5C4B8600AADB92 /* RemoteSocketService.swift in Sources */,
-				283699692A5C4B8600AADB92 /* WagerViewController.swift in Sources */,
-				2836996D2A5C4B8600AADB92 /* CacheStorage.swift in Sources */,
-				2836995E2A5C4B8500AADB92 /* W2EWebSocket.swift in Sources */,
-				283699752A5C4B8600AADB92 /* SettingsViewController.swift in Sources */,
-				2836997A2A5C4B8600AADB92 /* PopupPlayerView.swift in Sources */,
-				283699782A5C4B8600AADB92 /* TickersClient.swift in Sources */,
-				2836996C2A5C4B8600AADB92 /* ChannelHandler.swift in Sources */,
-				283699872A5D132600AADB92 /* APIHandler.swift in Sources */,
-				283699662A5C4B8500AADB92 /* PollViewController.swift in Sources */,
-				2836997D2A5C4B8600AADB92 /* W2EManager.swift in Sources */,
-				283699622A5C4B8500AADB92 /* ResolveViewController.swift in Sources */,
-				2836997E2A5C4B8600AADB92 /* GifHandler.swift in Sources */,
-				2836997F2A5C4B8600AADB92 /* WalletHandler.swift in Sources */,
-				283699702A5C4B8600AADB92 /* RemoteMessages.swift in Sources */,
-				283699712A5C4B8600AADB92 /* StakingDataStore.swift in Sources */,
-				2836996A2A5C4B8600AADB92 /* GamificationSocket.swift in Sources */,
-				2836995F2A5C4B8500AADB92 /* W2EDataStore.swift in Sources */,
-				283699612A5C4B8500AADB92 /* GamificationViewController.swift in Sources */,
-				283699742A5C4B8600AADB92 /* AnimateFigures.swift in Sources */,
-				283699772A5C4B8600AADB92 /* MessagesHandler.swift in Sources */,
-				2836996F2A5C4B8600AADB92 /* QRcodeGenerator.swift in Sources */,
-				2836996B2A5C4B8600AADB92 /* Reachability.swift in Sources */,
-				283699722A5C4B8600AADB92 /* StakingClient.swift in Sources */,
-				1C98662FB566921724A2B105D793DDA1 /* watch2earnSDK-dummy.m in Sources */,
-				283699762A5C4B8600AADB92 /* EarnifySDK.swift in Sources */,
-				2836997C2A5C4B8600AADB92 /* SkipViewController.swift in Sources */,
-				2836997B2A5C4B8600AADB92 /* PopupViewController.swift in Sources */,
+				865668886713FAC334F1D7FB0D90367A /* AnimateFigures.swift in Sources */,
+				5C3CF1A5693504817EE0E0716C35F373 /* APIHandler.swift in Sources */,
+				F605BD30DBDBB81DCE865A2A6C7AAF2F /* CacheStorage.swift in Sources */,
+				81364A2FFD510DAB9D9ADF451436227D /* ChannelHandler.swift in Sources */,
+				6569C5FA2D79DE2DF090DD8EC5DB7966 /* EarnifySDK.swift in Sources */,
+				1803FACE2F6221613E0DB484DED70122 /* GamificationSocket.swift in Sources */,
+				1845C29CA319F96C94A4A4F2F295B9F6 /* GamificationViewController.swift in Sources */,
+				3618FFAC7FD1B4F21258D03BEF6019AF /* GifHandler.swift in Sources */,
+				796118A8FBC4BEFE6272EB949A209E99 /* LeaderboardViewController.swift in Sources */,
+				552FD4D55E8010E7CACDACA83A15DD13 /* MessagesHandler.swift in Sources */,
+				73DF5CFC2967C02FFE8E2ADD3A31C0CB /* PlayerBarViewController.swift in Sources */,
+				AB72022635D2C1AC82D9E90558208AEF /* PlayerOverlayView.swift in Sources */,
+				91E0B96849D8E144A3A1A5E7C7F71F55 /* PollViewController.swift in Sources */,
+				208CAAB00A2FEE436F0E8467227591D8 /* PopupPlayerView.swift in Sources */,
+				2874234B2AB9A85A0086E1EF /* FlagKit.swift in Sources */,
+				8A2F98F31E30E5ADE4016E0E3FCFF7FA /* PopupViewController.swift in Sources */,
+				B21B5A06A8C9EC2C1E05B484497C14D8 /* QRcodeGenerator.swift in Sources */,
+				2874234C2AB9A85A0086E1EF /* Flag.swift in Sources */,
+				64983E4DB81CF0321695297FEF58F733 /* Reachability.swift in Sources */,
+				287423502AB9B06D0086E1EF /* LeaderboardApiData.swift in Sources */,
+				643CD2486A153DA74C19ACD67356F61F /* RemoteMessages.swift in Sources */,
+				8007067481CF32EE26056643F131CC8C /* RemoteSocketService.swift in Sources */,
+				61FF331E8C3641033ACB6BC2CDE76036 /* ResolveViewController.swift in Sources */,
+				2874234A2AB9A85A0086E1EF /* UIImage.swift in Sources */,
+				E8C72A74E30CB5D8C86D5670B0708C63 /* SettingsViewController.swift in Sources */,
+				BE6F21523ADE0A8E66C1CD0D56431B11 /* SkipViewController.swift in Sources */,
+				5BB0B25D1080B7B740C3C079808976EA /* StakingClient.swift in Sources */,
+				0FD4B63767B89E274A47B500F13636F2 /* StakingDataStore.swift in Sources */,
+				BFD65355CEEF46C98CA6FF8F2FCAC784 /* TickersClient.swift in Sources */,
+				287423482AB9A85A0086E1EF /* FlagStyle.swift in Sources */,
+				DDAADE47C5BD5B8091C12859C50A21CC /* W2EDataStore.swift in Sources */,
+				F7A6471CB6A052898E2139D3249ADDB9 /* W2EManager.swift in Sources */,
+				30E6E1AACD714F2F5264D9D0B76CF6C0 /* W2EWebSocket.swift in Sources */,
+				9E2AC69989A400D601F0B8B3EBDD6C46 /* WagerViewController.swift in Sources */,
+				3825B30F74657E9B69E7434926F98A1E /* WalletHandler.swift in Sources */,
+				287423492AB9A85A0086E1EF /* NSImage.swift in Sources */,
+				A39C7BED22F08DAF9327A4194F9AB65E /* watch2earnSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,6 +832,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287423522AB9B3BE0086E1EF /* APIHandler.swift in Sources */,
+				287423512AB9B3630086E1EF /* LeaderboardApiData.swift in Sources */,
 				E7AFEC49D47A51BC46E406349B3BD20B /* Pods-watch2earnSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -735,27 +849,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A56657A89639DDA933E0882EB0D1469 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-watch2earnSDK_Example";
-			target = B264181AA880DA499EA5B31F348BE586 /* Pods-watch2earnSDK_Example */;
-			targetProxy = 6E56BCCD26BF879FF75FE6BA9E6C5EA8 /* PBXContainerItemProxy */;
-		};
-		A8ED212A8783510439E0AEC5D96A36B6 /* PBXTargetDependency */ = {
+		0550E4EE6CA6AD1185059F65CBBFB209 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = watch2earnSDK;
 			target = 4FA80E9BBD90F30C3A513CDB36999737 /* watch2earnSDK */;
-			targetProxy = F7776ACDA2C3CC86BD20B2BF8041DFB0 /* PBXContainerItemProxy */;
+			targetProxy = 372A3B4CB8C81B9FE66585C013294F15 /* PBXContainerItemProxy */;
+		};
+		5F5C44173A9D4647CAF3C64A3C2B1C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-watch2earnSDK_Example";
+			target = B264181AA880DA499EA5B31F348BE586 /* Pods-watch2earnSDK_Example */;
+			targetProxy = 777687E4847438048FB5D6000852FB64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5070116B486A66D6AFE7E27C1669587C /* Debug */ = {
+		0BDE13F28942DE35753D4EBB2E48718D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF6E86A7D68BE30D936287D3D7CBA7B9 /* watch2earnSDK.debug.xcconfig */;
+			baseConfigurationReference = CABA5A378B0B23F395C645449D30D48E /* Pods-watch2earnSDK_Tests.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -764,26 +877,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/watch2earnSDK/watch2earnSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/watch2earnSDK/watch2earnSDK-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-watch2earnSDK_Tests/Pods-watch2earnSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/watch2earnSDK/watch2earnSDK.modulemap";
-				PRODUCT_MODULE_NAME = watch2earnSDK;
-				PRODUCT_NAME = watch2earnSDK;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watch2earnSDK_Tests/Pods-watch2earnSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		18D8B1D8C4E9CE14B932EF47DD318C2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -833,12 +946,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
@@ -847,147 +957,7 @@
 			};
 			name = Release;
 		};
-		A0F5EC30E4F80BB334543B8BA0F13B4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFDB031493FEC160091468613D05D5A0 /* Pods-watch2earnSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-watch2earnSDK_Example/Pods-watch2earnSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watch2earnSDK_Example/Pods-watch2earnSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3";
-				TVOS_DEPLOYMENT_TARGET = 14.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A477351D827AC059FE5BC9CDD56C5EAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEAF0D3843F03F6DBD242D9F82FF8AF9 /* watch2earnSDK.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/watch2earnSDK/watch2earnSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/watch2earnSDK/watch2earnSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/watch2earnSDK/watch2earnSDK.modulemap";
-				PRODUCT_MODULE_NAME = watch2earnSDK;
-				PRODUCT_NAME = watch2earnSDK;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B729939D06D08026E8B7D8A002024062 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CABA5A378B0B23F395C645449D30D48E /* Pods-watch2earnSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-watch2earnSDK_Tests/Pods-watch2earnSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watch2earnSDK_Tests/Pods-watch2earnSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C35F33D225DB6A5BBB69EE098936D24F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABCCB0BDE56F11E1352CADC65447FE7A /* Pods-watch2earnSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-watch2earnSDK_Tests/Pods-watch2earnSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watch2earnSDK_Tests/Pods-watch2earnSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		54448C1AE5F1C044C64E66630CDF4850 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1040,12 +1010,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1055,13 +1023,105 @@
 			};
 			name = Debug;
 		};
-		FD0DCFCE7F9DCF3208481A8E22CBA08B /* Debug */ = {
+		55DE85AE4872D18963CDBE30D343B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C06D0AA31F4DED42BB589B76F1B6E4 /* watch2earnSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/watch2earnSDK/watch2earnSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/watch2earnSDK/watch2earnSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/watch2earnSDK/watch2earnSDK.modulemap";
+				PRODUCT_MODULE_NAME = watch2earnSDK;
+				PRODUCT_NAME = watch2earnSDK;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3037A23187748316F203E67F71A60A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCCB0BDE56F11E1352CADC65447FE7A /* Pods-watch2earnSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-watch2earnSDK_Tests/Pods-watch2earnSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watch2earnSDK_Tests/Pods-watch2earnSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD1FC972B5557F80E340AD29762EA760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D42B3ADBB8DBCAB0B98B0FC1C0AC2E8 /* watch2earnSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/watch2earnSDK/watch2earnSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/watch2earnSDK/watch2earnSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/watch2earnSDK/watch2earnSDK.modulemap";
+				PRODUCT_MODULE_NAME = watch2earnSDK;
+				PRODUCT_NAME = watch2earnSDK;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED2F8643FB834A587BC9204FBECB299A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0D1D906198FEDC633C330BED84743DB /* Pods-watch2earnSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1072,7 +1132,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-watch2earnSDK_Example/Pods-watch2earnSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-watch2earnSDK_Example/Pods-watch2earnSDK_Example.modulemap";
@@ -1083,17 +1142,45 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 14.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		FF3D39D82A309D5C571559A47678DB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDB031493FEC160091468613D05D5A0 /* Pods-watch2earnSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-watch2earnSDK_Example/Pods-watch2earnSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watch2earnSDK_Example/Pods-watch2earnSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1101,8 +1188,8 @@
 		06245C8FF53429BC19D41ADF7CEEB50D /* Build configuration list for PBXNativeTarget "Pods-watch2earnSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B729939D06D08026E8B7D8A002024062 /* Debug */,
-				C35F33D225DB6A5BBB69EE098936D24F /* Release */,
+				0BDE13F28942DE35753D4EBB2E48718D /* Debug */,
+				C3037A23187748316F203E67F71A60A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1110,8 +1197,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				54448C1AE5F1C044C64E66630CDF4850 /* Debug */,
+				18D8B1D8C4E9CE14B932EF47DD318C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1119,17 +1206,17 @@
 		96E7C40A4AD0C20ABAA89A173EBEB374 /* Build configuration list for PBXNativeTarget "Pods-watch2earnSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD0DCFCE7F9DCF3208481A8E22CBA08B /* Debug */,
-				A0F5EC30E4F80BB334543B8BA0F13B4B /* Release */,
+				ED2F8643FB834A587BC9204FBECB299A /* Debug */,
+				FF3D39D82A309D5C571559A47678DB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE375F8D7D81DA21CA09639EA3912A65 /* Build configuration list for PBXNativeTarget "watch2earnSDK" */ = {
+		E2FE98C7EB8C5FDF8A4919425A70089C /* Build configuration list for PBXNativeTarget "watch2earnSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5070116B486A66D6AFE7E27C1669587C /* Debug */,
-				A477351D827AC059FE5BC9CDD56C5EAB /* Release */,
+				55DE85AE4872D18963CDBE30D343B37C /* Debug */,
+				DD1FC972B5557F80E340AD29762EA760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

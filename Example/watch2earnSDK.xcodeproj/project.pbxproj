@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		283699892A5D27CC00AADB92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283699882A5D27CC00AADB92 /* Main.storyboard */; };
+		287423622AB9CC330086E1EF /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287423612AB9CC330086E1EF /* PlayerViewController.swift */; };
+		287423642AB9D0940086E1EF /* PlayerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287423632AB9D0940086E1EF /* PlayerViewController.storyboard */; };
 		28E265222A5C02420040EF21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E265212A5C02420040EF21 /* LaunchScreen.xib */; };
 		331E6C41C7B48375CA6772B8 /* Pods_watch2earnSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5889D175F2B71C1C4A8CDC /* Pods_watch2earnSDK_Tests.framework */; };
 		5F18D178D70B4844146749CA /* Pods_watch2earnSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDB071E9F675CB6D079E2AC /* Pods_watch2earnSDK_Example.framework */; };
@@ -30,6 +32,9 @@
 /* Begin PBXFileReference section */
 		1F5889D175F2B71C1C4A8CDC /* Pods_watch2earnSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watch2earnSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		283699882A5D27CC00AADB92 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		287422F82AB85DCE0086E1EF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		287423612AB9CC330086E1EF /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		287423632AB9D0940086E1EF /* PlayerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayerViewController.storyboard; sourceTree = "<group>"; };
 		28E265212A5C02420040EF21 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		2FC6AB77C7AA2D6A24AE3E68 /* Pods-watch2earnSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watch2earnSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-watch2earnSDK_Example/Pods-watch2earnSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E0B63F19883E2BF6037C0D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -99,6 +104,8 @@
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				28E265212A5C02420040EF21 /* LaunchScreen.xib */,
 				283699882A5D27CC00AADB92 /* Main.storyboard */,
+				287423612AB9CC330086E1EF /* PlayerViewController.swift */,
+				287423632AB9D0940086E1EF /* PlayerViewController.storyboard */,
 			);
 			name = "Example for watch2earnSDK";
 			path = watch2earnSDK;
@@ -153,6 +160,7 @@
 		82C63F123C6C402F12AB2262 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				287422F82AB85DCE0086E1EF /* WebKit.framework */,
 				BFDB071E9F675CB6D079E2AC /* Pods_watch2earnSDK_Example.framework */,
 				1F5889D175F2B71C1C4A8CDC /* Pods_watch2earnSDK_Tests.framework */,
 			);
@@ -250,6 +258,7 @@
 			files = (
 				283699892A5D27CC00AADB92 /* Main.storyboard in Resources */,
 				28E265222A5C02420040EF21 /* LaunchScreen.xib in Resources */,
+				287423642AB9D0940086E1EF /* PlayerViewController.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +344,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				287423622AB9CC330086E1EF /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

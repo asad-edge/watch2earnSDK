@@ -46,7 +46,7 @@ public class GamificationViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        tvIcon.load(url: W2EManager.w2eSdk.tvLogo!)
+//        tvIcon.load(url: W2EManager.w2eSdk.tvLogo!)
         watch2earnView.roundCorners(corners: [.bottomLeft, .bottomRight], radius: 30.0)
 //        let points = cacheStore.getDouble(_key: "WinPoints")
         EarnifySDK.animateFigure.updateBalance(newBalance: W2EManager.w2eSdk.getW2EDataStore().offchainBalance, animationTime: 20.0, pointsUI: totalPoints)
@@ -264,6 +264,27 @@ public class GamificationViewController: UIViewController {
 
     }
     
+    func getIdFromMessage(_ message: AnyObject?) -> Int64? {
+        if let idString = message!["id"] as? String,
+                let idInt64 = Int64(idString) {
+                return idInt64
+        } else if let idInt = message!["id"] as? Int64 {
+                return idInt
+            }
+        
+        // Return nil if "id" is not available in the message
+        return nil
+    }
+    func getCrrectFromMessage(_ message: AnyObject?) -> [Int]? {
+        if let correct = message!["correct"] as? [Int] {
+            // Convert the id to a string representation
+            return correct
+        }
+        
+        // Return nil if "id" is not available in the message
+        return [-1]
+    }
+    
     public override func viewDidLayoutSubviews() {
                    
 //        scrollView.panGestureRecognizer.allowedTouchTypes = [NSNumber(value: UITouch.TouchType.indirect.rawValue)]
@@ -282,8 +303,10 @@ public class GamificationViewController: UIViewController {
                     }
                     if(parseObj?["type"] as! String == "winloss" ){
                         print("winloss Type Recived")
-                        DispatchQueue.main.async {
-                            self.resolvePoll((parseObj!["id"] as! String).toInt64()!, amount: parseObj!["amount"] as! Int, correct: parseObj!["correct"] as! [Int])
+                        DispatchQueue.main.async { [self] in
+                            let id = getIdFromMessage(parseObj)
+                            let correct = getCrrectFromMessage(parseObj)
+                            self.resolvePoll(id!, amount: parseObj!["amount"] as! Int, correct: correct!)
                             W2EManager.w2eSdk.showHideGamifyTicketWhenWinLoseRecieved()
                         }
                     }

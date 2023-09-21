@@ -76,6 +76,13 @@ public class EarnifySDK {
         return VC
     }
     
+    public func getLeaderboardController() -> LeaderboardViewController{
+        
+        let storyboard = UIStoryboard(name: "LeaderboardViewController", bundle: Bundle(for: LeaderboardViewController.self))
+        let VC = storyboard.instantiateViewController(withIdentifier: "LeaderboardViewController") as! LeaderboardViewController
+        return VC
+    }
+    
     public func getGamificationUI() -> GamificationViewController{
         
         return GamificationViewController(nibName: "GamificationViewController", bundle: Bundle(for: GamificationViewController.self))
@@ -125,8 +132,13 @@ public class EarnifySDK {
                         playerRightRecognizer.numberOfTapsRequired = 1
                         playerRightRecognizer.allowedPressTypes = [NSNumber(value: UIPress.PressType.rightArrow.rawValue)]
                         avPlayerControl?.view.addGestureRecognizer(playerRightRecognizer)
-                        W2EManager.w2eSdk.connectGamifySocket(channelId: firstResult.channelID)
-                        W2EManager.w2eSdk.sendChannelIDData(type: "channel_id", value: firstResult.channelID);
+                        if channelName == "Boxing TV" {
+                            W2EManager.w2eSdk.connectGamifySocket(channelId: "982ba9d1-6d81-4e59-83d9-a77728df7a12")
+                            W2EManager.w2eSdk.sendChannelIDData(type: "channel_id", value: "982ba9d1-6d81-4e59-83d9-a77728df7a12");
+                        }else{
+                            W2EManager.w2eSdk.connectGamifySocket(channelId: firstResult.channelID)
+                            W2EManager.w2eSdk.sendChannelIDData(type: "channel_id", value: firstResult.channelID);
+                        }
                         //                        gamificationViewController.view.isHidden = false
                         self.changeGamifyFrame(gamify: gamificationViewController.view, toOriginX: gamificationViewController.view.frame.origin.x, toOriginY: 0, duration: 2)
                         playerStart()

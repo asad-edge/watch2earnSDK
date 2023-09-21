@@ -1,5 +1,5 @@
 PODS:
-  - watch2earnSDK (0.1.0)
+  - watch2earnSDK (0.2.7)
 
 DEPENDENCIES:
   - watch2earnSDK (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  watch2earnSDK: d8e7d590f1b66da11102c62443fe1fc891d71025
+  watch2earnSDK: bd138f3c994c54bf9a35f8ada4929fdd405ef718
 
-PODFILE CHECKSUM: c4b4d2244956992c364af992851839611cf7764b
+PODFILE CHECKSUM: 959fdaf56831fa6262dab5483fff678d12d9f4d0
 
 COCOAPODS: 1.12.1

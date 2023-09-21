@@ -1,13 +1,12 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :tvos, '14.0'
 
 target 'watch2earnSDK_Example' do
   pod 'watch2earnSDK', :path => '../'
-
+  
   target 'watch2earnSDK_Tests' do
     inherit! :search_paths
-
     
   end
 end

@@ -13,10 +13,16 @@ import AVKit
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
-        _ = W2EManager(sdkToken: "3bf76d424eeb0a1dcbdef11da9d148d8")
-        
+        let manager = W2EManager(sdkToken: "976985bd857e79cc08f98bbe3a4fb290")
+        let VC = W2EManager.w2eSdk.getLeaderboardController();
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        self.present(settingVC, animated: true)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let playerView = PlayerViewController()
+        playerView.title = "PokerNight"
+        present(playerView, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

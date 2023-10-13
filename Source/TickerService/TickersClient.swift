@@ -105,13 +105,13 @@ class TickersClient: NSObject {
                 let rows = jsonData["data"] as AnyObject
                 let data = rows[0] as AnyObject
                 let logo = data["logo_url"];
-//                if logo as? Any.Type != NSNull.self {
-//                    print("logo api called", logo as Any)
-//                }else{
-//                    print("logo api called", logo as Any)
-//                    W2EManager.w2eSdk.tvLogo = URL(string: logo as! String)!
-//                    W2EManager.overlay.logo.load(url: URL(string: logo as! String)!)
-//                }
+                if logo as? Any.Type != NSNull.self {
+                    print("logo api called", logo as Any)
+                }else{
+                    print("logo api called", logo as Any)
+                    W2EManager.w2eSdk.tvLogo = URL(string: logo as! String)!
+                    W2EManager.overlay.logo.load(url: URL(string: logo as! String)!)
+                }
             }
         })
         }

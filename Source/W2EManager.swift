@@ -25,7 +25,6 @@ public class W2EManager {
         
         let appInstallationID:String = cache.getString(_key: "AppInstallationID")
         if !appInstallationID.isEmpty {
-            let uuid = UUID()
             // Convert UUID to String representation
             let device_id = UIDevice.current.identifierForVendor?.uuidString
             let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String

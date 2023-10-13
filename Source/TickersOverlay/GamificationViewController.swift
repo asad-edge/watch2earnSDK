@@ -20,6 +20,8 @@ public class GamificationViewController: UIViewController {
     let resolveScrollView  = UIScrollView()
     let resolveContentView = UIStackView()
     
+    @IBOutlet weak var gaimifyStatus: UILabel!
+    
     @IBOutlet weak var gameWin: UILabel!
     @IBOutlet weak var gameLose: UILabel!
     @IBOutlet weak var gameResult: UILabel!
@@ -308,6 +310,14 @@ public class GamificationViewController: UIViewController {
                             let correct = getCrrectFromMessage(parseObj)
                             self.resolvePoll(id!, amount: parseObj!["amount"] as! Int, correct: correct!)
                             W2EManager.w2eSdk.showHideGamifyTicketWhenWinLoseRecieved()
+                        }
+                    }
+                    if(parseObj?["type"] as! String == "status" ){
+                        print("winloss Type Recived")
+                        DispatchQueue.main.async { [self] in
+                            let status = parseObj!["status"] as! String
+                            gaimifyStatus.text = status
+                            gaimifyStatus.adjustFontSizeToFitWidth()
                         }
                     }
                 }

@@ -55,9 +55,9 @@ class ResolveViewController: UIView {
 //        activeBorder.isInteractiveLabel = true
 //        activeBorder.borderCorners = .bottomLeft
         resolve_question.text = poll.poll
-        resolve_question.adjustFontToFitWidth(withLineBreakMode: .byWordWrapping, numberOfLines: 5)
+        resolve_question.adjustFontSizeToFitWidth()
         correct_ans.text = poll.choices[poll.selected!]
-        correct_ans.adjustFontToFitWidth(withLineBreakMode: .byWordWrapping, numberOfLines: 3)
+        correct_ans.adjustFontSizeToFitWidth()
         if(poll.correct != nil){
             //wager_points.isHidden = true
             loading.isHidden = true

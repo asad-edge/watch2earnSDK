@@ -98,20 +98,20 @@ class PollViewController: UIView {
            view_opt_4.roundCorners(corners: [.bottomRight], radius: 40)
            
            poll_q.text = poll.poll
-           poll_q.adjustFontToFitWidth(withLineBreakMode: .byWordWrapping, numberOfLines: 5)
+           poll_q.adjustFontSizeToFitWidth()
            opt_1.text = poll.choices[0]
            opt_1.isInteractiveLabel = true
-           opt_1.adjustFontToFitWidth(withLineBreakMode: .byWordWrapping, numberOfLines: 3)
+           opt_1.adjustFontSizeToFitWidth()
            opt_2.text = poll.choices[1]
            opt_2.isInteractiveLabel = true
-           opt_2.adjustFontToFitWidth(withLineBreakMode: .byWordWrapping, numberOfLines: 3)
+           opt_2.adjustFontSizeToFitWidth()
            opt_3.text = poll.choices[2]
            opt_3.isInteractiveLabel = true
-           opt_3.adjustFontToFitWidth(withLineBreakMode: .byWordWrapping, numberOfLines: 3)
+           opt_3.adjustFontSizeToFitWidth()
            opt_4.text = poll.choices[3]
            opt_4.isInteractiveLabel = true
-           opt_4.adjustFontToFitWidth(withLineBreakMode: .byWordWrapping, numberOfLines: 3)
-//           gamified_tv.isInteractiveLabel = true
+           opt_4.adjustFontSizeToFitWidth()
+           gamified_tv.isInteractiveLabel = true
            
         }
     

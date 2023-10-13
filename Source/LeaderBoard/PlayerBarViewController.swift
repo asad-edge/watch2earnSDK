@@ -14,6 +14,8 @@ class PlayerBarViewController: UIView {
     @IBOutlet var starRank: UIImageView!
     @IBOutlet var name: UILabel!
     @IBOutlet var flag: UIImageView!
+    @IBOutlet var icon: UIImageView!
+    @IBOutlet var pointer: UIImageView!
     @IBOutlet var points: UILabel!
     
     public var view: UIView!
@@ -46,7 +48,12 @@ class PlayerBarViewController: UIView {
     
     func configure(with player: Players) {
         
-        if(player.id == 1) {
+        if(player.wallet_address == W2EManager.w2eSdk.getWallet().public){
+            pointer.isHidden = false
+            rank.isHidden = true
+            starRank.isHidden = true
+        }
+        else if(player.id == 1) {
             starRank.isHidden = false
             rank.isHidden = true
         }else{
@@ -55,16 +62,18 @@ class PlayerBarViewController: UIView {
             rank.text = String(player.id)
         }
         
-        name.text = player.screen_name
+        name.text = player.screen_name.uppercased()
         let countryCode = player.country_code
         print("Country Code: ", countryCode)
         let bundle = FlagKit.assetBundle
-        let countryFlag = Flag(countryCode: countryCode)!
-        let styledImage = countryFlag.image(style: .circle)
+        let originalImage = UIImage(named: countryCode, in: bundle, compatibleWith: nil)
         flag.isHidden = false
-        flag.image = styledImage
-        points.text = String(player.points) + " PTS"
+        flag.image = originalImage
+        flag.roundCorners(corners: [.allCorners], radius: 50)
         
+        icon.load(url: URL(string:player.icon)!)
+        icon.roundCorners(corners: [.allCorners], radius: 50)
+        points.text = String(player.points) + " PTS"
         
         playerBar.roundViewCorners(corners: [.allCorners], radius: 25)
         // Convert hex colors to UIColor

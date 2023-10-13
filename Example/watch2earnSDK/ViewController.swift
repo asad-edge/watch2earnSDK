@@ -14,16 +14,18 @@ import AVKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         let manager = W2EManager(sdkToken: "976985bd857e79cc08f98bbe3a4fb290")
-        let VC = W2EManager.w2eSdk.getLeaderboardController();
+//        let VC = W2EManager.w2eSdk.getLeaderboardController();
+        let VC = W2EManager.w2eSdk.getSettingScreen();
         super.viewDidLoad()
-//        self.present(settingVC, animated: true)
+        self.view.addSubview(VC.view)
+        self.addChildViewController(VC)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        let playerView = PlayerViewController()
-        playerView.title = "PokerNight"
-        present(playerView, animated: true, completion: nil)
-    }
+//    override func viewDidAppear(_ animated: Bool) {
+//        let playerView = PlayerViewController()
+//        playerView.title = "PokerNight"
+//        present(playerView, animated: true, completion: nil)
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -105,7 +105,7 @@ public class EarnifySDK {
             W2EManager.w2eSdk.startStaking()
             // Filter the array based on the channel name
             let filteredArray = W2EManager.channelWallets?.filter { ($0.channelName) == channelName }
-
+            gamifiedChannel = false
             // Check if the filtered array is not empty
             if let firstResult = filteredArray?.first {
 //                        let channelAddress = firstResult.channelAddress
@@ -132,14 +132,14 @@ public class EarnifySDK {
                         playerRightRecognizer.numberOfTapsRequired = 1
                         playerRightRecognizer.allowedPressTypes = [NSNumber(value: UIPress.PressType.rightArrow.rawValue)]
                         avPlayerControl?.view.addGestureRecognizer(playerRightRecognizer)
-                        if channelName == "Boxing TV" {
-                            W2EManager.w2eSdk.connectGamifySocket(channelId: "982ba9d1-6d81-4e59-83d9-a77728df7a12")
-                            W2EManager.w2eSdk.sendChannelIDData(type: "channel_id", value: "982ba9d1-6d81-4e59-83d9-a77728df7a12");
-                        }else{
+//                        if channelName == "Boxing TV" {
+//                            W2EManager.w2eSdk.connectGamifySocket(channelId: "982ba9d1-6d81-4e59-83d9-a77728df7a12")
+//                            W2EManager.w2eSdk.sendChannelIDData(type: "channel_id", value: "982ba9d1-6d81-4e59-83d9-a77728df7a12");
+//                        }else{
                             W2EManager.w2eSdk.connectGamifySocket(channelId: firstResult.channelID)
                             W2EManager.w2eSdk.sendChannelIDData(type: "channel_id", value: firstResult.channelID);
-                        }
-                        //                        gamificationViewController.view.isHidden = false
+//                        }
+                        // gamificationViewController.view.isHidden = false
                         self.changeGamifyFrame(gamify: gamificationViewController.view, toOriginX: gamificationViewController.view.frame.origin.x, toOriginY: 0, duration: 2)
                         playerStart()
                     }else if isW2E {
@@ -167,6 +167,8 @@ public class EarnifySDK {
                         print("Current channel is not Gaimified/Watch2Earn Active")
                         disconnectSocket()
                         disconnectGamifySocket()
+                        gamificationViewController.removeFromParent()
+                        W2EManager.overlay.view.removeFromSuperview()
                         return
                     }
                     let playerTouchRecognizer = UITapGestureRecognizer(target: self, action: #selector(PlayerMenuPressed(gesture:)))

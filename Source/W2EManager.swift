@@ -24,35 +24,42 @@ public class W2EManager {
     public init(sdkToken: String) {
         
         let appInstallationID:String = cache.getString(_key: "AppInstallationID")
-        if !appInstallationID.isEmpty {
-            // Convert UUID to String representation
-            let device_id = UIDevice.current.identifierForVendor?.uuidString
-            let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
-            let date = Date()
-            let dateFormatter = DateFormatter()
-            dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-            let dateString = dateFormatter.string(from: date)
-            let deviceInfo = UIDevice.current.name
-            print("Device ID: ",device_id!)
-            print("App Version: ",appVersion )
-            print("Installation Date: ",dateString )
-            print("Device Name: ",deviceInfo )
-            struct InstallationBody: Encodable {
-                let device_id: String
-                let app_version: String
-                let installation_date: String
-                let device_info: String
-                let location: String
-                let sdk_key: String
-            }
+        print("App ID: ", appInstallationID)
+        let device_id = UIDevice.current.identifierForVendor?.uuidString
+        let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
+        let deviceInfo = UIDevice.current.name
+        print("Device ID: ",device_id!)
+        print("App Version: ",appVersion )
+        print("Device Name: ",deviceInfo )
+        struct InstallationBody: Encodable {
+            let device_id: String
+            let app_version: String
+            let device_info: String
+            let sdk_key: String
+            let installation_status: String
+        }
+        if appInstallationID.isEmpty {
             let apiHandler = APIHandler()
-            let requestBody = InstallationBody(device_id: device_id!, app_version: appVersion, installation_date: dateString, device_info: deviceInfo, location: "undefined", sdk_key: sdkToken)
-            let url = URL(string: "http://localhost:3000/addAppInstallationDetails")!
+            let requestBody = InstallationBody(device_id: device_id!, app_version: appVersion, device_info: deviceInfo, sdk_key: sdkToken, installation_status: "installed")
+            let url = URL(string: "https://studio-api.edgevideo.com/addAppInstallationDetails")!
             apiHandler.postAPICall(url: url, requestBody: requestBody, completionHandler: { (data, response, error) in
                 if let data = data,
                     let json = try? JSONSerialization.jsonObject(with: data, options: []){
                         print("Installation data posted successfully",json)
                     self.cache.saveString(_key: "AppInstallationID", _value: device_id!)
+                }
+            })
+        }
+        else{
+            print("Already installed!")
+           
+            let apiHandler = APIHandler()
+            let requestBody = InstallationBody(device_id: appInstallationID, app_version: appVersion, device_info: deviceInfo, sdk_key: sdkToken, installation_status: "updated")
+            let url = URL(string: "https://studio-api.edgevideo.com/addAppInstallationDetails")!
+            apiHandler.postAPICall(url: url, requestBody: requestBody, completionHandler: { (data, response, error) in
+                if let data = data,
+                    let json = try? JSONSerialization.jsonObject(with: data, options: []){
+                        print("update data posted successfully",json)
                 }
             })
         }
